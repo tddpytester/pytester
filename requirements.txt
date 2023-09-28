@@ -1,0 +1,5 @@
+trl
+transformer==4.29.1
+fuzzywuzzy==0.18.0
+wandb
+
