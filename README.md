@@ -27,4 +27,17 @@ python evaluation_apps_testcase.py
 
 ### Dataset and Model
 
-The processed APPS dataset (train and test sets) and trained PyTester model can be accessed [here]([https://www.example.com](https://drive.google.com/drive/folders/1ZPoCXkSitQmreo9CMj0fzsxYWT9k6zYz?usp=share_link)https://drive.google.com/drive/folders/1ZPoCXkSitQmreo9CMj0fzsxYWT9k6zYz?usp=share_link).
+The processed APPS dataset (train and test sets) and trained PyTester model can be accessed [here](https://drive.google.com/drive/folders/1ZPoCXkSitQmreo9CMj0fzsxYWT9k6zYz?usp=share_link).
+
+### Reference
+
+If you use our code or PyTester, please cite our [PyTester Paper](https://arxiv.org/abs/2401.07576).
+
+```
+@article{takerngsaksiri2024tdd,
+  title={TDD Without Tears: Towards Test Case Generation from Requirements through Deep Reinforcement Learning},
+  author={Takerngsaksiri, Wannita and Charakorn, Rujikorn and Tantithamthavorn, Chakkrit and Li, Yuan-Fang},
+  journal={arXiv preprint arXiv:2401.07576},
+  year={2024}
+}
+```
