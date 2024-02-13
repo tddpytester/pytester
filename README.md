@@ -24,3 +24,7 @@ python ppo_training_apps_testcase.py
 ```
 python evaluation_apps_testcase.py
 ```
+
+### Dataset and Model
+
+The processed APPS dataset (train and test sets) and trained PyTester model can be accessed [here]([https://www.example.com](https://drive.google.com/drive/folders/1ZPoCXkSitQmreo9CMj0fzsxYWT9k6zYz?usp=share_link)https://drive.google.com/drive/folders/1ZPoCXkSitQmreo9CMj0fzsxYWT9k6zYz?usp=share_link).
