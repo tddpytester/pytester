@@ -119,12 +119,4 @@ class PythonTerminalCommand:
                 os.remove(tempfile_function_path)
                 os.remove(tempfile_function_test_path)
         return error, mutation_score
-
-    #error, output, did_compile 
-    # line_item = {
-    #                 "pid": i,
-    #                 "code_string": code_string,
-    #                 "did_compile": did_compile,
-    #                 "error": error,
-    #                 "output": output
-    #             }
+        

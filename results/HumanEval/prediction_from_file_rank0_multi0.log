@@ -1,0 +1,48 @@
+11/15/2024 22:34:38 - INFO - __main__ - evaluated_model_dir: save/PyTester/humaneval/prediction-5_beam300_full.pkl,
+            test_data_dir: dataset/HumanEval/humaneval_test.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: save/PyTester/humaneval,
+            output_suffix: _rank0_multi0,
+            on_save: False,
+            result_mode: ours,
+            pred_mode: multi,
+            n_pred_rank: 0,
+            n_test: 0
+            
+11/15/2024 22:34:38 - INFO - __main__ - load gen data finish.
+11/15/2024 22:34:38 - INFO - __main__ - # test data: 164
+11/15/2024 22:34:38 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+11/15/2024 22:34:38 - INFO - __main__ - Exact Match: 0.6097560975609756%
+11/15/2024 22:34:38 - INFO - __main__ - Edit Similarity: 21.213414634146343%
+11/15/2024 22:34:38 - INFO - __main__ - MRR: 0.6097560975609756%
+11/15/2024 22:34:38 - INFO - __main__ - -----AST Parsable Rate-----
+11/15/2024 22:34:38 - INFO - __main__ - success: 99.39024390243902%
+11/15/2024 22:34:38 - INFO - __main__ - SyntaxError: 0.6097560975609756%
+11/15/2024 22:34:38 - INFO - __main__ - *Filtered assertions syntax results :multi*
+11/15/2024 22:34:38 - INFO - __main__ - Exact Match: 0.6097560975609756%
+11/15/2024 22:34:38 - INFO - __main__ - Edit Similarity: 21.00609756097561%
+11/15/2024 22:34:38 - INFO - __main__ - MRR: 0.6097560975609756%
+11/15/2024 22:34:38 - INFO - __main__ - -----AST Parsable Rate-----
+11/15/2024 22:34:38 - INFO - __main__ - success: 98.78048780487805%
+11/15/2024 22:34:38 - INFO - __main__ - SyntaxError: 1.2195121951219512%
+11/15/2024 22:34:38 - INFO - __main__ - -----Functional Rate-----
+11/15/2024 22:38:55 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+11/15/2024 22:38:55 - INFO - __main__ - exec_success: 83.53658536585365%
+11/15/2024 22:38:55 - INFO - __main__ - AssertionError: 14.634146341463413%
+11/15/2024 22:38:55 - INFO - __main__ - KeyError: 0.6097560975609756%
+11/15/2024 22:38:55 - INFO - __main__ - RuntimeError: 0.6097560975609756%
+11/15/2024 22:38:55 - INFO - __main__ - SyntaxError: 0.6097560975609756%
+11/15/2024 22:38:55 - INFO - __main__ - coverage: 80.10975609756098%
+11/15/2024 22:38:55 - INFO - __main__ - Mutation score: 48.74329268292682%
+11/15/2024 22:43:13 - INFO - __main__ - *Filtered assertions syntax results :multi*
+11/15/2024 22:43:13 - INFO - __main__ - exec_success: 83.53658536585365%
+11/15/2024 22:43:13 - INFO - __main__ - AssertionError: 14.634146341463413%
+11/15/2024 22:43:13 - INFO - __main__ - KeyError: 0.6097560975609756%
+11/15/2024 22:43:13 - INFO - __main__ - RuntimeError: 1.2195121951219512%
+11/15/2024 22:43:13 - INFO - __main__ - coverage: 80.10975609756098%
+11/15/2024 22:43:13 - INFO - __main__ - Mutation score: 48.74329268292682%
+11/15/2024 22:43:13 - INFO - __main__ - *Passing testcase results: multi*
+11/15/2024 22:43:13 - INFO - __main__ - Syntax_passed_assertions: 98.78048780487805%
+11/15/2024 22:43:13 - INFO - __main__ - Passed_assertions: 83.53658536585365%
+11/15/2024 22:43:13 - INFO - __main__ - finish program.

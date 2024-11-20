@@ -1,0 +1,48 @@
+08/10/2023 12:46:22 - INFO - __main__ - Is CUDA available: True
+08/10/2023 12:46:22 - INFO - __main__ - CUDA device: NVIDIA GeForce RTX 3090
+08/10/2023 12:46:22 - INFO - __main__ - evaluated_model_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000/PPO_multi_cc-reward22_hyper6-4/step-200-1.21,
+            tokenizer_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000/PPO_multi_cc-reward22_hyper6-4/step-200-1.21,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000/PPO_multi_cc-reward22_hyper6-4/step-200-1.21,
+            output_suffix: _beam300,
+            -- Generator params --
+            batch_size: 2,
+            beam_size: 5,
+            max_new_tokens: 300,
+            max_length: 512,
+            pred_mode: multi
+            
+08/10/2023 12:46:33 - INFO - __main__ - # test data: 3259
+08/10/2023 12:46:38 - INFO - __main__ - loaded model and tokenizer sucessfully.
+08/10/2023 12:46:39 - INFO - __main__ - loaded dataset sucessfully.
+08/10/2023 12:46:39 - INFO - __main__ - generation_kwargs: {'min_new_tokens': 5, 'max_new_tokens': 300, 'pad_token_id': 2, 'num_return_sequences': 5, 'num_beams': 5}
+08/10/2023 14:30:31 - INFO - __main__ - *None-filtered assertions syntax results: multi*
+08/10/2023 14:30:35 - INFO - __main__ - Exact Match: 0.27615833077631174%
+08/10/2023 14:30:35 - INFO - __main__ - Edit Similarity: 18.112918073028535%
+08/10/2023 14:30:35 - INFO - __main__ - MRR: 0.5021990385598855%
+08/10/2023 14:30:35 - INFO - __main__ - -----AST Parsable Rate-----
+08/10/2023 14:30:35 - INFO - __main__ - success: 99.41699907947223%
+08/10/2023 14:30:35 - INFO - __main__ - SyntaxError: 0.5830009205277692%
+08/10/2023 14:30:35 - INFO - __main__ - *Filtered assertions syntax results: multi*
+08/10/2023 14:30:38 - INFO - __main__ - Exact Match: 0.27615833077631174%
+08/10/2023 14:30:38 - INFO - __main__ - Edit Similarity: 17.994476833384475%
+08/10/2023 14:30:38 - INFO - __main__ - MRR: 0.5021990385598855%
+08/10/2023 14:30:38 - INFO - __main__ - -----AST Parsable Rate-----
+08/10/2023 14:30:38 - INFO - __main__ - success: 99.63178889229826%
+08/10/2023 14:30:38 - INFO - __main__ - SyntaxError: 0.36821110770174903%
+08/10/2023 14:30:38 - INFO - __main__ - -----Functional Rate-----
+08/10/2023 14:30:38 - INFO - __main__ - *None-filtered assertions syntax results: multi*
+08/10/2023 18:22:20 - INFO - __main__ - exec_success: 84.41239644062595%
+08/10/2023 18:22:20 - INFO - __main__ - AssertionError: 10.800859159251305%
+08/10/2023 18:22:20 - INFO - __main__ - IndexError: 1.7490027615833077%
+08/10/2023 18:22:20 - INFO - __main__ - SyntaxError: 0.5830009205277692%
+08/10/2023 18:22:20 - INFO - __main__ - ValueError: 1.350107394906413%
+08/10/2023 18:22:20 - INFO - __main__ - EOFError: 0.981896287204664%
+08/10/2023 18:22:20 - INFO - __main__ - TimeoutException: 0.03068425897514575%
+08/10/2023 18:22:20 - INFO - __main__ - KeyError: 0.0613685179502915%
+08/10/2023 18:22:20 - INFO - __main__ - ParseError: 0.03068425897514575%
+08/10/2023 18:22:20 - INFO - __main__ - coverage: 80.97545259281988%
+08/10/2023 18:22:20 - INFO - __main__ - Mutation score: 61.44528996624738%
+08/10/2023 18:22:20 - INFO - __main__ - finish program.

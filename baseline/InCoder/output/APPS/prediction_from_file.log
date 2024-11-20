@@ -1,0 +1,473 @@
+08/10/2023 00:22:40 - INFO - __main__ - evaluated_model_dir: baseline/save/incoder-6B_apps_testcase_beam_executable.json,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: baseline/save/incoder-6B_apps_testcase_beam_executable,
+            output_suffix: _beam300,
+            on_save: True,
+            result_mode: baselines,
+            pred_mode: multi
+            
+08/10/2023 00:22:40 - INFO - __main__ - load gen data finish.
+08/10/2023 00:22:54 - INFO - __main__ - # test data: 3259
+08/10/2023 00:22:54 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+08/10/2023 00:24:42 - INFO - __main__ - evaluated_model_dir: baseline/save/incoder-6B_apps_testcase_beam_executable.json,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: baseline/save/incoder-6B_apps_testcase_beam_executable,
+            output_suffix: _beam300,
+            on_save: True,
+            result_mode: baselines,
+            pred_mode: multi
+            
+08/10/2023 00:24:42 - INFO - __main__ - load gen data finish.
+08/10/2023 00:24:56 - INFO - __main__ - # test data: 3259
+08/10/2023 00:24:56 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+08/10/2023 00:28:43 - INFO - __main__ - evaluated_model_dir: baseline/save/incoder-6B_apps_testcase_beam_executable.json,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: baseline/save/incoder-6B_apps_testcase_beam_executable,
+            output_suffix: _beam300,
+            on_save: True,
+            result_mode: baselines,
+            pred_mode: multi
+            
+08/10/2023 00:28:43 - INFO - __main__ - load gen data finish.
+08/10/2023 00:28:57 - INFO - __main__ - # test data: 3259
+08/10/2023 00:28:57 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+08/10/2023 00:47:21 - INFO - __main__ - Exact Match: 0.0%
+08/10/2023 00:47:21 - INFO - __main__ - Edit Similarity: 20.733353789505983%
+08/10/2023 00:47:21 - INFO - __main__ - MRR: 0.0%
+08/10/2023 00:47:21 - INFO - __main__ - -----AST Parsable Rate-----
+08/10/2023 00:47:21 - INFO - __main__ - success: 4.633323105247008%
+08/10/2023 00:47:21 - INFO - __main__ - SyntaxError: 71.61706044799018%
+08/10/2023 00:47:21 - INFO - __main__ - MemoryError: 23.412089598036207%
+08/10/2023 00:47:21 - INFO - __main__ - IndentationError: 0.33752684872660327%
+08/10/2023 00:47:22 - INFO - __main__ - *Filtered assertions syntax results :multi*
+08/10/2023 00:47:22 - INFO - __main__ - Exact Match: 0.0%
+08/10/2023 00:47:22 - INFO - __main__ - Edit Similarity: 0.3835532371893219%
+08/10/2023 00:47:22 - INFO - __main__ - MRR: 0.0%
+08/10/2023 00:47:22 - INFO - __main__ - -----AST Parsable Rate-----
+08/10/2023 00:47:22 - INFO - __main__ - success: 1.9024240564590364%
+08/10/2023 00:47:22 - INFO - __main__ - SyntaxError: 98.09757594354096%
+08/10/2023 00:47:22 - INFO - __main__ - -----Functional Rate-----
+08/10/2023 00:47:24 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+08/10/2023 00:47:24 - INFO - __main__ - exec_success: 0.03068425897514575%
+08/10/2023 00:47:24 - INFO - __main__ - RuntimeError: 96.99294262043571%
+08/10/2023 00:47:24 - INFO - __main__ - SyntaxError: 2.3626879410862225%
+08/10/2023 00:47:24 - INFO - __main__ - ValueError: 0.4295796256520405%
+08/10/2023 00:47:24 - INFO - __main__ - IndexError: 0.03068425897514575%
+08/10/2023 00:47:24 - INFO - __main__ - IndentationError: 0.03068425897514575%
+08/10/2023 00:47:24 - INFO - __main__ - AssertionError: 0.0613685179502915%
+08/10/2023 00:47:24 - INFO - __main__ - TypeError: 0.0613685179502915%
+08/10/2023 00:47:24 - INFO - __main__ - coverage: 0.03068425897514575%
+08/10/2023 00:47:24 - INFO - __main__ - Mutation score: 0.03068425897514575%
+08/10/2023 00:47:24 - INFO - __main__ - finish program.
+08/11/2023 23:02:16 - INFO - __main__ - evaluated_model_dir: baseline/save/incoder-6B_apps_testcase_beam_executable.json,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: baseline/save/incoder-6B_apps_testcase_beam_executable,
+            output_suffix: _beam300,
+            on_save: True,
+            result_mode: baselines,
+            pred_mode: multi
+            
+08/11/2023 23:02:16 - INFO - __main__ - load gen data finish.
+08/11/2023 23:02:33 - INFO - __main__ - # test data: 3259
+08/11/2023 23:02:33 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+06/08/2024 16:55:03 - INFO - __main__ - evaluated_model_dir: baseline/save/incoder-6B_apps_testcase_beam_executable.json,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: baseline/save/incoder-6B_apps_testcase_beam_executable,
+            output_suffix: _beam300_rank1,
+            on_save: True,
+            result_mode: baselines,
+            pred_mode: multi
+            
+06/08/2024 16:55:03 - INFO - __main__ - load gen data finish.
+06/08/2024 16:55:22 - INFO - __main__ - evaluated_model_dir: baseline/save/incoder-6B_apps_testcase_beam_executable.json,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: baseline/save/incoder-6B_apps_testcase_beam_executable,
+            output_suffix: _beam300_rank1,
+            on_save: True,
+            result_mode: baselines,
+            pred_mode: multi,
+            pred_rank: 1
+            
+06/08/2024 16:55:22 - INFO - __main__ - load gen data finish.
+06/08/2024 16:55:36 - INFO - __main__ - # test data: 3259
+06/08/2024 16:55:36 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+06/08/2024 16:57:43 - INFO - __main__ - evaluated_model_dir: baseline/save/incoder-6B_apps_testcase_beam_executable.json,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: baseline/save/incoder-6B_apps_testcase_beam_executable,
+            output_suffix: _beam300_rank2,
+            on_save: True,
+            result_mode: baselines,
+            pred_mode: multi,
+            pred_rank: 2
+            
+06/08/2024 16:57:43 - INFO - __main__ - load gen data finish.
+06/08/2024 16:57:57 - INFO - __main__ - # test data: 3259
+06/08/2024 16:57:57 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+06/08/2024 16:58:34 - INFO - __main__ - evaluated_model_dir: baseline/save/incoder-6B_apps_testcase_beam_executable.json,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: baseline/save/incoder-6B_apps_testcase_beam_executable,
+            output_suffix: _beam300_rank3,
+            on_save: True,
+            result_mode: baselines,
+            pred_mode: multi,
+            pred_rank: 3
+            
+06/08/2024 16:58:34 - INFO - __main__ - load gen data finish.
+06/08/2024 16:58:48 - INFO - __main__ - # test data: 3259
+06/08/2024 16:58:48 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+06/08/2024 16:59:17 - INFO - __main__ - evaluated_model_dir: baseline/save/incoder-6B_apps_testcase_beam_executable.json,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: baseline/save/incoder-6B_apps_testcase_beam_executable,
+            output_suffix: _beam300_rank4,
+            on_save: True,
+            result_mode: baselines,
+            pred_mode: multi,
+            pred_rank: 4
+            
+06/08/2024 16:59:17 - INFO - __main__ - load gen data finish.
+06/08/2024 16:59:31 - INFO - __main__ - # test data: 3259
+06/08/2024 17:18:24 - INFO - __main__ - Exact Match: 0.0%
+06/08/2024 17:18:24 - INFO - __main__ - Edit Similarity: 20.733353789505983%
+06/08/2024 17:18:24 - INFO - __main__ - MRR: 0.0%
+06/08/2024 17:18:24 - INFO - __main__ - -----AST Parsable Rate-----
+06/08/2024 17:18:24 - INFO - __main__ - success: 4.633323105247008%
+06/08/2024 17:18:24 - INFO - __main__ - SyntaxError: 71.61706044799018%
+06/08/2024 17:18:24 - INFO - __main__ - MemoryError: 23.412089598036207%
+06/08/2024 17:18:24 - INFO - __main__ - IndentationError: 0.33752684872660327%
+06/08/2024 17:18:25 - INFO - __main__ - *Filtered assertions syntax results :multi*
+06/08/2024 17:18:25 - INFO - __main__ - Exact Match: 0.0%
+06/08/2024 17:18:25 - INFO - __main__ - Edit Similarity: 0.3835532371893219%
+06/08/2024 17:18:25 - INFO - __main__ - MRR: 0.0%
+06/08/2024 17:18:25 - INFO - __main__ - -----AST Parsable Rate-----
+06/08/2024 17:18:25 - INFO - __main__ - success: 1.9024240564590364%
+06/08/2024 17:18:25 - INFO - __main__ - SyntaxError: 98.09757594354096%
+06/08/2024 17:18:25 - INFO - __main__ - -----Functional Rate-----
+06/08/2024 17:18:26 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+06/08/2024 17:18:26 - INFO - __main__ - exec_success: 0.0%
+06/08/2024 17:18:26 - INFO - __main__ - RuntimeError: 97.02362687941087%
+06/08/2024 17:18:26 - INFO - __main__ - SyntaxError: 2.45474071801166%
+06/08/2024 17:18:26 - INFO - __main__ - ValueError: 0.33752684872660327%
+06/08/2024 17:18:26 - INFO - __main__ - IndexError: 0.03068425897514575%
+06/08/2024 17:18:26 - INFO - __main__ - IndentationError: 0.03068425897514575%
+06/08/2024 17:18:26 - INFO - __main__ - AssertionError: 0.0613685179502915%
+06/08/2024 17:18:26 - INFO - __main__ - TypeError: 0.0613685179502915%
+06/08/2024 17:18:26 - INFO - __main__ - coverage: 0.0%
+06/08/2024 17:18:26 - INFO - __main__ - Mutation score: 0.0%
+06/08/2024 17:18:26 - INFO - __main__ - finish program.
+06/08/2024 17:21:37 - INFO - __main__ - Exact Match: 0.0%
+06/08/2024 17:21:37 - INFO - __main__ - Edit Similarity: 20.733353789505983%
+06/08/2024 17:21:37 - INFO - __main__ - MRR: 0.0%
+06/08/2024 17:21:37 - INFO - __main__ - -----AST Parsable Rate-----
+06/08/2024 17:21:37 - INFO - __main__ - success: 4.633323105247008%
+06/08/2024 17:21:37 - INFO - __main__ - SyntaxError: 71.61706044799018%
+06/08/2024 17:21:37 - INFO - __main__ - MemoryError: 23.412089598036207%
+06/08/2024 17:21:37 - INFO - __main__ - IndentationError: 0.33752684872660327%
+06/08/2024 17:21:37 - INFO - __main__ - *Filtered assertions syntax results :multi*
+06/08/2024 17:21:38 - INFO - __main__ - Exact Match: 0.0%
+06/08/2024 17:21:38 - INFO - __main__ - Edit Similarity: 0.3835532371893219%
+06/08/2024 17:21:38 - INFO - __main__ - MRR: 0.0%
+06/08/2024 17:21:38 - INFO - __main__ - -----AST Parsable Rate-----
+06/08/2024 17:21:38 - INFO - __main__ - success: 1.9024240564590364%
+06/08/2024 17:21:38 - INFO - __main__ - SyntaxError: 98.09757594354096%
+06/08/2024 17:21:38 - INFO - __main__ - -----Functional Rate-----
+06/08/2024 17:21:39 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+06/08/2024 17:21:39 - INFO - __main__ - exec_success: 0.0%
+06/08/2024 17:21:39 - INFO - __main__ - RuntimeError: 97.05431113838601%
+06/08/2024 17:21:39 - INFO - __main__ - SyntaxError: 2.5161092359619515%
+06/08/2024 17:21:39 - INFO - __main__ - ValueError: 0.245474071801166%
+06/08/2024 17:21:39 - INFO - __main__ - IndexError: 0.03068425897514575%
+06/08/2024 17:21:39 - INFO - __main__ - IndentationError: 0.03068425897514575%
+06/08/2024 17:21:39 - INFO - __main__ - TypeError: 0.09205277692543726%
+06/08/2024 17:21:39 - INFO - __main__ - AssertionError: 0.03068425897514575%
+06/08/2024 17:21:39 - INFO - __main__ - coverage: 0.0%
+06/08/2024 17:21:39 - INFO - __main__ - Mutation score: 0.0%
+06/08/2024 17:21:39 - INFO - __main__ - finish program.
+06/08/2024 17:22:47 - INFO - __main__ - Exact Match: 0.0%
+06/08/2024 17:22:47 - INFO - __main__ - Edit Similarity: 20.733353789505983%
+06/08/2024 17:22:47 - INFO - __main__ - MRR: 0.0%
+06/08/2024 17:22:47 - INFO - __main__ - -----AST Parsable Rate-----
+06/08/2024 17:22:47 - INFO - __main__ - success: 4.633323105247008%
+06/08/2024 17:22:47 - INFO - __main__ - SyntaxError: 71.61706044799018%
+06/08/2024 17:22:47 - INFO - __main__ - MemoryError: 23.412089598036207%
+06/08/2024 17:22:47 - INFO - __main__ - IndentationError: 0.33752684872660327%
+06/08/2024 17:22:47 - INFO - __main__ - *Filtered assertions syntax results :multi*
+06/08/2024 17:22:48 - INFO - __main__ - Exact Match: 0.0%
+06/08/2024 17:22:48 - INFO - __main__ - Edit Similarity: 0.3835532371893219%
+06/08/2024 17:22:48 - INFO - __main__ - MRR: 0.0%
+06/08/2024 17:22:48 - INFO - __main__ - -----AST Parsable Rate-----
+06/08/2024 17:22:48 - INFO - __main__ - success: 1.9024240564590364%
+06/08/2024 17:22:48 - INFO - __main__ - SyntaxError: 98.09757594354096%
+06/08/2024 17:22:48 - INFO - __main__ - -----Functional Rate-----
+06/08/2024 17:22:55 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+06/08/2024 17:22:55 - INFO - __main__ - exec_success: 0.0613685179502915%
+06/08/2024 17:22:55 - INFO - __main__ - RuntimeError: 97.05431113838601%
+06/08/2024 17:22:55 - INFO - __main__ - SyntaxError: 2.5161092359619515%
+06/08/2024 17:22:55 - INFO - __main__ - ValueError: 0.21478981282602025%
+06/08/2024 17:22:55 - INFO - __main__ - IndentationError: 0.0613685179502915%
+06/08/2024 17:22:55 - INFO - __main__ - TypeError: 0.0613685179502915%
+06/08/2024 17:22:55 - INFO - __main__ - AssertionError: 0.03068425897514575%
+06/08/2024 17:22:55 - INFO - __main__ - coverage: 0.0613685179502915%
+06/08/2024 17:22:55 - INFO - __main__ - Mutation score: 0.03347652654188401%
+06/08/2024 17:22:55 - INFO - __main__ - finish program.
+06/09/2024 00:24:53 - INFO - __main__ - evaluated_model_dir: baseline/save/incoder-6B_apps_testcase_beam_executable.json,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: baseline/save/incoder-6B_apps_testcase_beam_executable,
+            output_suffix: _beam300_rank0,
+            on_save: True,
+            result_mode: baselines,
+            pred_mode: multi,
+            pred_rank: 0
+            
+06/09/2024 00:24:53 - INFO - __main__ - load gen data finish.
+06/09/2024 00:25:08 - INFO - __main__ - # test data: 3259
+06/09/2024 00:25:08 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+06/09/2024 00:42:40 - INFO - __main__ - Exact Match: 0.0%
+06/09/2024 00:42:40 - INFO - __main__ - Edit Similarity: 20.733353789505983%
+06/09/2024 00:42:40 - INFO - __main__ - MRR: 0.0%
+06/09/2024 00:42:40 - INFO - __main__ - -----AST Parsable Rate-----
+06/09/2024 00:42:40 - INFO - __main__ - success: 4.633323105247008%
+06/09/2024 00:42:40 - INFO - __main__ - SyntaxError: 71.61706044799018%
+06/09/2024 00:42:40 - INFO - __main__ - MemoryError: 23.412089598036207%
+06/09/2024 00:42:40 - INFO - __main__ - IndentationError: 0.33752684872660327%
+06/09/2024 00:42:40 - INFO - __main__ - *Filtered assertions syntax results :multi*
+06/09/2024 00:42:41 - INFO - __main__ - Exact Match: 0.0%
+06/09/2024 00:42:41 - INFO - __main__ - Edit Similarity: 0.3835532371893219%
+06/09/2024 00:42:41 - INFO - __main__ - MRR: 0.0%
+06/09/2024 00:42:41 - INFO - __main__ - -----AST Parsable Rate-----
+06/09/2024 00:42:41 - INFO - __main__ - success: 1.9024240564590364%
+06/09/2024 00:42:41 - INFO - __main__ - SyntaxError: 98.09757594354096%
+06/09/2024 00:42:41 - INFO - __main__ - -----Functional Rate-----
+06/09/2024 00:42:43 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+06/09/2024 00:42:43 - INFO - __main__ - exec_success: 0.03068425897514575%
+06/09/2024 00:42:43 - INFO - __main__ - RuntimeError: 96.99294262043571%
+06/09/2024 00:42:43 - INFO - __main__ - SyntaxError: 2.3626879410862225%
+06/09/2024 00:42:43 - INFO - __main__ - ValueError: 0.4295796256520405%
+06/09/2024 00:42:43 - INFO - __main__ - IndexError: 0.03068425897514575%
+06/09/2024 00:42:43 - INFO - __main__ - IndentationError: 0.03068425897514575%
+06/09/2024 00:42:43 - INFO - __main__ - AssertionError: 0.0613685179502915%
+06/09/2024 00:42:43 - INFO - __main__ - TypeError: 0.0613685179502915%
+06/09/2024 00:42:43 - INFO - __main__ - coverage: 0.03068425897514575%
+06/09/2024 00:42:43 - INFO - __main__ - Mutation score: 0.03068425897514575%
+06/09/2024 00:43:09 - INFO - __main__ - *Filtered assertions syntax results :multi*
+06/09/2024 00:43:09 - INFO - __main__ - exec_success: 0.122737035900583%
+06/09/2024 00:43:09 - INFO - __main__ - RuntimeError: 98.09757594354096%
+06/09/2024 00:43:09 - INFO - __main__ - ValueError: 1.135317582080393%
+06/09/2024 00:43:09 - INFO - __main__ - NameError: 0.0613685179502915%
+06/09/2024 00:43:09 - INFO - __main__ - AssertionError: 0.21478981282602025%
+06/09/2024 00:43:09 - INFO - __main__ - IndexError: 0.122737035900583%
+06/09/2024 00:43:09 - INFO - __main__ - TypeError: 0.245474071801166%
+06/09/2024 00:43:09 - INFO - __main__ - coverage: 0.11475912856704511%
+06/09/2024 00:43:09 - INFO - __main__ - Mutation score: 0.05431113838600798%
+06/09/2024 00:43:40 - INFO - __main__ - *Filtered assertions error results: multi*
+06/09/2024 00:43:40 - INFO - __main__ - Compilable Rate
+06/09/2024 00:43:40 - INFO - __main__ - success: 100.0%
+06/09/2024 00:43:40 - INFO - __main__ - Functional Rate
+06/09/2024 00:43:40 - INFO - __main__ - exec_success: 0.245474071801166%
+06/09/2024 00:43:40 - INFO - __main__ - RuntimeError: 99.63178889229826%
+06/09/2024 00:43:40 - INFO - __main__ - NameError: 0.0613685179502915%
+06/09/2024 00:43:40 - INFO - __main__ - ValueError: 0.03068425897514575%
+06/09/2024 00:43:40 - INFO - __main__ - AssertionError: 0.03068425897514575%
+06/09/2024 00:43:40 - INFO - __main__ - Coverage: 0.23626879410862228%
+06/09/2024 00:43:40 - INFO - __main__ - Mutation score: 0.05431113838600798%
+06/09/2024 00:43:40 - INFO - __main__ - finish program.
+06/09/2024 00:58:04 - INFO - __main__ - evaluated_model_dir: baseline/save/incoder-6B_apps_testcase_beam_executable.json,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: baseline/save/incoder-6B_apps_testcase_beam_executable,
+            output_suffix: _beam300_rank0,
+            on_save: True,
+            result_mode: baselines,
+            pred_mode: single,
+            pred_rank: 0
+            
+06/09/2024 00:58:04 - INFO - __main__ - load gen data finish.
+06/09/2024 00:58:18 - INFO - __main__ - # test data: 3259
+06/09/2024 00:58:18 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/09/2024 01:11:20 - INFO - __main__ - Exact Match: 0.0%
+06/09/2024 01:11:20 - INFO - __main__ - Edit Similarity: 15.711261123043878%
+06/09/2024 01:11:20 - INFO - __main__ - MRR: 0.0%
+06/09/2024 01:11:20 - INFO - __main__ - -----AST Parsable Rate-----
+06/09/2024 01:11:20 - INFO - __main__ - success: 26.20435716477447%
+06/09/2024 01:11:20 - INFO - __main__ - SyntaxError: 50.322184719239026%
+06/09/2024 01:11:20 - INFO - __main__ - MemoryError: 23.412089598036207%
+06/09/2024 01:11:20 - INFO - __main__ - IndentationError: 0.0613685179502915%
+06/09/2024 01:11:21 - INFO - __main__ - *Filtered assertions syntax results :single*
+06/09/2024 01:11:21 - INFO - __main__ - Exact Match: 0.0%
+06/09/2024 01:11:21 - INFO - __main__ - Edit Similarity: 0.1749002761583308%
+06/09/2024 01:11:21 - INFO - __main__ - MRR: 0.0%
+06/09/2024 01:11:21 - INFO - __main__ - -----AST Parsable Rate-----
+06/09/2024 01:11:21 - INFO - __main__ - success: 1.6876342436330163%
+06/09/2024 01:11:21 - INFO - __main__ - SyntaxError: 98.31236575636699%
+06/09/2024 01:11:21 - INFO - __main__ - -----Functional Rate-----
+06/09/2024 01:12:01 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/09/2024 01:12:01 - INFO - __main__ - exec_success: 0.15342129487572875%
+06/09/2024 01:12:01 - INFO - __main__ - RuntimeError: 96.99294262043571%
+06/09/2024 01:12:01 - INFO - __main__ - ValueError: 1.0432648051549556%
+06/09/2024 01:12:01 - INFO - __main__ - SyntaxError: 1.3194231359312671%
+06/09/2024 01:12:01 - INFO - __main__ - AssertionError: 0.18410555385087451%
+06/09/2024 01:12:01 - INFO - __main__ - IndexError: 0.122737035900583%
+06/09/2024 01:12:01 - INFO - __main__ - TypeError: 0.15342129487572875%
+06/09/2024 01:12:01 - INFO - __main__ - NameError: 0.03068425897514575%
+06/09/2024 01:12:01 - INFO - __main__ - coverage: 0.13838600797790734%
+06/09/2024 01:12:01 - INFO - __main__ - Mutation score: 0.0749923289352562%
+06/09/2024 01:12:40 - INFO - __main__ - *Filtered assertions syntax results :single*
+06/09/2024 01:12:40 - INFO - __main__ - exec_success: 0.15342129487572875%
+06/09/2024 01:12:40 - INFO - __main__ - RuntimeError: 98.31236575636699%
+06/09/2024 01:12:40 - INFO - __main__ - ValueError: 1.0432648051549556%
+06/09/2024 01:12:40 - INFO - __main__ - AssertionError: 0.18410555385087451%
+06/09/2024 01:12:40 - INFO - __main__ - IndexError: 0.122737035900583%
+06/09/2024 01:12:40 - INFO - __main__ - TypeError: 0.15342129487572875%
+06/09/2024 01:12:40 - INFO - __main__ - NameError: 0.03068425897514575%
+06/09/2024 01:12:40 - INFO - __main__ - coverage: 0.13838600797790734%
+06/09/2024 01:12:40 - INFO - __main__ - Mutation score: 0.0749923289352562%
+06/09/2024 01:12:40 - INFO - __main__ - finish program.
+06/09/2024 01:21:21 - INFO - __main__ - evaluated_model_dir: baseline/save/incoder-6B_apps_testcase_beam_executable.json,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: baseline/save/incoder-6B_apps_testcase_beam_executable,
+            output_suffix: _beam300_rank0,
+            on_save: True,
+            result_mode: baselines,
+            pred_mode: single,
+            pred_rank: 0,
+            n_test: 3
+            
+06/09/2024 01:21:21 - INFO - __main__ - load gen data finish.
+06/09/2024 01:22:01 - INFO - __main__ - evaluated_model_dir: baseline/save/incoder-6B_apps_testcase_beam_executable.json,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: baseline/save/incoder-6B_apps_testcase_beam_executable,
+            output_suffix: _beam300_rank0,
+            on_save: True,
+            result_mode: baselines,
+            pred_mode: single,
+            pred_rank: 0,
+            n_test: 3
+            
+06/09/2024 01:22:01 - INFO - __main__ - load gen data finish.
+06/09/2024 01:22:15 - INFO - __main__ - # test data: 3259
+06/09/2024 01:29:53 - INFO - __main__ - evaluated_model_dir: baseline/save/incoder-6B_apps_testcase_beam_executable.json,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: baseline/save/incoder-6B_apps_testcase_beam_executable,
+            output_suffix: _beam300_rank0,
+            on_save: True,
+            result_mode: baselines,
+            pred_mode: single,
+            pred_rank: 0,
+            n_test: 3
+            
+06/09/2024 01:29:53 - INFO - __main__ - load gen data finish.
+06/09/2024 01:30:07 - INFO - __main__ - # test data: 3259
+06/09/2024 01:30:07 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/09/2024 01:44:57 - INFO - __main__ - Exact Match: 0.0%
+06/09/2024 01:44:57 - INFO - __main__ - Edit Similarity: 18.74532065050629%
+06/09/2024 01:44:57 - INFO - __main__ - MRR: 0.0%
+06/09/2024 01:44:57 - INFO - __main__ - -----AST Parsable Rate-----
+06/09/2024 01:44:57 - INFO - __main__ - success: 19.239030377416384%
+06/09/2024 01:44:57 - INFO - __main__ - SyntaxError: 57.19545872967168%
+06/09/2024 01:44:57 - INFO - __main__ - MemoryError: 23.412089598036207%
+06/09/2024 01:44:57 - INFO - __main__ - IndentationError: 0.15342129487572875%
+06/09/2024 01:44:57 - INFO - __main__ - *Filtered assertions syntax results :single*
+06/09/2024 01:44:58 - INFO - __main__ - Exact Match: 0.0%
+06/09/2024 01:44:58 - INFO - __main__ - Edit Similarity: 0.35348266339367906%
+06/09/2024 01:44:58 - INFO - __main__ - MRR: 0.0%
+06/09/2024 01:44:58 - INFO - __main__ - -----AST Parsable Rate-----
+06/09/2024 01:44:58 - INFO - __main__ - success: 1.8717397974838907%
+06/09/2024 01:44:58 - INFO - __main__ - SyntaxError: 98.1282602025161%
+06/09/2024 01:44:58 - INFO - __main__ - -----Functional Rate-----
+06/09/2024 01:45:24 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/09/2024 01:45:24 - INFO - __main__ - exec_success: 0.122737035900583%
+06/09/2024 01:45:24 - INFO - __main__ - RuntimeError: 96.99294262043571%
+06/09/2024 01:45:24 - INFO - __main__ - SyntaxError: 1.6262657256827246%
+06/09/2024 01:45:24 - INFO - __main__ - ValueError: 0.859159251304081%
+06/09/2024 01:45:24 - INFO - __main__ - IndexError: 0.09205277692543726%
+06/09/2024 01:45:24 - INFO - __main__ - TypeError: 0.15342129487572875%
+06/09/2024 01:45:24 - INFO - __main__ - NameError: 0.03068425897514575%
+06/09/2024 01:45:24 - INFO - __main__ - AssertionError: 0.122737035900583%
+06/09/2024 01:45:24 - INFO - __main__ - coverage: 0.11353175820803928%
+06/09/2024 01:45:24 - INFO - __main__ - Mutation score: 0.06864068732740104%
+06/09/2024 01:45:24 - INFO - __main__ - finish program.
+06/09/2024 02:28:01 - INFO - __main__ - evaluated_model_dir: baseline/save/incoder-6B_apps_testcase_beam_executable.json,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: baseline/save/incoder-6B_apps_testcase_beam_executable,
+            output_suffix: _beam300_rank0,
+            on_save: True,
+            result_mode: baselines,
+            pred_mode: single,
+            pred_rank: 0,
+            n_test: 5
+            
+06/09/2024 02:28:01 - INFO - __main__ - load gen data finish.
+06/09/2024 02:28:15 - INFO - __main__ - # test data: 3259
+06/09/2024 02:28:15 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/09/2024 02:43:26 - INFO - __main__ - Exact Match: 0.0%
+06/09/2024 02:43:26 - INFO - __main__ - Edit Similarity: 19.48849340288432%
+06/09/2024 02:43:26 - INFO - __main__ - MRR: 0.0%
+06/09/2024 02:43:26 - INFO - __main__ - -----AST Parsable Rate-----
+06/09/2024 02:43:26 - INFO - __main__ - success: 12.826020251610922%
+06/09/2024 02:43:26 - INFO - __main__ - SyntaxError: 63.45504756060141%
+06/09/2024 02:43:26 - INFO - __main__ - MemoryError: 23.412089598036207%
+06/09/2024 02:43:26 - INFO - __main__ - IndentationError: 0.3068425897514575%
+06/09/2024 02:43:26 - INFO - __main__ - *Filtered assertions syntax results :single*
+06/09/2024 02:43:26 - INFO - __main__ - Exact Match: 0.0%
+06/09/2024 02:43:26 - INFO - __main__ - Edit Similarity: 0.37220006136851796%
+06/09/2024 02:43:26 - INFO - __main__ - MRR: 0.0%
+06/09/2024 02:43:26 - INFO - __main__ - -----AST Parsable Rate-----
+06/09/2024 02:43:26 - INFO - __main__ - success: 1.8717397974838907%
+06/09/2024 02:43:26 - INFO - __main__ - SyntaxError: 98.1282602025161%
+06/09/2024 02:43:26 - INFO - __main__ - -----Functional Rate-----
+06/09/2024 02:43:29 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/09/2024 02:43:29 - INFO - __main__ - exec_success: 0.03068425897514575%
+06/09/2024 02:43:29 - INFO - __main__ - RuntimeError: 96.99294262043571%
+06/09/2024 02:43:29 - INFO - __main__ - SyntaxError: 2.117213869285057%
+06/09/2024 02:43:29 - INFO - __main__ - ValueError: 0.490948143602332%
+06/09/2024 02:43:29 - INFO - __main__ - IndexError: 0.0613685179502915%
+06/09/2024 02:43:29 - INFO - __main__ - TypeError: 0.15342129487572875%
+06/09/2024 02:43:29 - INFO - __main__ - IndentationError: 0.03068425897514575%
+06/09/2024 02:43:29 - INFO - __main__ - NameError: 0.03068425897514575%
+06/09/2024 02:43:29 - INFO - __main__ - AssertionError: 0.09205277692543726%
+06/09/2024 02:43:29 - INFO - __main__ - coverage: 0.03068425897514575%
+06/09/2024 02:43:29 - INFO - __main__ - Mutation score: 0.03068425897514575%
+06/09/2024 02:43:29 - INFO - __main__ - finish program.
+06/09/2024 12:54:47 - INFO - __main__ - evaluated_model_dir: baseline/save/incoder-6B_apps_testcase_beam_executable.json,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: baseline/save/incoder-6B_apps_testcase_beam_executable,
+            output_suffix: _beam300_rank0_single5,
+            on_save: True,
+            result_mode: baselines,
+            pred_mode: single,
+            pred_rank: 0,
+            n_test: 5
+            
+06/09/2024 12:54:47 - INFO - __main__ - load gen data finish.
+06/09/2024 12:55:00 - INFO - __main__ - # test data: 3259
+06/09/2024 12:55:00 - INFO - __main__ - *None-filtered assertions syntax results :single*

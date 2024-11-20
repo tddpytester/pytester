@@ -7,7 +7,6 @@ import sys
 import keyword
 from fuzzywuzzy import fuzz
 from tokenize import tokenize, COMMENT, STRING, NEWLINE, ENCODING, ENDMARKER, NL, INDENT, NUMBER, DEDENT, ERRORTOKEN, NAME
-sys.path.insert(1, '/home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/handlers')
 from .python_terminal_command import PythonTerminalCommand
 from .testing_util import test_function
 dir_path = os.path.dirname(os.path.realpath(__file__))

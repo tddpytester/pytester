@@ -1,0 +1,50 @@
+11/14/2024 02:33:08 - INFO - __main__ - evaluated_model_dir: baseline/save/openai_gpt35_mbpp_testcase_n5_seed42_1106_full.json,
+            test_data_dir: dataset/MBPP/mbpp_test.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: baseline/save/openai_gpt35_mbpp_testcase_n5_seed42_1106_full,
+            output_suffix: _rank2_single5,
+            on_save: False,
+            result_mode: codex-api,
+            pred_mode: single,
+            n_pred_rank: 2,
+            n_test: 5
+            
+11/14/2024 02:33:08 - INFO - __main__ - load gen data finish.
+11/14/2024 02:33:08 - INFO - __main__ - # test data: 257
+11/14/2024 02:33:08 - INFO - __main__ - *None-filtered assertions syntax results :single*
+11/14/2024 02:33:08 - INFO - __main__ - Exact Match: 0.0%
+11/14/2024 02:33:08 - INFO - __main__ - Edit Similarity: 58.48249027237354%
+11/14/2024 02:33:08 - INFO - __main__ - MRR: 0.0%
+11/14/2024 02:33:08 - INFO - __main__ - -----AST Parsable Rate-----
+11/14/2024 02:33:08 - INFO - __main__ - success: 98.83268482490273%
+11/14/2024 02:33:08 - INFO - __main__ - SyntaxError: 1.1673151750972763%
+11/14/2024 02:33:08 - INFO - __main__ - *Filtered assertions syntax results :single*
+11/14/2024 02:33:08 - INFO - __main__ - Exact Match: 0.0%
+11/14/2024 02:33:08 - INFO - __main__ - Edit Similarity: 58.15175097276265%
+11/14/2024 02:33:08 - INFO - __main__ - MRR: 0.0%
+11/14/2024 02:33:08 - INFO - __main__ - -----AST Parsable Rate-----
+11/14/2024 02:33:08 - INFO - __main__ - success: 98.83268482490273%
+11/14/2024 02:33:08 - INFO - __main__ - SyntaxError: 1.1673151750972763%
+11/14/2024 02:33:08 - INFO - __main__ - -----Functional Rate-----
+11/14/2024 02:35:03 - INFO - __main__ - *None-filtered assertions syntax results :single*
+11/14/2024 02:35:03 - INFO - __main__ - exec_success: 39.688715953307394%
+11/14/2024 02:35:03 - INFO - __main__ - SyntaxError: 36.964980544747085%
+11/14/2024 02:35:03 - INFO - __main__ - AssertionError: 20.233463035019454%
+11/14/2024 02:35:03 - INFO - __main__ - AttributeError: 0.7782101167315175%
+11/14/2024 02:35:03 - INFO - __main__ - ValueError: 0.7782101167315175%
+11/14/2024 02:35:03 - INFO - __main__ - TypeError: 0.7782101167315175%
+11/14/2024 02:35:03 - INFO - __main__ - RuntimeError: 0.7782101167315175%
+11/14/2024 02:35:03 - INFO - __main__ - coverage: 38.82879377431907%
+11/14/2024 02:35:03 - INFO - __main__ - Mutation score: 23.38599221789883%
+11/14/2024 02:37:00 - INFO - __main__ - *Filtered assertions syntax results :single*
+11/14/2024 02:37:00 - INFO - __main__ - exec_success: 39.688715953307394%
+11/14/2024 02:37:00 - INFO - __main__ - SyntaxError: 36.964980544747085%
+11/14/2024 02:37:00 - INFO - __main__ - AssertionError: 20.233463035019454%
+11/14/2024 02:37:00 - INFO - __main__ - AttributeError: 0.7782101167315175%
+11/14/2024 02:37:00 - INFO - __main__ - ValueError: 0.7782101167315175%
+11/14/2024 02:37:00 - INFO - __main__ - TypeError: 0.7782101167315175%
+11/14/2024 02:37:00 - INFO - __main__ - RuntimeError: 0.7782101167315175%
+11/14/2024 02:37:00 - INFO - __main__ - coverage: 38.82879377431907%
+11/14/2024 02:37:00 - INFO - __main__ - Mutation score: 23.38599221789883%
+11/14/2024 02:37:00 - INFO - __main__ - finish program.

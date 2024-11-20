@@ -12,17 +12,22 @@ pip install -r requirements.txt
 
 ### Finetuning
 ```
-python finetuning_apps_testcase.py
+python finetuning.py
 ```
 
 ### RL Training
 ```
-python ppo_training_apps_testcase.py
+python ppo_training.py
+```
+
+### Inference
+```
+python inference.py
 ```
 
 ### Evaluation
 ```
-python evaluation_apps_testcase.py
+python evaluation.py
 ```
 
 ### Dataset and Model

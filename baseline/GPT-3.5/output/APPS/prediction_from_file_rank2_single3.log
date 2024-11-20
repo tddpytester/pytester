@@ -1,0 +1,45 @@
+06/11/2024 23:22:36 - INFO - __main__ - evaluated_model_dir: baseline/save/openai_gpt35_apps_testcase_n5_seed42_0613_executable.json,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: baseline/save/openai_gpt35_apps_testcase_n5_seed42_0613_executable,
+            output_suffix: _beam300_rank2_single3,
+            on_save: True,
+            result_mode: codex-api,
+            pred_mode: single,
+            pred_rank: 2,
+            n_test: 3
+            
+06/11/2024 23:22:36 - INFO - __main__ - load gen data finish.
+06/11/2024 23:22:51 - INFO - __main__ - # test data: 3259
+06/11/2024 23:22:51 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/11/2024 23:26:53 - INFO - __main__ - Exact Match: 0.0%
+06/11/2024 23:26:53 - INFO - __main__ - Edit Similarity: 17.424363301626265%
+06/11/2024 23:26:53 - INFO - __main__ - MRR: 0.0%
+06/11/2024 23:26:53 - INFO - __main__ - -----AST Parsable Rate-----
+06/11/2024 23:26:53 - INFO - __main__ - success: 93.86314820497084%
+06/11/2024 23:26:53 - INFO - __main__ - SyntaxError: 6.13685179502915%
+06/11/2024 23:26:53 - INFO - __main__ - *Filtered assertions syntax results :single*
+06/11/2024 23:27:40 - INFO - __main__ - Exact Match: 0.0613685179502915%
+06/11/2024 23:27:40 - INFO - __main__ - Edit Similarity: 16.449831236575637%
+06/11/2024 23:27:40 - INFO - __main__ - MRR: 0.0613685179502915%
+06/11/2024 23:27:40 - INFO - __main__ - -----AST Parsable Rate-----
+06/11/2024 23:27:40 - INFO - __main__ - success: 94.93709726910096%
+06/11/2024 23:27:40 - INFO - __main__ - SyntaxError: 5.062902730899048%
+06/11/2024 23:27:40 - INFO - __main__ - -----Functional Rate-----
+06/12/2024 05:47:16 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/12/2024 05:47:16 - INFO - __main__ - exec_success: 81.12918073028537%
+06/12/2024 05:47:16 - INFO - __main__ - SyntaxError: 5.523166615526235%
+06/12/2024 05:47:16 - INFO - __main__ - AssertionError: 6.56643142068119%
+06/12/2024 05:47:16 - INFO - __main__ - TimeoutException: 4.418533292420988%
+06/12/2024 05:47:16 - INFO - __main__ - RuntimeError: 0.7977907333537895%
+06/12/2024 05:47:16 - INFO - __main__ - NameError: 0.33752684872660327%
+06/12/2024 05:47:16 - INFO - __main__ - TypeError: 0.7977907333537895%
+06/12/2024 05:47:16 - INFO - __main__ - ValueError: 0.09205277692543726%
+06/12/2024 05:47:16 - INFO - __main__ - IndexError: 0.0613685179502915%
+06/12/2024 05:47:16 - INFO - __main__ - EOFError: 0.21478981282602025%
+06/12/2024 05:47:16 - INFO - __main__ - IndentationError: 0.03068425897514575%
+06/12/2024 05:47:16 - INFO - __main__ - ZeroDivisionError: 0.03068425897514575%
+06/12/2024 05:47:16 - INFO - __main__ - coverage: 76.82786130714943%
+06/12/2024 05:47:16 - INFO - __main__ - Mutation score: 54.94795949677814%
+06/12/2024 05:47:16 - INFO - __main__ - finish program.

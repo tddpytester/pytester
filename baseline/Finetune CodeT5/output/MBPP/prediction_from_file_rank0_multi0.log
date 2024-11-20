@@ -1,0 +1,55 @@
+11/15/2024 22:37:30 - INFO - __main__ - evaluated_model_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000/mbpp/prediction-5_beam300_full.pkl,
+            test_data_dir: dataset/MBPP/mbpp_test.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000/mbpp,
+            output_suffix: _rank0_multi0,
+            on_save: False,
+            result_mode: ours,
+            pred_mode: multi,
+            n_pred_rank: 0,
+            n_test: 0
+            
+11/15/2024 22:37:30 - INFO - __main__ - load gen data finish.
+11/15/2024 22:37:30 - INFO - __main__ - # test data: 257
+11/15/2024 22:37:30 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+11/15/2024 22:37:30 - INFO - __main__ - Exact Match: 0.0%
+11/15/2024 22:37:30 - INFO - __main__ - Edit Similarity: 48.12451361867704%
+11/15/2024 22:37:30 - INFO - __main__ - MRR: 0.0%
+11/15/2024 22:37:30 - INFO - __main__ - -----AST Parsable Rate-----
+11/15/2024 22:37:30 - INFO - __main__ - success: 88.715953307393%
+11/15/2024 22:37:30 - INFO - __main__ - SyntaxError: 11.284046692607005%
+11/15/2024 22:37:30 - INFO - __main__ - *Filtered assertions syntax results :multi*
+11/15/2024 22:37:30 - INFO - __main__ - Exact Match: 0.0%
+11/15/2024 22:37:30 - INFO - __main__ - Edit Similarity: 50.715953307392994%
+11/15/2024 22:37:30 - INFO - __main__ - MRR: 0.0%
+11/15/2024 22:37:30 - INFO - __main__ - -----AST Parsable Rate-----
+11/15/2024 22:37:30 - INFO - __main__ - success: 99.22178988326849%
+11/15/2024 22:37:30 - INFO - __main__ - SyntaxError: 0.7782101167315175%
+11/15/2024 22:37:30 - INFO - __main__ - -----Functional Rate-----
+11/15/2024 22:37:36 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+11/15/2024 22:37:36 - INFO - __main__ - exec_success: 2.7237354085603114%
+11/15/2024 22:37:36 - INFO - __main__ - SyntaxError: 41.63424124513619%
+11/15/2024 22:37:36 - INFO - __main__ - AssertionError: 45.91439688715953%
+11/15/2024 22:37:36 - INFO - __main__ - TypeError: 7.782101167315175%
+11/15/2024 22:37:36 - INFO - __main__ - ValueError: 1.1673151750972763%
+11/15/2024 22:37:36 - INFO - __main__ - AttributeError: 0.38910505836575876%
+11/15/2024 22:37:36 - INFO - __main__ - NameError: 0.38910505836575876%
+11/15/2024 22:37:36 - INFO - __main__ - coverage: 2.6614785992217898%
+11/15/2024 22:37:36 - INFO - __main__ - Mutation score: 0.7003891050583657%
+11/15/2024 22:37:43 - INFO - __main__ - *Filtered assertions syntax results :multi*
+11/15/2024 22:37:43 - INFO - __main__ - exec_success: 2.7237354085603114%
+11/15/2024 22:37:43 - INFO - __main__ - SyntaxError: 36.964980544747085%
+11/15/2024 22:37:43 - INFO - __main__ - AssertionError: 49.0272373540856%
+11/15/2024 22:37:43 - INFO - __main__ - TypeError: 8.560311284046692%
+11/15/2024 22:37:43 - INFO - __main__ - IndexError: 0.38910505836575876%
+11/15/2024 22:37:43 - INFO - __main__ - ValueError: 1.1673151750972763%
+11/15/2024 22:37:43 - INFO - __main__ - AttributeError: 0.38910505836575876%
+11/15/2024 22:37:43 - INFO - __main__ - NameError: 0.38910505836575876%
+11/15/2024 22:37:43 - INFO - __main__ - RuntimeError: 0.38910505836575876%
+11/15/2024 22:37:43 - INFO - __main__ - coverage: 2.6614785992217898%
+11/15/2024 22:37:43 - INFO - __main__ - Mutation score: 0.7003891050583657%
+11/15/2024 22:37:43 - INFO - __main__ - *Passing testcase results: multi*
+11/15/2024 22:37:43 - INFO - __main__ - Syntax_passed_assertions: 97.93397849225737%
+11/15/2024 22:37:43 - INFO - __main__ - Passed_assertions: 11.036532641591009%
+11/15/2024 22:37:43 - INFO - __main__ - finish program.

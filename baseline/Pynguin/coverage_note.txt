@@ -1,0 +1,159 @@
+coverage run -m pytest humaneval_test_perfect
+================================================================================ short test summary info =================================================================================
+FAILED humaneval_test_perfect/test_problem_id_16.py::test_case_0 - AttributeError: 'bool' object has no attribute 'lower'
+FAILED humaneval_test_perfect/test_problem_id_22.py::test_case_1 - TypeError: 'NoneType' object is not iterable
+FAILED humaneval_test_perfect/test_problem_id_23.py::test_case_0 - TypeError: object of type 'NoneType' has no len()
+FAILED humaneval_test_perfect/test_problem_id_29.py::test_case_1 - TypeError: 'NoneType' object is not iterable
+FAILED humaneval_test_perfect/test_problem_id_34.py::test_case_0 - TypeError: unhashable type: 'dict'
+======================================================================= 5 failed, 154 passed, 255 xfailed in 2.09s =======================================================================
+
+coverage run -m pytest humaneval_test_5
+================================================================================ short test summary info =================================================================================
+FAILED humaneval_test_5/test_problem_id_22.py::test_case_1 - TypeError: 'bool' object is not iterable
+FAILED humaneval_test_5/test_problem_id_27.py::test_case_0 - AttributeError: 'int' object has no attribute 'swapcase'
+======================================================================= 2 failed, 158 passed, 244 xfailed in 2.06s =======================================================================
+
+coverage run -m pytest humaneval_test_3
+================================================================================ short test summary info =================================================================================
+FAILED humaneval_test_3/test_problem_id_16.py::test_case_0 - AttributeError: 'bool' object has no attribute 'lower'
+FAILED humaneval_test_3/test_problem_id_22.py::test_case_1 - TypeError: object() argument after ** must be a mapping, not float
+FAILED humaneval_test_3/test_problem_id_22.py::test_case_2 - TypeError: 'int' object is not iterable
+FAILED humaneval_test_3/test_problem_id_22.py::test_case_3 - TypeError: 'bool' object is not iterable
+FAILED humaneval_test_3/test_problem_id_29.py::test_case_0 - TypeError: startswith first arg must be bytes or a tuple of bytes, not str
+FAILED humaneval_test_3/test_problem_id_29.py::test_case_1 - TypeError: 'bool' object is not iterable
+FAILED humaneval_test_3/test_problem_id_29.py::test_case_2 - TypeError: 'bool' object is not iterable
+======================================================================= 7 failed, 155 passed, 263 xfailed in 2.20s =======================================================================
+
+coverage run -m pytest mbpp_test_perfect
+================================================================================ short test summary info =================================================================================
+FAILED mbpp_test_perfect/test_problem_id_105.py::test_case_0 - TypeError: unsupported operand type(s) for +: 'int' and 'str'
+FAILED mbpp_test_perfect/test_problem_id_108.py::test_case_0 - TypeError: 'bool' object is not iterable
+FAILED mbpp_test_perfect/test_problem_id_111.py::test_case_0 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_perfect/test_problem_id_232.py::test_case_0 - TypeError: '>=' not supported between instances of 'set' and 'int'
+FAILED mbpp_test_perfect/test_problem_id_237.py::test_case_0 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_perfect/test_problem_id_237.py::test_case_1 - TypeError: 'bool' object is not iterable
+FAILED mbpp_test_perfect/test_problem_id_237.py::test_case_2 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_perfect/test_problem_id_252.py::test_case_0 - TypeError: must be real number, not tuple
+FAILED mbpp_test_perfect/test_problem_id_259.py::test_case_0 - TypeError: 'bool' object is not iterable
+FAILED mbpp_test_perfect/test_problem_id_259.py::test_case_1 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_perfect/test_problem_id_259.py::test_case_2 - TypeError: 'complex' object is not iterable
+FAILED mbpp_test_perfect/test_problem_id_269.py::test_case_0 - TypeError: ord() expected string of length 1, but int found
+FAILED mbpp_test_perfect/test_problem_id_290.py::test_case_0 - TypeError: object of type 'int' has no len()
+FAILED mbpp_test_perfect/test_problem_id_294.py::test_case_0 - ValueError: max() arg is an empty sequence
+FAILED mbpp_test_perfect/test_problem_id_294.py::test_case_1 - TypeError: 'complex' object is not iterable
+FAILED mbpp_test_perfect/test_problem_id_307.py::test_case_0 - TypeError: 'NoneType' object is not subscriptable
+FAILED mbpp_test_perfect/test_problem_id_390.py::test_case_0 - AttributeError: 'list' object has no attribute 'format'
+FAILED mbpp_test_perfect/test_problem_id_390.py::test_case_2 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_perfect/test_problem_id_391.py::test_case_0 - TypeError: unhashable type: 'dict'
+FAILED mbpp_test_perfect/test_problem_id_391.py::test_case_1 - TypeError: 'bool' object is not iterable
+FAILED mbpp_test_perfect/test_problem_id_393.py::test_case_0 - TypeError: object of type 'int' has no len()
+FAILED mbpp_test_perfect/test_problem_id_393.py::test_case_1 - ValueError: max() arg is an empty sequence
+FAILED mbpp_test_perfect/test_problem_id_393.py::test_case_2 - ValueError: max() arg is an empty sequence
+FAILED mbpp_test_perfect/test_problem_id_398.py::test_case_0 - TypeError: 'int' object is not iterable
+FAILED mbpp_test_perfect/test_problem_id_398.py::test_case_1 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_perfect/test_problem_id_400.py::test_case_0 - TypeError: 'bool' object is not iterable
+FAILED mbpp_test_perfect/test_problem_id_400.py::test_case_1 - TypeError: 'int' object is not iterable
+FAILED mbpp_test_perfect/test_problem_id_400.py::test_case_2 - TypeError: 'bool' object is not iterable
+FAILED mbpp_test_perfect/test_problem_id_410.py::test_case_0 - TypeError: 'int' object is not iterable
+FAILED mbpp_test_perfect/test_problem_id_410.py::test_case_1 - TypeError: 'bool' object is not iterable
+FAILED mbpp_test_perfect/test_problem_id_410.py::test_case_2 - ValueError: min() arg is an empty sequence
+FAILED mbpp_test_perfect/test_problem_id_413.py::test_case_0 - TypeError: string indices must be integers
+FAILED mbpp_test_perfect/test_problem_id_413.py::test_case_1 - TypeError: string indices must be integers
+FAILED mbpp_test_perfect/test_problem_id_418.py::test_case_1 - TypeError: 'bool' object is not iterable
+FAILED mbpp_test_perfect/test_problem_id_457.py::test_case_0 - TypeError: object of type 'int' has no len()
+FAILED mbpp_test_perfect/test_problem_id_460.py::test_case_1 - TypeError: 'bool' object is not iterable
+FAILED mbpp_test_perfect/test_problem_id_477.py::test_case_0 - AttributeError: 'float' object has no attribute 'lower'
+FAILED mbpp_test_perfect/test_problem_id_87.py::test_case_0 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_perfect/test_problem_id_88.py::test_case_0 - TypeError: 'complex' object is not iterable
+FAILED mbpp_test_perfect/test_problem_id_95.py::test_case_0 - TypeError: object of type 'int' has no len()
+FAILED mbpp_test_perfect/test_problem_id_95.py::test_case_1 - ValueError: min() arg is an empty sequence
+FAILED mbpp_test_perfect/test_problem_id_95.py::test_case_2 - TypeError: 'NoneType' object is not iterable
+================================================================= 42 failed, 164 passed, 377 xfailed, 1 warning in 4.49s =================================================================
+
+coverage run -m pytest mbpp_test_5
+================================================================================ short test summary info =================================================================================
+FAILED mbpp_test_5/test_problem_id_104.py::test_case_1 - TypeError: 'int' object is not iterable
+FAILED mbpp_test_5/test_problem_id_105.py::test_case_0 - TypeError: 'float' object is not iterable
+FAILED mbpp_test_5/test_problem_id_108.py::test_case_0 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_5/test_problem_id_12.py::test_case_0 - TypeError: 'complex' object is not iterable
+FAILED mbpp_test_5/test_problem_id_232.py::test_case_0 - TypeError: '>=' not supported between instances of 'bytes' and 'int'
+FAILED mbpp_test_5/test_problem_id_237.py::test_case_2 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_5/test_problem_id_251.py::test_case_0 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_5/test_problem_id_251.py::test_case_1 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_5/test_problem_id_252.py::test_case_0 - TypeError: must be real number, not str
+FAILED mbpp_test_5/test_problem_id_255.py::test_case_0 - TypeError: 'list' object cannot be interpreted as an integer
+FAILED mbpp_test_5/test_problem_id_259.py::test_case_0 - TypeError: 'int' object is not iterable
+FAILED mbpp_test_5/test_problem_id_259.py::test_case_1 - TypeError: 'object' object is not iterable
+FAILED mbpp_test_5/test_problem_id_259.py::test_case_2 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_5/test_problem_id_269.py::test_case_0 - TypeError: ord() expected string of length 1, but bool found
+FAILED mbpp_test_5/test_problem_id_294.py::test_case_0 - ValueError: max() arg is an empty sequence
+FAILED mbpp_test_5/test_problem_id_294.py::test_case_1 - TypeError: 'bool' object is not iterable
+FAILED mbpp_test_5/test_problem_id_307.py::test_case_0 - TypeError: 'bool' object is not subscriptable
+FAILED mbpp_test_5/test_problem_id_390.py::test_case_0 - AttributeError: 'bytes' object has no attribute 'format'
+FAILED mbpp_test_5/test_problem_id_393.py::test_case_0 - TypeError: object of type 'bool' has no len()
+FAILED mbpp_test_5/test_problem_id_393.py::test_case_2 - TypeError: 'bool' object is not iterable
+FAILED mbpp_test_5/test_problem_id_398.py::test_case_1 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_5/test_problem_id_400.py::test_case_0 - TypeError: 'int' object is not iterable
+FAILED mbpp_test_5/test_problem_id_400.py::test_case_2 - TypeError: 'bool' object is not iterable
+FAILED mbpp_test_5/test_problem_id_401.py::test_case_1 - TypeError: 'bool' object is not iterable
+FAILED mbpp_test_5/test_problem_id_410.py::test_case_0 - ValueError: min() arg is an empty sequence
+FAILED mbpp_test_5/test_problem_id_410.py::test_case_1 - TypeError: 'int' object is not iterable
+FAILED mbpp_test_5/test_problem_id_413.py::test_case_0 - TypeError: 'bool' object is not subscriptable
+FAILED mbpp_test_5/test_problem_id_413.py::test_case_1 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_5/test_problem_id_413.py::test_case_2 - TypeError: 'bool' object is not iterable
+FAILED mbpp_test_5/test_problem_id_418.py::test_case_0 - TypeError: 'int' object is not iterable
+FAILED mbpp_test_5/test_problem_id_418.py::test_case_1 - TypeError: 'int' object is not iterable
+FAILED mbpp_test_5/test_problem_id_457.py::test_case_0 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_5/test_problem_id_465.py::test_case_2 - TypeError: object() takes no arguments
+FAILED mbpp_test_5/test_problem_id_477.py::test_case_0 - AttributeError: 'object' object has no attribute 'lower'
+FAILED mbpp_test_5/test_problem_id_62.py::test_case_0 - TypeError: 'bool' object is not iterable
+FAILED mbpp_test_5/test_problem_id_87.py::test_case_0 - TypeError: 'int' object is not iterable
+FAILED mbpp_test_5/test_problem_id_95.py::test_case_0 - TypeError: 'int' object is not iterable
+FAILED mbpp_test_5/test_problem_id_95.py::test_case_1 - TypeError: 'NoneType' object is not iterable
+================================================================= 38 failed, 184 passed, 349 xfailed, 1 warning in 3.22s =================================================================
+
+coverage run -m pytest mbpp_test_3
+================================================================================ short test summary info =================================================================================
+FAILED mbpp_test_3/test_problem_id_105.py::test_case_0 - TypeError: 'object' object is not iterable
+FAILED mbpp_test_3/test_problem_id_111.py::test_case_0 - TypeError: 'int' object is not iterable
+FAILED mbpp_test_3/test_problem_id_12.py::test_case_1 - TypeError: 'complex' object is not iterable
+FAILED mbpp_test_3/test_problem_id_232.py::test_case_0 - TypeError: '>=' not supported between instances of 'str' and 'int'
+FAILED mbpp_test_3/test_problem_id_237.py::test_case_0 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_3/test_problem_id_252.py::test_case_0 - TypeError: must be real number, not tuple
+FAILED mbpp_test_3/test_problem_id_255.py::test_case_0 - TypeError: 'bytes' object cannot be interpreted as an integer
+FAILED mbpp_test_3/test_problem_id_259.py::test_case_0 - TypeError: 'int' object is not iterable
+FAILED mbpp_test_3/test_problem_id_259.py::test_case_1 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_3/test_problem_id_269.py::test_case_0 - TypeError: ord() expected a character, but string of length 5 found
+FAILED mbpp_test_3/test_problem_id_290.py::test_case_0 - TypeError: object of type 'NoneType' has no len()
+FAILED mbpp_test_3/test_problem_id_290.py::test_case_1 - ValueError: max() arg is an empty sequence
+FAILED mbpp_test_3/test_problem_id_290.py::test_case_2 - TypeError: 'object' object is not iterable
+FAILED mbpp_test_3/test_problem_id_294.py::test_case_0 - ValueError: max() arg is an empty sequence
+FAILED mbpp_test_3/test_problem_id_294.py::test_case_1 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_3/test_problem_id_307.py::test_case_0 - TypeError: 'NoneType' object is not subscriptable
+FAILED mbpp_test_3/test_problem_id_390.py::test_case_0 - AttributeError: 'list' object has no attribute 'format'
+FAILED mbpp_test_3/test_problem_id_390.py::test_case_1 - TypeError: 'int' object is not iterable
+FAILED mbpp_test_3/test_problem_id_390.py::test_case_2 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_3/test_problem_id_391.py::test_case_1 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_3/test_problem_id_393.py::test_case_0 - TypeError: object of type 'int' has no len()
+FAILED mbpp_test_3/test_problem_id_393.py::test_case_2 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_3/test_problem_id_400.py::test_case_0 - TypeError: 'bool' object is not iterable
+FAILED mbpp_test_3/test_problem_id_400.py::test_case_1 - TypeError: 'float' object is not iterable
+FAILED mbpp_test_3/test_problem_id_401.py::test_case_2 - TypeError: 'int' object is not iterable
+FAILED mbpp_test_3/test_problem_id_410.py::test_case_0 - ValueError: min() arg is an empty sequence
+FAILED mbpp_test_3/test_problem_id_410.py::test_case_1 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_3/test_problem_id_410.py::test_case_2 - TypeError: 'int' object is not iterable
+FAILED mbpp_test_3/test_problem_id_413.py::test_case_0 - TypeError: 'int' object is not subscriptable
+FAILED mbpp_test_3/test_problem_id_418.py::test_case_1 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_3/test_problem_id_457.py::test_case_0 - TypeError: object of type 'int' has no len()
+FAILED mbpp_test_3/test_problem_id_465.py::test_case_1 - AttributeError: 'NoneType' object has no attribute 'items'
+FAILED mbpp_test_3/test_problem_id_465.py::test_case_2 - AttributeError: 'NoneType' object has no attribute 'items'
+FAILED mbpp_test_3/test_problem_id_474.py::test_case_0 - AttributeError: 'bool' object has no attribute 'replace'
+FAILED mbpp_test_3/test_problem_id_475.py::test_case_0 - TypeError: 'int' object is not iterable
+FAILED mbpp_test_3/test_problem_id_477.py::test_case_0 - AttributeError: 'NoneType' object has no attribute 'lower'
+FAILED mbpp_test_3/test_problem_id_62.py::test_case_0 - TypeError: 'NoneType' object is not iterable
+FAILED mbpp_test_3/test_problem_id_87.py::test_case_0 - TypeError: 'int' object is not iterable
+FAILED mbpp_test_3/test_problem_id_88.py::test_case_0 - TypeError: string indices must be integers
+FAILED mbpp_test_3/test_problem_id_95.py::test_case_0 - TypeError: 'int' object is not iterable
+FAILED mbpp_test_3/test_problem_id_95.py::test_case_1 - ValueError: min() arg is an empty sequence
+FAILED mbpp_test_3/test_problem_id_95.py::test_case_2 - TypeError: 'int' object is not iterable
+================================================================= 42 failed, 173 passed, 386 xfailed, 1 warning in 5.50s =================================================================

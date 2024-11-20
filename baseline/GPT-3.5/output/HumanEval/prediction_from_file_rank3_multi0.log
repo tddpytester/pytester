@@ -1,0 +1,47 @@
+11/14/2024 02:20:41 - INFO - __main__ - evaluated_model_dir: baseline/save/openai_gpt35_humaneval_testcase_n5_seed42_1106_full.json,
+            test_data_dir: dataset/HumanEval/humaneval_test.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: baseline/save/openai_gpt35_humaneval_testcase_n5_seed42_1106_full,
+            output_suffix: _rank3_multi0,
+            on_save: True,
+            result_mode: codex-api,
+            pred_mode: multi,
+            n_pred_rank: 3,
+            n_test: 0
+            
+11/14/2024 02:20:41 - INFO - __main__ - load gen data finish.
+11/14/2024 02:20:41 - INFO - __main__ - # test data: 164
+11/14/2024 02:20:41 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+11/14/2024 02:20:41 - INFO - __main__ - Exact Match: 0.6097560975609756%
+11/14/2024 02:20:41 - INFO - __main__ - Edit Similarity: 49.3719512195122%
+11/14/2024 02:20:41 - INFO - __main__ - MRR: 0.6097560975609756%
+11/14/2024 02:20:41 - INFO - __main__ - -----AST Parsable Rate-----
+11/14/2024 02:20:41 - INFO - __main__ - success: 98.78048780487805%
+11/14/2024 02:20:41 - INFO - __main__ - SyntaxError: 0.6097560975609756%
+11/14/2024 02:20:41 - INFO - __main__ - IndentationError: 0.6097560975609756%
+11/14/2024 02:20:41 - INFO - __main__ - *Filtered assertions syntax results :multi*
+11/14/2024 02:20:41 - INFO - __main__ - Exact Match: 0.6097560975609756%
+11/14/2024 02:20:41 - INFO - __main__ - Edit Similarity: 49.176829268292686%
+11/14/2024 02:20:41 - INFO - __main__ - MRR: 0.6097560975609756%
+11/14/2024 02:20:41 - INFO - __main__ - -----AST Parsable Rate-----
+11/14/2024 02:20:41 - INFO - __main__ - success: 99.39024390243902%
+11/14/2024 02:20:41 - INFO - __main__ - SyntaxError: 0.6097560975609756%
+11/14/2024 02:20:41 - INFO - __main__ - -----Functional Rate-----
+11/14/2024 02:25:50 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+11/14/2024 02:25:50 - INFO - __main__ - exec_success: 89.02439024390245%
+11/14/2024 02:25:50 - INFO - __main__ - AssertionError: 9.75609756097561%
+11/14/2024 02:25:50 - INFO - __main__ - SyntaxError: 0.6097560975609756%
+11/14/2024 02:25:50 - INFO - __main__ - IndentationError: 0.6097560975609756%
+11/14/2024 02:25:50 - INFO - __main__ - coverage: 87.73170731707317%
+11/14/2024 02:25:50 - INFO - __main__ - Mutation score: 69.12621951219512%
+11/14/2024 02:31:03 - INFO - __main__ - *Filtered assertions syntax results :multi*
+11/14/2024 02:31:03 - INFO - __main__ - exec_success: 89.63414634146342%
+11/14/2024 02:31:03 - INFO - __main__ - AssertionError: 9.75609756097561%
+11/14/2024 02:31:03 - INFO - __main__ - RuntimeError: 0.6097560975609756%
+11/14/2024 02:31:03 - INFO - __main__ - coverage: 88.34146341463415%
+11/14/2024 02:31:03 - INFO - __main__ - Mutation score: 69.7359756097561%
+11/14/2024 02:31:03 - INFO - __main__ - *Passing testcase results: multi*
+11/14/2024 02:31:03 - INFO - __main__ - Syntax_passed_assertions: 99.26829268292684%
+11/14/2024 02:31:03 - INFO - __main__ - Passed_assertions: 75.26422764227642%
+11/14/2024 02:31:03 - INFO - __main__ - finish program.

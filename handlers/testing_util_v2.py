@@ -42,11 +42,6 @@ def sig_handler(signum, frame):
     print("segfault")
 signal.signal(signal.SIGSEGV, sig_handler)
 
-# # Technically catch a SIGSEV signal but you shouldn't use it.
-# def segfault_handler(sigNum, frame):
-#     print("handle signal", sigNum)
-# signal.signal(signal.SIGSEGV, segfault_handler)
-
 ############################
 ## for CodeT post process ##
 STOP_TOKEN = ['\nclass', '\ndef', '\n#', '\nif', '\nprint']
@@ -113,7 +108,7 @@ def reliability_guard(maximum_memory_bytes: Optional[int] = None):
     builtins.quit = None
 
     import os
-    os.environ['OMP_NUM_THREADS'] = '1'
+    # os.environ['OMP_NUM_THREADS'] = '1'
 
     os.kill = None
     os.system = None
@@ -179,8 +174,12 @@ def split_test_cases(output_testcase, fn_name, limit=10, filter_syntax=True, add
     else:
         split_asserts = [f'assert {part}'.strip() for part in f'assert {output_testcase.strip()}'.split('assert ') if (fn_name.strip() in part) and len(part.strip()) > 0]
     checked_assertions = [i for i in split_asserts if _check_test_case_syntax(i)] if filter_syntax else split_asserts
+    if len(split_asserts) > 0:
+        valid_count = len(checked_assertions)/len(split_asserts)
+    else:
+        valid_count = 0
     checked_assertions = checked_assertions[:limit]
-    return checked_assertions
+    return checked_assertions, valid_count
 
 def _pack_test_cases(test_cases):
     blank_4 = ' ' * 4
@@ -202,7 +201,7 @@ def transform_to_input(prompt, solution, testcase, fn_name, on_codet_result=Fals
         sol += '''import sys\nimport io\ndef test_call_solution(input_string):  # pragma: no cover\n    sys.stdin = io.StringIO(input_string)\n    captured_output = io.StringIO()\n    sys.stdout = captured_output\n    call_solution()\n    sys.stdin = sys.__stdin__\n    sys.stdout = sys.__stdout__\n    actual_output = captured_output.getvalue().strip()\n    return actual_output\n'''
     sol += prompt
     sol += solution + '\n'
-    checked_assertions = split_test_cases(testcase, fn_name, filter_syntax=filter_syntax, add_test_call_solution=add_test_call_solution) if not on_codet_result \
+    checked_assertions = split_test_cases(testcase, fn_name, filter_syntax=filter_syntax, add_test_call_solution=add_test_call_solution)[0] if not on_codet_result \
         else _test_case_extract_codet_format(testcase, fn_name, 'solution', filter_syntax=filter_syntax)
     assertions = "\n".join(checked_assertions)
     # assertions = _pack_test_cases(checked_assertions)
@@ -218,7 +217,7 @@ def transform_to_code_and_test(prompt, solution, testcase, fn_name, code_filenam
     if fn_name == 'call_solution':
         test_script += '''import sys\nimport io\ndef test_call_solution(input_string):  # pragma: no cover\n    sys.stdin = io.StringIO(input_string)\n    captured_output = io.StringIO()\n    sys.stdout = captured_output\n    call_solution()\n    sys.stdin = sys.__stdin__\n    sys.stdout = sys.__stdout__\n    actual_output = captured_output.getvalue().strip()\n    return actual_output\n'''
     test_script += 'def test():\n    '
-    checked_assertions = split_test_cases(testcase, fn_name, filter_syntax=filter_syntax, add_test_call_solution=add_test_call_solution) if not on_codet_result \
+    checked_assertions = split_test_cases(testcase, fn_name, filter_syntax=filter_syntax, add_test_call_solution=add_test_call_solution)[0] if not on_codet_result \
         else _test_case_extract_codet_format(testcase, fn_name, 'solution', filter_syntax=filter_syntax)
     assertions = "\n    ".join(checked_assertions)
     # assertions = _pack_test_cases(checked_assertions)
@@ -259,7 +258,7 @@ def test_function(prompts, solutions, testcases, fn_names, debug=False, on_guard
         sol += solution + '\n'
         signal.alarm(timeout)
         i += 1 
-        # print(i)
+        print(i, ' test')
         ## check gt solution syntax ##
         try:
             ast.parse(sol)
@@ -275,7 +274,7 @@ def test_function(prompts, solutions, testcases, fn_names, debug=False, on_guard
 
         ## check solution + unit test syntax ##
         try:
-            checked_assertions = split_test_cases(testcase, fn_name, filter_syntax=filter_syntax, add_test_call_solution=add_test_call_solution) if not on_codet_result \
+            checked_assertions = split_test_cases(testcase, fn_name, filter_syntax=filter_syntax, add_test_call_solution=add_test_call_solution)[0] if not on_codet_result \
                 else _test_case_extract_codet_format(testcase, fn_name, 'solution', filter_syntax=filter_syntax)
             if len(checked_assertions)==0:
                 raise
@@ -298,21 +297,13 @@ def test_function(prompts, solutions, testcases, fn_names, debug=False, on_guard
             continue
 
         ## check runtime ##
-        # with Capturing() as output:
         try:
-            # if i == 2358: # while True loop
-            #     raise
-            # if i in [2937,631,1203]: # seg fault dump (2937 no-filtered)
-            # if i in [630,631,2182]: # 403, 994,1882=textcode single,multi / 2182=ppo-1-rep-65 / 403, 631, 1966, 2937=code multi filter / 960 llm
-            #     raise
             if on_guard:
                 # Disable functionalities that can make destructive changes to the test.
                 reliability_guard()
             compiled_code = compile(sol, '<string>', 'exec')
             namespace = {}
             exec(compiled_code, namespace)
-            # score = namespace['final_result']
-            # print(score)
             results.append(rewards['executable'])
             errors.append(None)
         except Exception as e:
@@ -320,7 +311,6 @@ def test_function(prompts, solutions, testcases, fn_names, debug=False, on_guard
             faulthandler.disable()
             err_name = type(e).__name__
             if debug:
-                # print(sol)
                 print(f"type 2 runtime error or time limit exceeded error = {e}")
             if 'AssertionError' in err_name:
                 results.append(rewards['assert_error'])
@@ -338,6 +328,26 @@ def test_function(prompts, solutions, testcases, fn_names, debug=False, on_guard
         os.rmdir = rmdir
         os.chdir = chdir
     return results, errors
+
+def error_record(prompts, solutions, testcases, fn_names, debug=False, on_guard=False, on_codet_result=False, filter_syntax=True, add_test_call_solution=True):
+    _, errors = test_function(prompts, solutions, testcases, fn_names, debug, on_guard, on_codet_result, filter_syntax, add_test_call_solution=add_test_call_solution)
+    eval_dict = { 'exec_success': 0 }
+    coverage = []
+    mutation = []
+    for i, error in enumerate(errors):
+        if not error:
+            eval_dict['exec_success'] += 1
+        else:
+            signal.alarm(0)
+            if error not in eval_dict:
+                eval_dict[error] = 0
+            eval_dict[error] += 1
+            coverage.append(0)
+            mutation.append(0)
+    signal.alarm(0)
+    for k in eval_dict:
+        eval_dict[k] = eval_dict[k]/len(solutions)*100
+    return eval_dict, errors
 
 def functional_evaluation(prompts, solutions, testcases, fn_names, debug=False, on_guard=False, on_codet_result=False, filter_syntax=True, add_test_call_solution=True, eval_coverage=True, eval_mutate=True, unique_name=''):
     _, errors = test_function(prompts, solutions, testcases, fn_names, debug, on_guard, on_codet_result, filter_syntax, add_test_call_solution=add_test_call_solution)
@@ -393,7 +403,6 @@ def functional_evaluation(prompts, solutions, testcases, fn_names, debug=False, 
         eval_dict[k] = eval_dict[k]/len(solutions)*100
     return eval_dict, coverage, mutation 
 
-
 def extract_checked_assertions(prompts, solutions, testcases, fn_names, debug=False, on_guard=False, on_codet_result=False, filter_syntax=True, add_test_call_solution=True):
     if on_guard:
         # These system calls are needed when cleaning up tempdir.
@@ -408,6 +417,7 @@ def extract_checked_assertions(prompts, solutions, testcases, fn_names, debug=Fa
     results = []
     errors = []
     eval_assertions = []
+    count_syntax_passed_assertions = []
     i = 0
     for prompt, solution, testcase, fn_name in zip(prompts, solutions, testcases, fn_names):
         faulthandler.enable()
@@ -418,7 +428,7 @@ def extract_checked_assertions(prompts, solutions, testcases, fn_names, debug=Fa
         sol += solution + '\n'
         signal.alarm(timeout)
         i += 1 
-        # print(i)
+        print(i, ' extract')
         ## check gt solution syntax ##
         try:
             ast.parse(sol)
@@ -434,22 +444,16 @@ def extract_checked_assertions(prompts, solutions, testcases, fn_names, debug=Fa
             continue
 
         ## check runtime ##
-        # with Capturing() as output:
         try:
-            # if i == 2358: # while True loop for openai
-            #     raise
-            # if i in [2937,631,1203]: # seg fault dump (2937 no-filtered)
-            #     raise
-            # if i in [630,631,2182]: 
-            #     raise
-            checked_assertions = split_test_cases(testcase, fn_name, filter_syntax=filter_syntax, add_test_call_solution=add_test_call_solution) if not on_codet_result \
+            split_assertions = split_test_cases(testcase, fn_name, filter_syntax=filter_syntax, add_test_call_solution=add_test_call_solution)
+            count_syntax_passed_assertions.append(split_assertions[1])
+            checked_assertions = split_assertions[0] if not on_codet_result \
                 else _test_case_extract_codet_format(testcase, fn_name, 'solution', filter_syntax=filter_syntax)
             if len(checked_assertions)==0:
                 raise
             # assertions = "\n".join(checked_assertions)
             assertions = _pack_test_cases(checked_assertions)
             sol += assertions
-            # print(sol)
             if on_guard:
                 # Disable functionalities that can make destructive changes to the test.
                 reliability_guard()
@@ -465,7 +469,6 @@ def extract_checked_assertions(prompts, solutions, testcases, fn_names, debug=Fa
             faulthandler.disable()
             err_name = type(e).__name__
             if debug:
-                # print(sol)
                 print(f"type 2 runtime error or time limit exceeded error = {e}")
             results.append(-1)
             errors.append(err_name)
@@ -480,7 +483,25 @@ def extract_checked_assertions(prompts, solutions, testcases, fn_names, debug=Fa
         os.remove = rmfile
         os.rmdir = rmdir
         os.chdir = chdir
-    return results, errors, eval_assertions
+    return results, errors, eval_assertions, count_syntax_passed_assertions
+
+def count_passing_testcase(prompts, solutions, testcases, fn_names, debug=False, on_guard=False, on_codet_result=False, filter_syntax=True, add_test_call_solution=True, unique_name=''):
+    commander = python_terminal_command.PythonTerminalCommand(f'temp_{unique_name}')
+
+    results, errors, assertions, count_syntax_passed_assertions = extract_checked_assertions(prompts, solutions, testcases, fn_names, debug, on_guard, on_codet_result, filter_syntax, add_test_call_solution=add_test_call_solution)
+    count_passed_assertions = []
+    for k in range(len(results)):
+        if not errors[k]:
+            assert len(results[k]) == len(assertions[k]), 'len results not equal to assertions'
+            temp_assertions = 0
+            for j in range(len(results[k])):
+                if results[k][j] == True:
+                    temp_assertions += 1
+            count_passed_assertions.append(temp_assertions/len(assertions[k]))
+        else:
+            count_passed_assertions.append(0)
+    return count_syntax_passed_assertions, count_passed_assertions
+
 
 def filtered_functional_evaluation(prompts, solutions, testcases, fn_names, debug=False, on_guard=False, on_codet_result=False, filter_syntax=True, add_test_call_solution=True, unique_name='', eval_metric=['compilable','functional','coverage','mutation']):
     commander = python_terminal_command.PythonTerminalCommand(f'temp_{unique_name}')
@@ -489,7 +510,7 @@ def filtered_functional_evaluation(prompts, solutions, testcases, fn_names, debu
     coverage = []
     mutation = []
 
-    results, errors, assertions = extract_checked_assertions(prompts, solutions, testcases, fn_names, debug, on_guard, on_codet_result, filter_syntax, add_test_call_solution=add_test_call_solution)
+    results, errors, assertions, count_syntax_passed_assertions = extract_checked_assertions(prompts, solutions, testcases, fn_names, debug, on_guard, on_codet_result, filter_syntax, add_test_call_solution=add_test_call_solution)
     new_assertions = []
     for k in range(len(results)):
         if not errors[k]:

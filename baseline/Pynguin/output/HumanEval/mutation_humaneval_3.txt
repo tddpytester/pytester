@@ -1,0 +1,2663 @@
+[*] Start mutation process:
+   - targets: problem_id_0
+   - tests: test_problem_id_0
+[*] 3 tests passed:
+   - test_problem_id_0 [0.16270 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_0: [0.07642 s] killed by test_problem_id_0.py::test_case_4
+   - [#   2] COI problem_id_0: [0.07564 s] incompetent
+   - [#   3] COI problem_id_0: [0.09240 s] killed by test_problem_id_0.py::test_case_4
+   - [#   4] ROR problem_id_0: [0.11436 s] incompetent
+   - [#   5] ROR problem_id_0: [0.09675 s] killed by test_problem_id_0.py::test_case_4
+   - [#   6] ROR problem_id_0: [0.08143 s] survived
+[*] Mutation score [0.74999 s]: 75.0%
+   - all: 6
+   - killed: 3 (50.0%)
+   - survived: 1 (16.7%)
+   - incompetent: 2 (33.3%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_100
+   - tests: test_problem_id_100
+[*] 1 tests passed:
+   - test_problem_id_100 [0.15953 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_100: [0.07378 s] survived
+   - [#   2] AOR problem_id_100: [0.10840 s] survived
+   - [#   3] AOR problem_id_100: [0.09522 s] survived
+   - [#   4] AOR problem_id_100: [0.07659 s] survived
+[*] Mutation score [0.54652 s]: 0.0%
+   - all: 4
+   - killed: 0 (0.0%)
+   - survived: 4 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_101
+   - tests: test_problem_id_101
+[*] 1 tests passed:
+   - test_problem_id_101 [0.16220 s]
+[*] Start mutants generation and execution:
+   - [#   1] COD problem_id_101: [0.07542 s] survived
+   - [#   2] COI problem_id_101: [0.09073 s] survived
+   - [#   3] COI problem_id_101: [0.09933 s] survived
+   - [#   4] ROR problem_id_101: [0.09686 s] survived
+[*] Mutation score [0.57144 s]: 0.0%
+   - all: 4
+   - killed: 0 (0.0%)
+   - survived: 4 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_102
+   - tests: test_problem_id_102
+[*] 4 tests passed:
+   - test_problem_id_102 [0.13590 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_102: [0.12348 s] killed by test_problem_id_102.py::test_case_0
+   - [#   2] AOD problem_id_102: [0.11849 s] killed by test_problem_id_102.py::test_case_1
+   - [#   3] AOR problem_id_102: [0.11636 s] killed by test_problem_id_102.py::test_case_0
+   - [#   4] AOR problem_id_102: [0.11669 s] killed by test_problem_id_102.py::test_case_2
+   - [#   5] AOR problem_id_102: [0.12139 s] killed by test_problem_id_102.py::test_case_1
+   - [#   6] AOR problem_id_102: [0.11599 s] killed by test_problem_id_102.py::test_case_3
+   - [#   7] COI problem_id_102: [0.12313 s] killed by test_problem_id_102.py::test_case_0
+   - [#   8] COI problem_id_102: [0.13593 s] killed by test_problem_id_102.py::test_case_0
+   - [#   9] COI problem_id_102: [0.09290 s] killed by test_problem_id_102.py::test_case_1
+   - [#  10] ROR problem_id_102: [0.11750 s] killed by test_problem_id_102.py::test_case_0
+   - [#  11] ROR problem_id_102: [0.11876 s] killed by test_problem_id_102.py::test_case_0
+   - [#  12] ROR problem_id_102: [0.11135 s] killed by test_problem_id_102.py::test_case_0
+   - [#  13] ROR problem_id_102: [0.12371 s] killed by test_problem_id_102.py::test_case_1
+[*] Mutation score [1.72054 s]: 100.0%
+   - all: 13
+   - killed: 13 (100.0%)
+   - survived: 0 (0.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_103
+   - tests: test_problem_id_103
+[*] 1 tests passed:
+   - test_problem_id_103 [0.15165 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_103: [0.07030 s] survived
+   - [#   2] AOR problem_id_103: [0.10034 s] survived
+   - [#   3] AOR problem_id_103: [0.10760 s] survived
+   - [#   4] AOR problem_id_103: [0.10415 s] survived
+   - [#   5] AOR problem_id_103: [0.10744 s] survived
+   - [#   6] AOR problem_id_103: [0.09604 s] survived
+   - [#   7] AOR problem_id_103: [0.09779 s] survived
+   - [#   8] ASR problem_id_103: [0.10075 s] survived
+   - [#   9] COI problem_id_103: [0.09532 s] killed by test_problem_id_103.py::test_case_0
+   - [#  10] ROR problem_id_103: [0.10026 s] survived
+   - [#  11] ROR problem_id_103: [0.08977 s] killed by test_problem_id_103.py::test_case_0
+[*] Mutation score [1.30821 s]: 18.2%
+   - all: 11
+   - killed: 2 (18.2%)
+   - survived: 9 (81.8%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_104
+   - tests: test_problem_id_104
+[*] 1 tests passed:
+   - test_problem_id_104 [0.15351 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_104: [0.06962 s] survived
+   - [#   2] COI problem_id_104: [0.09587 s] survived
+   - [#   3] ROR problem_id_104: [0.09152 s] survived
+[*] Mutation score [0.47060 s]: 0.0%
+   - all: 3
+   - killed: 0 (0.0%)
+   - survived: 3 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_105
+   - tests: test_problem_id_105
+[*] 1 tests passed:
+   - test_problem_id_105 [0.15433 s]
+[*] Start mutants generation and execution:
+   - [#   1] EHD problem_id_105: [0.10418 s] killed by test_problem_id_105.py::test_case_0
+[*] Mutation score [0.28507 s]: 100.0%
+   - all: 1
+   - killed: 1 (100.0%)
+   - survived: 0 (0.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_106
+   - tests: test_problem_id_106
+[*] 0 tests passed:
+   - test_problem_id_106 [0.15803 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_106: [0.07375 s] survived
+   - [#   2] AOR problem_id_106: [0.09146 s] survived
+   - [#   3] AOR problem_id_106: [0.10668 s] survived
+   - [#   4] AOR problem_id_106: [0.10559 s] survived
+   - [#   5] ASR problem_id_106: [0.10919 s] survived
+   - [#   6] ASR problem_id_106: [0.07733 s] survived
+   - [#   7] ASR problem_id_106: [0.10309 s] survived
+   - [#   8] ASR problem_id_106: [0.10247 s] survived
+   - [#   9] ASR problem_id_106: [0.11331 s] survived
+   - [#  10] ASR problem_id_106: [0.11070 s] survived
+   - [#  11] COI problem_id_106: [0.07779 s] survived
+   - [#  12] ROR problem_id_106: [0.08928 s] survived
+[*] Mutation score [1.38919 s]: 0.0%
+   - all: 12
+   - killed: 0 (0.0%)
+   - survived: 12 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_107
+   - tests: test_problem_id_107
+[*] 0 tests passed:
+   - test_problem_id_107 [0.15863 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_107: [0.07892 s] survived
+   - [#   2] AOR problem_id_107: [0.11218 s] survived
+   - [#   3] AOR problem_id_107: [0.10268 s] survived
+   - [#   4] AOR problem_id_107: [0.09649 s] survived
+   - [#   5] AOR problem_id_107: [0.10332 s] survived
+   - [#   6] ASR problem_id_107: [0.10894 s] survived
+   - [#   7] ASR problem_id_107: [0.09825 s] survived
+   - [#   8] COI problem_id_107: [0.10140 s] survived
+   - [#   9] COI problem_id_107: [0.10729 s] survived
+   - [#  10] LCR problem_id_107: [0.10070 s] survived
+   - [#  11] LCR problem_id_107: [0.09578 s] survived
+   - [#  12] ROR problem_id_107: [0.09996 s] survived
+   - [#  13] ROR problem_id_107: [0.09560 s] survived
+   - [#  14] ROR problem_id_107: [0.10208 s] survived
+   - [#  15] SIR problem_id_107: [0.10042 s] survived
+[*] Mutation score [1.77976 s]: 0.0%
+   - all: 15
+   - killed: 0 (0.0%)
+   - survived: 15 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_108
+   - tests: test_problem_id_108
+[*] 1 tests passed:
+   - test_problem_id_108 [0.15967 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_108: [0.07540 s] survived
+   - [#   2] AOD problem_id_108: [0.09335 s] survived
+   - [#   3] AOR problem_id_108: [0.11119 s] survived
+   - [#   4] AOR problem_id_108: [0.09050 s] survived
+   - [#   5] AOR problem_id_108: [0.10261 s] survived
+   - [#   6] AOR problem_id_108: [0.10643 s] survived
+   - [#   7] AOR problem_id_108: [0.07632 s] survived
+   - [#   8] AOR problem_id_108: [0.10268 s] survived
+   - [#   9] AOR problem_id_108: [0.10378 s] survived
+   - [#  10] AOR problem_id_108: [0.10237 s] survived
+   - [#  11] COI problem_id_108: [0.10400 s] killed by test_problem_id_108.py::test_case_0
+   - [#  12] ROR problem_id_108: [0.07633 s] killed by test_problem_id_108.py::test_case_0
+   - [#  13] ROR problem_id_108: [0.08517 s] survived
+   - [#  14] ROR problem_id_108: [0.10534 s] killed by test_problem_id_108.py::test_case_0
+   - [#  15] ROR problem_id_108: [0.10373 s] killed by test_problem_id_108.py::test_case_0
+[*] Mutation score [1.72037 s]: 26.7%
+   - all: 15
+   - killed: 4 (26.7%)
+   - survived: 11 (73.3%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_109
+   - tests: test_problem_id_109
+[*] 2 tests passed:
+   - test_problem_id_109 [0.15384 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_109: [0.07171 s] incompetent
+   - [#   2] COI problem_id_109: [0.09854 s] killed by test_problem_id_109.py::test_case_0
+   - [#   3] COI problem_id_109: [0.09939 s] survived
+   - [#   4] ROR problem_id_109: [0.09055 s] killed by test_problem_id_109.py::test_case_0
+   - [#   5] ROR problem_id_109: [0.10232 s] survived
+   - [#   6] SIR problem_id_109: [0.10639 s] survived
+   - [#   7] SIR problem_id_109: [0.10342 s] survived
+   - [#   8] SIR problem_id_109: [0.07070 s] survived
+[*] Mutation score [0.96301 s]: 28.6%
+   - all: 8
+   - killed: 2 (25.0%)
+   - survived: 5 (62.5%)
+   - incompetent: 1 (12.5%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_10
+   - tests: test_problem_id_10
+[*] 3 tests passed:
+   - test_problem_id_10 [0.15407 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_10: [0.07060 s] killed by test_problem_id_10.py::test_case_0
+   - [#   2] AOD problem_id_10: [0.08799 s] killed by test_problem_id_10.py::test_case_0
+   - [#   3] AOR problem_id_10: [0.09920 s] killed by test_problem_id_10.py::test_case_0
+   - [#   4] AOR problem_id_10: [0.09066 s] incompetent
+   - [#   5] AOR problem_id_10: [0.09846 s] killed by test_problem_id_10.py::test_case_0
+   - [#   6] ASR problem_id_10: [0.09130 s] survived
+   - [#   7] COD problem_id_10: [0.10509 s] killed by test_problem_id_10.py::test_case_0
+   - [#   8] COD problem_id_10: [0.09031 s] killed by test_problem_id_10.py::test_case_0
+   - [#   9] COI problem_id_10: [0.10578 s] killed by test_problem_id_10.py::test_case_0
+   - [#  10] COI problem_id_10: [0.08139 s] killed by test_problem_id_10.py::test_case_0
+   - [#  11] ROR problem_id_10: [0.08537 s] killed by test_problem_id_10.py::test_case_0
+   - [#  12] SIR problem_id_10: [0.09061 s] killed by test_problem_id_10.py::test_case_0
+   - [#  13] SIR problem_id_10: [5.00950 s] timeout
+   - [#  14] SIR problem_id_10: [0.09825 s] killed by test_problem_id_10.py::test_case_0
+   - [#  15] SIR problem_id_10: [0.08347 s] killed by test_problem_id_10.py::test_case_0
+[*] Mutation score [6.54866 s]: 92.9%
+   - all: 15
+   - killed: 12 (80.0%)
+   - survived: 1 (6.7%)
+   - incompetent: 1 (6.7%)
+   - timeout: 1 (6.7%)
+[*] Start mutation process:
+   - targets: problem_id_110
+   - tests: test_problem_id_110
+[*] 0 tests passed:
+   - test_problem_id_110 [0.16941 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_110: [0.10747 s] survived
+   - [#   2] AOR problem_id_110: [0.11672 s] survived
+   - [#   3] ASR problem_id_110: [0.09711 s] survived
+   - [#   4] ASR problem_id_110: [0.10849 s] survived
+   - [#   5] COI problem_id_110: [0.11557 s] survived
+   - [#   6] COI problem_id_110: [0.11536 s] survived
+   - [#   7] COI problem_id_110: [0.10490 s] survived
+   - [#   8] ROR problem_id_110: [0.09990 s] survived
+   - [#   9] ROR problem_id_110: [0.11369 s] survived
+   - [#  10] ROR problem_id_110: [0.10499 s] survived
+   - [#  11] ROR problem_id_110: [0.10672 s] survived
+[*] Mutation score [1.43944 s]: 0.0%
+   - all: 11
+   - killed: 0 (0.0%)
+   - survived: 11 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_111
+   - tests: test_problem_id_111
+[*] 2 tests passed:
+   - test_problem_id_111 [0.15880 s]
+[*] Start mutants generation and execution:
+   - [#   1] COI problem_id_111: [0.07615 s] survived
+   - [#   2] COI problem_id_111: [0.11079 s] survived
+   - [#   3] COI problem_id_111: [0.10900 s] survived
+   - [#   4] LCR problem_id_111: [0.09856 s] survived
+   - [#   5] ROR problem_id_111: [0.08104 s] survived
+   - [#   6] ROR problem_id_111: [0.10571 s] survived
+   - [#   7] ROR problem_id_111: [0.08209 s] survived
+   - [#   8] ROR problem_id_111: [0.10177 s] survived
+   - [#   9] ROR problem_id_111: [0.08280 s] survived
+   - [#  10] ROR problem_id_111: [0.10952 s] survived
+[*] Mutation score [1.18995 s]: 0.0%
+   - all: 10
+   - killed: 0 (0.0%)
+   - survived: 10 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_112
+   - tests: test_problem_id_112
+[*] 0 tests passed:
+   - test_problem_id_112 [0.15625 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_112: [0.07719 s] survived
+   - [#   2] AOR problem_id_112: [0.11094 s] survived
+   - [#   3] COD problem_id_112: [0.10123 s] survived
+   - [#   4] ROR problem_id_112: [0.09693 s] survived
+   - [#   5] SIR problem_id_112: [0.10170 s] survived
+[*] Mutation score [0.67667 s]: 0.0%
+   - all: 5
+   - killed: 0 (0.0%)
+   - survived: 5 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_113
+   - tests: test_problem_id_113
+[*] 0 tests passed:
+   - test_problem_id_113 [0.16140 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_113: [0.07641 s] survived
+   - [#   2] AOR problem_id_113: [0.10377 s] survived
+   - [#   3] AOR problem_id_113: [0.09856 s] survived
+   - [#   4] AOR problem_id_113: [0.11080 s] survived
+   - [#   5] AOR problem_id_113: [0.10669 s] survived
+   - [#   6] AOR problem_id_113: [0.07669 s] survived
+   - [#   7] AOR problem_id_113: [0.11292 s] survived
+   - [#   8] AOR problem_id_113: [0.11275 s] survived
+   - [#   9] AOR problem_id_113: [0.11019 s] survived
+   - [#  10] ROR problem_id_113: [0.10983 s] survived
+[*] Mutation score [1.27020 s]: 0.0%
+   - all: 10
+   - killed: 0 (0.0%)
+   - survived: 10 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_114
+   - tests: test_problem_id_114
+[*] 2 tests passed:
+   - test_problem_id_114 [0.15574 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_114: [0.06960 s] killed by test_problem_id_114.py::test_case_0
+   - [#   2] AOD problem_id_114: [0.10168 s] killed by test_problem_id_114.py::test_case_0
+   - [#   3] AOD problem_id_114: [0.10008 s] killed by test_problem_id_114.py::test_case_0
+   - [#   4] AOR problem_id_114: [0.10560 s] killed by test_problem_id_114.py::test_case_0
+   - [#   5] AOR problem_id_114: [0.11051 s] killed by test_problem_id_114.py::test_case_0
+   - [#   6] AOR problem_id_114: [0.10241 s] killed by test_problem_id_114.py::test_case_0
+   - [#   7] ASR problem_id_114: [0.08693 s] killed by test_problem_id_114.py::test_case_0
+   - [#   8] COI problem_id_114: [0.09234 s] survived
+   - [#   9] COI problem_id_114: [0.07728 s] killed by test_problem_id_114.py::test_case_0
+   - [#  10] ROR problem_id_114: [0.09433 s] survived
+   - [#  11] ROR problem_id_114: [0.10513 s] survived
+   - [#  12] ROR problem_id_114: [0.08752 s] killed by test_problem_id_114.py::test_case_0
+[*] Mutation score [1.39423 s]: 75.0%
+   - all: 12
+   - killed: 9 (75.0%)
+   - survived: 3 (25.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_115
+   - tests: test_problem_id_115
+[*] 0 tests passed:
+   - test_problem_id_115 [0.16286 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_115: [0.09301 s] survived
+   - [#   2] AOR problem_id_115: [0.09776 s] survived
+[*] Mutation score [0.38932 s]: 0.0%
+   - all: 2
+   - killed: 0 (0.0%)
+   - survived: 2 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_116
+   - tests: test_problem_id_116
+[*] 0 tests passed:
+   - test_problem_id_116 [0.16103 s]
+[*] Start mutants generation and execution:
+   - [#   1] SIR problem_id_116: [0.09013 s] survived
+[*] Mutation score [0.26694 s]: 0.0%
+   - all: 1
+   - killed: 0 (0.0%)
+   - survived: 1 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_117
+   - tests: test_problem_id_117
+[*] 2 tests passed:
+   - test_problem_id_117 [0.16134 s]
+[*] Start mutants generation and execution:
+   - [#   1] ASR problem_id_117: [0.09111 s] survived
+   - [#   2] COD problem_id_117: [0.09190 s] survived
+   - [#   3] COI problem_id_117: [0.09403 s] survived
+   - [#   4] COI problem_id_117: [0.07645 s] survived
+   - [#   5] ROR problem_id_117: [0.08165 s] survived
+[*] Mutation score [0.67597 s]: 0.0%
+   - all: 5
+   - killed: 0 (0.0%)
+   - survived: 5 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_118
+   - tests: test_problem_id_118
+[*] 3 tests passed:
+   - test_problem_id_118 [0.15940 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_118: [0.07167 s] killed by test_problem_id_118.py::test_case_0
+   - [#   2] AOR problem_id_118: [0.09160 s] killed by test_problem_id_118.py::test_case_0
+   - [#   3] AOR problem_id_118: [0.09863 s] killed by test_problem_id_118.py::test_case_0
+   - [#   4] AOR problem_id_118: [0.07729 s] killed by test_problem_id_118.py::test_case_3
+   - [#   5] AOR problem_id_118: [0.08572 s] killed by test_problem_id_118.py::test_case_3
+   - [#   6] COD problem_id_118: [0.09222 s] killed by test_problem_id_118.py::test_case_0
+   - [#   7] COD problem_id_118: [0.07315 s] killed by test_problem_id_118.py::test_case_0
+   - [#   8] COI problem_id_118: [0.09269 s] killed by test_problem_id_118.py::test_case_0
+   - [#   9] COI problem_id_118: [0.08228 s] killed by test_problem_id_118.py::test_case_0
+   - [#  10] COI problem_id_118: [0.09102 s] killed by test_problem_id_118.py::test_case_0
+   - [#  11] COI problem_id_118: [0.08246 s] killed by test_problem_id_118.py::test_case_0
+   - [#  12] LCR problem_id_118: [0.09421 s] killed by test_problem_id_118.py::test_case_3
+   - [#  13] ROR problem_id_118: [0.08864 s] killed by test_problem_id_118.py::test_case_0
+   - [#  14] ROR problem_id_118: [0.09946 s] survived
+[*] Mutation score [1.51336 s]: 92.9%
+   - all: 14
+   - killed: 13 (92.9%)
+   - survived: 1 (7.1%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_119
+   - tests: test_problem_id_119
+[*] 3 tests passed:
+   - test_problem_id_119 [0.16446 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_119: [0.09339 s] killed by test_problem_id_119.py::test_case_2
+   - [#   2] AOR problem_id_119: [0.07926 s] killed by test_problem_id_119.py::test_case_2
+   - [#   3] AOR problem_id_119: [0.08056 s] incompetent
+   - [#   4] AOR problem_id_119: [0.09407 s] incompetent
+   - [#   5] COI problem_id_119: [0.09368 s] survived
+   - [#   6] COI problem_id_119: [0.08957 s] killed by test_problem_id_119.py::test_case_2
+   - [#   7] LCR problem_id_119: [0.09666 s] killed by test_problem_id_119.py::test_case_2
+   - [#   8] ROR problem_id_119: [0.11871 s] survived
+   - [#   9] ROR problem_id_119: [0.08583 s] survived
+   - [#  10] ROR problem_id_119: [0.07969 s] killed by test_problem_id_119.py::test_case_2
+   - [#  11] ROR problem_id_119: [0.07822 s] killed by test_problem_id_119.py::test_case_2
+[*] Mutation score [1.22956 s]: 66.7%
+   - all: 11
+   - killed: 6 (54.5%)
+   - survived: 3 (27.3%)
+   - incompetent: 2 (18.2%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_11
+   - tests: test_problem_id_11
+[*] 2 tests passed:
+   - test_problem_id_11 [0.15762 s]
+[*] Start mutants generation and execution:
+   - [#   1] COI problem_id_11: [0.08986 s] killed by test_problem_id_11.py::test_case_0
+   - [#   2] ROR problem_id_11: [0.09661 s] killed by test_problem_id_11.py::test_case_0
+[*] Mutation score [0.37947 s]: 100.0%
+   - all: 2
+   - killed: 2 (100.0%)
+   - survived: 0 (0.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_120
+   - tests: test_problem_id_120
+[*] 0 tests passed:
+   - test_problem_id_120 [0.16690 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_120: [0.09525 s] survived
+   - [#   2] AOR problem_id_120: [0.09489 s] survived
+   - [#   3] COI problem_id_120: [0.09610 s] survived
+   - [#   4] ROR problem_id_120: [0.07908 s] survived
+   - [#   5] SIR problem_id_120: [0.08153 s] survived
+[*] Mutation score [0.66786 s]: 0.0%
+   - all: 5
+   - killed: 0 (0.0%)
+   - survived: 5 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_121
+   - tests: test_problem_id_121
+[*] 0 tests passed:
+   - test_problem_id_121 [0.16289 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_121: [0.10254 s] survived
+   - [#   2] AOR problem_id_121: [0.10772 s] survived
+   - [#   3] LCR problem_id_121: [0.10595 s] survived
+   - [#   4] ROR problem_id_121: [0.11030 s] survived
+   - [#   5] ROR problem_id_121: [0.09145 s] survived
+[*] Mutation score [0.72496 s]: 0.0%
+   - all: 5
+   - killed: 0 (0.0%)
+   - survived: 5 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_122
+   - tests: test_problem_id_122
+[*] 0 tests passed:
+   - test_problem_id_122 [0.16095 s]
+[*] Start mutants generation and execution:
+   - [#   1] ROR problem_id_122: [0.09064 s] survived
+   - [#   2] ROR problem_id_122: [0.10469 s] survived
+   - [#   3] SIR problem_id_122: [0.08512 s] survived
+[*] Mutation score [0.47212 s]: 0.0%
+   - all: 3
+   - killed: 0 (0.0%)
+   - survived: 3 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_123
+   - tests: test_problem_id_123
+[*] 0 tests passed:
+   - test_problem_id_123 [0.16418 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_123: [0.09681 s] survived
+   - [#   2] AOR problem_id_123: [5.00826 s] timeout
+   - [#   3] AOR problem_id_123: [0.09676 s] survived
+   - [#   4] AOR problem_id_123: [5.00959 s] timeout
+   - [#   5] AOR problem_id_123: [5.00971 s] timeout
+   - [#   6] AOR problem_id_123: [0.09773 s] survived
+   - [#   7] AOR problem_id_123: [5.00617 s] timeout
+   - [#   8] AOR problem_id_123: [5.00951 s] timeout
+   - [#   9] AOR problem_id_123: [0.09851 s] survived
+   - [#  10] COI problem_id_123: [0.09439 s] survived
+   - [#  11] COI problem_id_123: [*] Start mutation process:
+   - targets: problem_id_124
+   - tests: test_problem_id_124
+[*] Can't load module: test_problem_id_124 (ModuleNotFoundError: No module named 'test_problem_id_124')
+[*] Start mutation process:
+   - targets: problem_id_125
+   - tests: test_problem_id_125
+[*] 2 tests passed:
+   - test_problem_id_125 [0.16945 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_125: [0.10060 s] killed by test_problem_id_125.py::test_case_4
+   - [#   2] COI problem_id_125: [0.09472 s] killed by test_problem_id_125.py::test_case_1
+   - [#   3] COI problem_id_125: [0.09659 s] killed by test_problem_id_125.py::test_case_1
+   - [#   4] COI problem_id_125: [0.09290 s] killed by test_problem_id_125.py::test_case_1
+   - [#   5] COI problem_id_125: [0.09390 s] killed by test_problem_id_125.py::test_case_1
+   - [#   6] LCR problem_id_125: [0.09465 s] incompetent
+   - [#   7] ROR problem_id_125: [0.10022 s] killed by test_problem_id_125.py::test_case_4
+[*] Mutation score [0.93186 s]: 100.0%
+   - all: 7
+   - killed: 6 (85.7%)
+   - survived: 0 (0.0%)
+   - incompetent: 1 (14.3%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_126
+   - tests: test_problem_id_126
+[*] 0 tests passed:
+   - test_problem_id_126 [0.16345 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_126: [0.07865 s] survived
+   - [#   2] ASR problem_id_126: [0.08303 s] survived
+   - [#   3] COI problem_id_126: [0.09211 s] survived
+   - [#   4] COI problem_id_126: [0.08448 s] survived
+   - [#   5] ROR problem_id_126: [0.08444 s] survived
+   - [#   6] ROR problem_id_126: [0.09144 s] survived
+   - [#   7] ROR problem_id_126: [0.07901 s] survived
+   - [#   8] ROR problem_id_126: [0.08775 s] survived
+[*] Mutation score [0.93631 s]: 0.0%
+   - all: 8
+   - killed: 0 (0.0%)
+   - survived: 8 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_127
+   - tests: test_problem_id_127
+[*] Can't load module: test_problem_id_127 (ModuleNotFoundError: No module named 'test_problem_id_127')
+[*] Start mutation process:
+   - targets: problem_id_128
+   - tests: test_problem_id_128
+[*] 2 tests passed:
+   - test_problem_id_128 [0.16741 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_128: [0.08645 s] survived
+   - [#   2] AOR problem_id_128: [0.09688 s] survived
+   - [#   3] AOR problem_id_128: [0.08147 s] survived
+   - [#   4] AOR problem_id_128: [0.09831 s] killed by test_problem_id_128.py::test_case_3
+   - [#   5] AOR problem_id_128: [0.09830 s] killed by test_problem_id_128.py::test_case_3
+   - [#   6] AOR problem_id_128: [0.08105 s] killed by test_problem_id_128.py::test_case_3
+   - [#   7] COD problem_id_128: [0.10407 s] survived
+   - [#   8] COI problem_id_128: [0.10690 s] survived
+   - [#   9] COI problem_id_128: [0.09416 s] killed by test_problem_id_128.py::test_case_3
+   - [#  10] ROR problem_id_128: [0.09727 s] survived
+   - [#  11] ROR problem_id_128: [0.08806 s] survived
+[*] Mutation score [1.28555 s]: 36.4%
+   - all: 11
+   - killed: 4 (36.4%)
+   - survived: 7 (63.6%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_129
+   - tests: test_problem_id_129
+[*] 0 tests passed:
+   - test_problem_id_129 [0.17700 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_129: [0.10120 s] survived
+   - [#   2] AOR problem_id_129: [0.10368 s] survived
+   - [#   3] AOR problem_id_129: [0.10230 s] survived
+   - [#   4] AOR problem_id_129: [0.10423 s] survived
+   - [#   5] AOR problem_id_129: [0.09176 s] survived
+   - [#   6] AOR problem_id_129: [0.10441 s] survived
+   - [#   7] AOR problem_id_129: [0.10089 s] survived
+   - [#   8] AOR problem_id_129: [0.08527 s] survived
+   - [#   9] AOR problem_id_129: [0.08698 s] survived
+   - [#  10] AOR problem_id_129: [0.10925 s] survived
+   - [#  11] AOR problem_id_129: [0.10445 s] survived
+   - [#  12] COI problem_id_129: [0.10060 s] survived
+   - [#  13] COI problem_id_129: [0.11445 s] survived
+   - [#  14] COI problem_id_129: [0.12327 s] survived
+   - [#  15] COI problem_id_129: [0.11670 s] survived
+   - [#  16] COI problem_id_129: [0.08660 s] survived
+   - [#  17] COI problem_id_129: [0.08605 s] survived
+   - [#  18] ROR problem_id_129: [0.11705 s] survived
+   - [#  19] ROR problem_id_129: [0.10374 s] survived
+   - [#  20] ROR problem_id_129: [0.10568 s] survived
+   - [#  21] ROR problem_id_129: [0.09898 s] survived
+   - [#  22] ROR problem_id_129: [0.11746 s] survived
+   - [#  23] ROR problem_id_129: [0.08749 s] survived
+[*] Mutation score [2.74538 s]: 0.0%
+   - all: 23
+   - killed: 0 (0.0%)
+   - survived: 23 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_12
+   - tests: test_problem_id_12
+[*] Can't load module: test_problem_id_12 (ModuleNotFoundError: No module named 'test_problem_id_12')
+[*] Start mutation process:
+   - targets: problem_id_130
+   - tests: test_problem_id_130
+[*] 0 tests passed:
+   - test_problem_id_130 [0.16856 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_130: [0.09673 s] survived
+   - [#   2] AOR problem_id_130: [0.09661 s] survived
+   - [#   3] AOR problem_id_130: [0.08514 s] survived
+   - [#   4] AOR problem_id_130: [0.09160 s] survived
+   - [#   5] AOR problem_id_130: [0.11292 s] survived
+   - [#   6] AOR problem_id_130: [0.09434 s] survived
+   - [#   7] AOR problem_id_130: [0.07934 s] survived
+   - [#   8] AOR problem_id_130: [0.08559 s] survived
+   - [#   9] AOR problem_id_130: [0.09846 s] survived
+   - [#  10] AOR problem_id_130: [0.08258 s] survived
+   - [#  11] AOR problem_id_130: [0.08179 s] survived
+   - [#  12] AOR problem_id_130: [0.09640 s] survived
+   - [#  13] COI problem_id_130: [0.09403 s] survived
+   - [#  14] COI problem_id_130: [0.09299 s] survived
+   - [#  15] ROR problem_id_130: [0.08449 s] survived
+   - [#  16] ROR problem_id_130: [0.09461 s] survived
+[*] Mutation score [1.75716 s]: 0.0%
+   - all: 16
+   - killed: 0 (0.0%)
+   - survived: 16 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_131
+   - tests: test_problem_id_131
+[*] 1 tests passed:
+   - test_problem_id_131 [0.17125 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_131: [0.10632 s] killed by test_problem_id_131.py::test_case_1
+   - [#   2] AOR problem_id_131: [0.07750 s] killed by test_problem_id_131.py::test_case_1
+   - [#   3] AOR problem_id_131: [0.08841 s] survived
+   - [#   4] AOR problem_id_131: [0.09487 s] survived
+   - [#   5] ASR problem_id_131: [0.08856 s] survived
+   - [#   6] COI problem_id_131: [0.08750 s] killed by test_problem_id_131.py::test_case_1
+   - [#   7] COI problem_id_131: [0.08016 s] killed by test_problem_id_131.py::test_case_1
+   - [#   8] ROR problem_id_131: [0.10512 s] killed by test_problem_id_131.py::test_case_1
+   - [#   9] ROR problem_id_131: [0.09448 s] killed by test_problem_id_131.py::test_case_1
+[*] Mutation score [1.07139 s]: 66.7%
+   - all: 9
+   - killed: 6 (66.7%)
+   - survived: 3 (33.3%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_132
+   - tests: test_problem_id_132
+[*] 2 tests passed:
+   - test_problem_id_132 [0.17028 s]
+[*] Start mutants generation and execution:
+   - [#   1] ASR problem_id_132: [0.09253 s] survived
+   - [#   2] ASR problem_id_132: [0.09743 s] survived
+   - [#   3] COI problem_id_132: [0.08016 s] survived
+   - [#   4] COI problem_id_132: [0.07812 s] survived
+   - [#   5] LCR problem_id_132: [0.09195 s] survived
+   - [#   6] ROR problem_id_132: [0.08263 s] survived
+   - [#   7] ROR problem_id_132: [0.09563 s] survived
+   - [#   8] ROR problem_id_132: [0.08317 s] survived
+   - [#   9] ROR problem_id_132: [0.07913 s] survived
+   - [#  10] ROR problem_id_132: [0.07892 s] survived
+   - [#  11] ROR problem_id_132: [0.09706 s] killed by test_problem_id_132.py::test_case_0
+   - [#  12] ROR problem_id_132: [0.09779 s] survived
+[*] Mutation score [1.35299 s]: 8.3%
+   - all: 12
+   - killed: 1 (8.3%)
+   - survived: 11 (91.7%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_133
+   - tests: test_problem_id_133
+[*] 0 tests passed:
+   - test_problem_id_133 [0.16664 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_133: [0.09482 s] survived
+   - [#   2] ASR problem_id_133: [0.09574 s] survived
+[*] Mutation score [0.39122 s]: 0.0%
+   - all: 2
+   - killed: 0 (0.0%)
+   - survived: 2 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_134
+   - tests: test_problem_id_134
+[*] 0 tests passed:
+   - test_problem_id_134 [0.17222 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_134: [0.08734 s] survived
+   - [#   2] AOR problem_id_134: [0.08472 s] survived
+   - [#   3] LCR problem_id_134: [0.09908 s] survived
+   - [#   4] ROR problem_id_134: [0.08981 s] survived
+   - [#   5] ROR problem_id_134: [0.10081 s] survived
+   - [#   6] ROR problem_id_134: [0.08489 s] survived
+   - [#   7] ROR problem_id_134: [0.08294 s] survived
+   - [#   8] ROR problem_id_134: [0.09702 s] survived
+[*] Mutation score [0.96499 s]: 0.0%
+   - all: 8
+   - killed: 0 (0.0%)
+   - survived: 8 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_135
+   - tests: test_problem_id_135
+[*] 1 tests passed:
+   - test_problem_id_135 [0.18180 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_135: [0.09405 s] survived
+   - [#   2] AOR problem_id_135: [0.09837 s] survived
+   - [#   3] AOR problem_id_135: [0.09148 s] killed by test_problem_id_135.py::test_case_0
+   - [#   4] ASR problem_id_135: [0.09222 s] killed by test_problem_id_135.py::test_case_0
+   - [#   5] COI problem_id_135: [0.09050 s] killed by test_problem_id_135.py::test_case_0
+   - [#   6] COI problem_id_135: [0.07632 s] killed by test_problem_id_135.py::test_case_0
+   - [#   7] ROR problem_id_135: [0.08840 s] killed by test_problem_id_135.py::test_case_0
+   - [#   8] ROR problem_id_135: [0.07601 s] killed by test_problem_id_135.py::test_case_0
+   - [#   9] ROR problem_id_135: [0.09027 s] killed by test_problem_id_135.py::test_case_0
+   - [#  10] ROR problem_id_135: [0.09259 s] survived
+[*] Mutation score [1.15315 s]: 70.0%
+   - all: 10
+   - killed: 7 (70.0%)
+   - survived: 3 (30.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_136
+   - tests: test_problem_id_136
+[*] 2 tests passed:
+   - test_problem_id_136 [0.15885 s]
+[*] Start mutants generation and execution:
+   - [#   1] ROR problem_id_136: [0.09123 s] survived
+   - [#   2] ROR problem_id_136: [0.09570 s] survived
+   - [#   3] ROR problem_id_136: [0.09749 s] survived
+   - [#   4] ROR problem_id_136: [0.09392 s] survived
+[*] Mutation score [0.58336 s]: 0.0%
+   - all: 4
+   - killed: 0 (0.0%)
+   - survived: 4 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_137
+   - tests: test_problem_id_137
+[*] 0 tests passed:
+   - test_problem_id_137 [0.17020 s]
+[*] Start mutants generation and execution:
+   - [#   1] COI problem_id_137: [0.10207 s] survived
+   - [#   2] COI problem_id_137: [0.08986 s] survived
+   - [#   3] COI problem_id_137: [0.09478 s] survived
+   - [#   4] ROR problem_id_137: [0.09822 s] survived
+   - [#   5] ROR problem_id_137: [0.10250 s] survived
+   - [#   6] ROR problem_id_137: [0.08575 s] survived
+[*] Mutation score [0.82079 s]: 0.0%
+   - all: 6
+   - killed: 0 (0.0%)
+   - survived: 6 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_138
+   - tests: test_problem_id_138
+[*] 1 tests passed:
+   - test_problem_id_138 [0.16415 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_138: [0.09809 s] survived
+   - [#   2] LCR problem_id_138: [0.09585 s] survived
+   - [#   3] ROR problem_id_138: [0.07790 s] survived
+   - [#   4] ROR problem_id_138: [0.09647 s] survived
+   - [#   5] ROR problem_id_138: [0.08306 s] survived
+[*] Mutation score [0.65352 s]: 0.0%
+   - all: 5
+   - killed: 0 (0.0%)
+   - survived: 5 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_139
+   - tests: test_problem_id_139
+[*] Can't load module: test_problem_id_139 (ModuleNotFoundError: No module named 'test_problem_id_139')
+[*] Start mutation process:
+   - targets: problem_id_13
+   - tests: test_problem_id_13
+[*] 2 tests passed:
+   - test_problem_id_13 [0.16067 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_13: [5.00729 s] timeout
+   - [#   2] COI problem_id_13: [0.10802 s] killed by test_problem_id_13.py::test_case_1
+[*] Mutation score [5.30914 s]: 100.0%
+   - all: 2
+   - killed: 1 (50.0%)
+   - survived: 0 (0.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 1 (50.0%)
+[*] Start mutation process:
+   - targets: problem_id_140
+   - tests: test_problem_id_140
+[*] Can't load module: test_problem_id_140 (ModuleNotFoundError: No module named 'test_problem_id_140')
+[*] Start mutation process:
+   - targets: problem_id_141
+   - tests: test_problem_id_141
+[*] Can't load module: test_problem_id_141 (ModuleNotFoundError: No module named 'test_problem_id_141')
+[*] Start mutation process:
+   - targets: problem_id_142
+   - tests: test_problem_id_142
+[*] Can't load module: test_problem_id_142 (ModuleNotFoundError: No module named 'test_problem_id_142')
+[*] Start mutation process:
+   - targets: problem_id_143
+   - tests: test_problem_id_143
+[*] Can't load module: test_problem_id_143 (ModuleNotFoundError: No module named 'test_problem_id_143')
+[*] Start mutation process:
+   - targets: problem_id_144
+   - tests: test_problem_id_144
+[*] Can't load module: test_problem_id_144 (ModuleNotFoundError: No module named 'test_problem_id_144')
+[*] Start mutation process:
+   - targets: problem_id_145
+   - tests: test_problem_id_145
+[*] 1 tests passed:
+   - test_problem_id_145 [0.16987 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_145: [0.09565 s] survived
+   - [#   2] AOD problem_id_145: [0.08584 s] survived
+   - [#   3] AOR problem_id_145: [0.08211 s] survived
+   - [#   4] AOR problem_id_145: [0.10092 s] survived
+   - [#   5] AOR problem_id_145: [0.09559 s] survived
+   - [#   6] AOR problem_id_145: [0.09896 s] survived
+   - [#   7] AOR problem_id_145: [0.09494 s] survived
+   - [#   8] AOR problem_id_145: [0.10158 s] survived
+   - [#   9] AOR problem_id_145: [0.08049 s] survived
+   - [#  10] AOR problem_id_145: [0.08044 s] survived
+   - [#  11] COI problem_id_145: [0.08742 s] killed by test_problem_id_145.py::test_case_0
+   - [#  12] ROR problem_id_145: [0.09160 s] killed by test_problem_id_145.py::test_case_0
+   - [#  13] ROR problem_id_145: [0.08486 s] survived
+[*] Mutation score [1.45516 s]: 15.4%
+   - all: 13
+   - killed: 2 (15.4%)
+   - survived: 11 (84.6%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_146
+   - tests: test_problem_id_146
+[*] 0 tests passed:
+   - test_problem_id_146 [0.17307 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_146: [0.09963 s] survived
+   - [#   2] AOR problem_id_146: [0.09839 s] survived
+   - [#   3] ASR problem_id_146: [0.09910 s] survived
+   - [#   4] COI problem_id_146: [0.08639 s] survived
+   - [#   5] COI problem_id_146: [0.08668 s] survived
+   - [#   6] COI problem_id_146: [0.09507 s] survived
+   - [#   7] COI problem_id_146: [0.08138 s] survived
+   - [#   8] LCR problem_id_146: [0.09829 s] survived
+   - [#   9] ROR problem_id_146: [0.09807 s] survived
+   - [#  10] ROR problem_id_146: [0.09967 s] survived
+[*] Mutation score [1.22484 s]: 0.0%
+   - all: 10
+   - killed: 0 (0.0%)
+   - survived: 10 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_147
+   - tests: test_problem_id_147
+[*] 4 tests passed:
+   - test_problem_id_147 [0.16916 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_147: [0.09569 s] killed by test_problem_id_147.py::test_case_4
+   - [#   2] AOR problem_id_147: [0.07745 s] killed by test_problem_id_147.py::test_case_4
+   - [#   3] AOR problem_id_147: [0.07881 s] killed by test_problem_id_147.py::test_case_4
+   - [#   4] AOR problem_id_147: [0.08031 s] killed by test_problem_id_147.py::test_case_4
+   - [#   5] AOR problem_id_147: [0.07968 s] survived
+   - [#   6] AOR problem_id_147: [0.08041 s] killed by test_problem_id_147.py::test_case_4
+   - [#   7] AOR problem_id_147: [0.09347 s] killed by test_problem_id_147.py::test_case_0
+   - [#   8] AOR problem_id_147: [0.08246 s] killed by test_problem_id_147.py::test_case_4
+   - [#   9] AOR problem_id_147: [0.07601 s] survived
+   - [#  10] AOR problem_id_147: [0.08182 s] killed by test_problem_id_147.py::test_case_4
+   - [#  11] AOR problem_id_147: [0.08430 s] killed by test_problem_id_147.py::test_case_4
+   - [#  12] ASR problem_id_147: [0.08863 s] incompetent
+   - [#  13] COI problem_id_147: [0.08335 s] killed by test_problem_id_147.py::test_case_4
+   - [#  14] ROR problem_id_147: [0.09508 s] killed by test_problem_id_147.py::test_case_4
+[*] Mutation score [1.47928 s]: 84.6%
+   - all: 14
+   - killed: 11 (78.6%)
+   - survived: 2 (14.3%)
+   - incompetent: 1 (7.1%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_148
+   - tests: test_problem_id_148
+[*] Can't load module: test_problem_id_148 (ModuleNotFoundError: No module named 'test_problem_id_148')
+[*] Start mutation process:
+   - targets: problem_id_149
+   - tests: test_problem_id_149
+[*] 1 tests passed:
+   - test_problem_id_149 [0.16521 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_149: [0.09716 s] survived
+   - [#   2] COI problem_id_149: [0.08222 s] survived
+   - [#   3] ROR problem_id_149: [0.09422 s] survived
+[*] Mutation score [0.49644 s]: 0.0%
+   - all: 3
+   - killed: 0 (0.0%)
+   - survived: 3 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_14
+   - tests: test_problem_id_14
+[*] 1 tests passed:
+   - test_problem_id_14 [0.14391 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_14: [0.09190 s] survived
+   - [#   2] SIR problem_id_14: [0.08901 s] survived
+[*] Mutation score [0.36639 s]: 0.0%
+   - all: 2
+   - killed: 0 (0.0%)
+   - survived: 2 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_150
+   - tests: test_problem_id_150
+[*] 1 tests passed:
+   - test_problem_id_150 [0.16865 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_150: [0.09649 s] survived
+   - [#   2] BCR problem_id_150: [0.09784 s] survived
+   - [#   3] COI problem_id_150: [0.09438 s] survived
+   - [#   4] COI problem_id_150: [0.10102 s] survived
+   - [#   5] ROR problem_id_150: [0.09319 s] survived
+   - [#   6] ROR problem_id_150: [0.11620 s] survived
+[*] Mutation score [0.82882 s]: 0.0%
+   - all: 6
+   - killed: 0 (0.0%)
+   - survived: 6 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_151
+   - tests: test_problem_id_151
+[*] 1 tests passed:
+   - test_problem_id_151 [0.16104 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_151: [0.08978 s] killed by test_problem_id_151.py::test_case_0
+   - [#   2] AOR problem_id_151: [0.07859 s] killed by test_problem_id_151.py::test_case_0
+   - [#   3] COD problem_id_151: [0.07864 s] killed by test_problem_id_151.py::test_case_0
+   - [#   4] LCR problem_id_151: [0.08144 s] killed by test_problem_id_151.py::test_case_0
+   - [#   5] ROR problem_id_151: [0.09547 s] killed by test_problem_id_151.py::test_case_0
+   - [#   6] ROR problem_id_151: [0.09371 s] survived
+   - [#   7] ROR problem_id_151: [0.09682 s] killed by test_problem_id_151.py::test_case_0
+[*] Mutation score [0.84196 s]: 85.7%
+   - all: 7
+   - killed: 6 (85.7%)
+   - survived: 1 (14.3%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_152
+   - tests: test_problem_id_152
+[*] 1 tests passed:
+   - test_problem_id_152 [0.13754 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_152: [0.08629 s] survived
+[*] Mutation score [0.25651 s]: 0.0%
+   - all: 1
+   - killed: 0 (0.0%)
+   - survived: 1 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_153
+   - tests: test_problem_id_153
+[*] 0 tests passed:
+   - test_problem_id_153 [0.17121 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_153: [0.09928 s] survived
+   - [#   2] AOR problem_id_153: [0.09065 s] survived
+   - [#   3] AOR problem_id_153: [0.08997 s] survived
+   - [#   4] AOR problem_id_153: [0.08835 s] survived
+   - [#   5] COI problem_id_153: [0.09434 s] survived
+   - [#   6] LCR problem_id_153: [0.08975 s] survived
+   - [#   7] LCR problem_id_153: [0.10232 s] survived
+   - [#   8] LCR problem_id_153: [0.10410 s] survived
+   - [#   9] LCR problem_id_153: [0.09400 s] survived
+   - [#  10] ROR problem_id_153: [0.08834 s] survived
+   - [#  11] ROR problem_id_153: [0.08699 s] survived
+[*] Mutation score [1.33653 s]: 0.0%
+   - all: 11
+   - killed: 0 (0.0%)
+   - survived: 11 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_154
+   - tests: test_problem_id_154
+[*] 0 tests passed:
+   - test_problem_id_154 [0.16746 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_154: [0.09730 s] survived
+   - [#   2] AOR problem_id_154: [0.08381 s] survived
+   - [#   3] AOR problem_id_154: [0.08071 s] survived
+   - [#   4] AOR problem_id_154: [0.09938 s] survived
+   - [#   5] AOR problem_id_154: [0.08227 s] survived
+   - [#   6] AOR problem_id_154: [0.08272 s] survived
+   - [#   7] COI problem_id_154: [0.08487 s] survived
+   - [#   8] ROR problem_id_154: [0.09917 s] survived
+   - [#   9] SIR problem_id_154: [0.09990 s] survived
+   - [#  10] SIR problem_id_154: [0.10098 s] survived
+   - [#  11] SIR problem_id_154: [0.08896 s] survived
+   - [#  12] SIR problem_id_154: [0.10199 s] survived
+[*] Mutation score [1.37183 s]: 0.0%
+   - all: 12
+   - killed: 0 (0.0%)
+   - survived: 12 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_155
+   - tests: test_problem_id_155
+[*] 0 tests passed:
+   - test_problem_id_155 [0.17174 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_155: [0.09775 s] survived
+   - [#   2] ASR problem_id_155: [0.10161 s] survived
+   - [#   3] ASR problem_id_155: [0.10075 s] survived
+   - [#   4] COI problem_id_155: [0.09719 s] survived
+   - [#   5] ROR problem_id_155: [0.09602 s] survived
+[*] Mutation score [0.72726 s]: 0.0%
+   - all: 5
+   - killed: 0 (0.0%)
+   - survived: 5 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_156
+   - tests: test_problem_id_156
+[*] Can't load module: test_problem_id_156 (ModuleNotFoundError: No module named 'test_problem_id_156')
+[*] Start mutation process:
+   - targets: problem_id_157
+   - tests: test_problem_id_157
+[*] 2 tests passed:
+   - test_problem_id_157 [0.16638 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_157: [0.08810 s] killed by test_problem_id_157.py::test_case_2
+   - [#   2] AOR problem_id_157: [0.08094 s] killed by test_problem_id_157.py::test_case_2
+   - [#   3] AOR problem_id_157: [0.08037 s] killed by test_problem_id_157.py::test_case_0
+   - [#   4] AOR problem_id_157: [0.07567 s] killed by test_problem_id_157.py::test_case_0
+   - [#   5] AOR problem_id_157: [0.09229 s] killed by test_problem_id_157.py::test_case_0
+   - [#   6] AOR problem_id_157: [0.09537 s] killed by test_problem_id_157.py::test_case_0
+   - [#   7] AOR problem_id_157: [0.09423 s] survived
+   - [#   8] AOR problem_id_157: [0.09433 s] killed by test_problem_id_157.py::test_case_0
+   - [#   9] AOR problem_id_157: [0.09462 s] killed by test_problem_id_157.py::test_case_0
+   - [#  10] AOR problem_id_157: [0.07835 s] killed by test_problem_id_157.py::test_case_0
+   - [#  11] AOR problem_id_157: [0.08831 s] killed by test_problem_id_157.py::test_case_2
+   - [#  12] AOR problem_id_157: [0.07955 s] killed by test_problem_id_157.py::test_case_2
+   - [#  13] AOR problem_id_157: [0.09513 s] killed by test_problem_id_157.py::test_case_0
+   - [#  14] AOR problem_id_157: [0.09574 s] killed by test_problem_id_157.py::test_case_2
+   - [#  15] AOR problem_id_157: [0.10253 s] killed by test_problem_id_157.py::test_case_2
+   - [#  16] AOR problem_id_157: [0.09385 s] killed by test_problem_id_157.py::test_case_0
+   - [#  17] AOR problem_id_157: [0.07800 s] survived
+   - [#  18] AOR problem_id_157: [0.10334 s] killed by test_problem_id_157.py::test_case_2
+   - [#  19] AOR problem_id_157: [0.09689 s] killed by test_problem_id_157.py::test_case_2
+   - [#  20] AOR problem_id_157: [0.08048 s] killed by test_problem_id_157.py::test_case_0
+   - [#  21] AOR problem_id_157: [0.09708 s] killed by test_problem_id_157.py::test_case_2
+   - [#  22] AOR problem_id_157: [0.08114 s] killed by test_problem_id_157.py::test_case_2
+   - [#  23] AOR problem_id_157: [0.08520 s] killed by test_problem_id_157.py::test_case_0
+   - [#  24] AOR problem_id_157: [0.08511 s] killed by test_problem_id_157.py::test_case_2
+   - [#  25] AOR problem_id_157: [0.11188 s] killed by test_problem_id_157.py::test_case_2
+   - [#  26] AOR problem_id_157: [0.09582 s] killed by test_problem_id_157.py::test_case_0
+   - [#  27] AOR problem_id_157: [0.09111 s] survived
+   - [#  28] AOR problem_id_157: [0.09849 s] killed by test_problem_id_157.py::test_case_2
+   - [#  29] AOR problem_id_157: [0.09846 s] killed by test_problem_id_157.py::test_case_2
+   - [#  30] AOR problem_id_157: [0.07812 s] killed by test_problem_id_157.py::test_case_0
+   - [#  31] LCR problem_id_157: [0.08007 s] killed by test_problem_id_157.py::test_case_0
+   - [#  32] ROR problem_id_157: [0.07786 s] killed by test_problem_id_157.py::test_case_0
+   - [#  33] ROR problem_id_157: [0.09453 s] killed by test_problem_id_157.py::test_case_0
+   - [#  34] ROR problem_id_157: [0.09030 s] killed by test_problem_id_157.py::test_case_0
+[*] Mutation score [3.36851 s]: 91.2%
+   - all: 34
+   - killed: 31 (91.2%)
+   - survived: 3 (8.8%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_158
+   - tests: test_problem_id_158
+[*] 0 tests passed:
+   - test_problem_id_158 [0.16856 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_158: [0.07707 s] survived
+   - [#   2] AOR problem_id_158: [0.09582 s] survived
+[*] Mutation score [0.37792 s]: 0.0%
+   - all: 2
+   - killed: 0 (0.0%)
+   - survived: 2 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_159
+   - tests: test_problem_id_159
+[*] 0 tests passed:
+   - test_problem_id_159 [0.16174 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_159: [0.09491 s] survived
+   - [#   2] AOR problem_id_159: [0.08497 s] survived
+   - [#   3] AOR problem_id_159: [0.09781 s] survived
+   - [#   4] COI problem_id_159: [0.07648 s] survived
+   - [#   5] ROR problem_id_159: [0.08525 s] survived
+   - [#   6] ROR problem_id_159: [0.09718 s] survived
+[*] Mutation score [0.75030 s]: 0.0%
+   - all: 6
+   - killed: 0 (0.0%)
+   - survived: 6 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_15
+   - tests: test_problem_id_15
+[*] 1 tests passed:
+   - test_problem_id_15 [0.14126 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_15: [0.10860 s] killed by test_problem_id_15.py::test_case_0
+[*] Mutation score [0.28155 s]: 100.0%
+   - all: 1
+   - killed: 1 (100.0%)
+   - survived: 0 (0.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_160
+   - tests: test_problem_id_160
+[*] 0 tests passed:
+   - test_problem_id_160 [0.16456 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_160: [0.07819 s] survived
+   - [#   2] ASR problem_id_160: [0.08004 s] survived
+   - [#   3] SIR problem_id_160: [0.07831 s] survived
+[*] Mutation score [0.44719 s]: 0.0%
+   - all: 3
+   - killed: 0 (0.0%)
+   - survived: 3 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_161
+   - tests: test_problem_id_161
+[*] 1 tests passed:
+   - test_problem_id_161 [0.16672 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_161: [0.09292 s] survived
+   - [#   2] AOR problem_id_161: [0.08082 s] survived
+   - [#   3] ASR problem_id_161: [0.09369 s] killed by test_problem_id_161.py::test_case_0
+   - [#   4] ASR problem_id_161: [0.07799 s] incompetent
+   - [#   5] COI problem_id_161: [0.10417 s] killed by test_problem_id_161.py::test_case_0
+   - [#   6] COI problem_id_161: [0.07575 s] killed by test_problem_id_161.py::test_case_0
+   - [#   7] ROR problem_id_161: [0.09034 s] killed by test_problem_id_161.py::test_case_0
+   - [#   8] SIR problem_id_161: [0.09365 s] survived
+   - [#   9] SIR problem_id_161: [0.08338 s] survived
+[*] Mutation score [1.05999 s]: 50.0%
+   - all: 9
+   - killed: 4 (44.4%)
+   - survived: 4 (44.4%)
+   - incompetent: 1 (11.1%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_162
+   - tests: test_problem_id_162
+[*] 1 tests passed:
+   - test_problem_id_162 [0.16197 s]
+[*] Start mutants generation and execution:
+[*] Mutation score [0.17436 s]: 0.0%
+   - all: 0
+[*] Start mutation process:
+   - targets: problem_id_163
+   - tests: test_problem_id_163
+[*] 1 tests passed:
+   - test_problem_id_163 [0.16600 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_163: [0.09265 s] survived
+   - [#   2] AOR problem_id_163: [0.09774 s] survived
+   - [#   3] ROR problem_id_163: [0.09443 s] survived
+[*] Mutation score [0.50646 s]: 0.0%
+   - all: 3
+   - killed: 0 (0.0%)
+   - survived: 3 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_16
+   - tests: test_problem_id_16
+[*] Tests failed:
+   - fail in test_problem_id_16.py::test_case_0 - AttributeError: 'bool' object has no attribute 'lower'
+[*] Start mutation process:
+   - targets: problem_id_17
+   - tests: test_problem_id_17
+[*] 0 tests passed:
+   - test_problem_id_17 [0.16422 s]
+[*] Start mutants generation and execution:
+[*] Mutation score [0.18228 s]: 0.0%
+   - all: 0
+[*] Start mutation process:
+   - targets: problem_id_18
+   - tests: test_problem_id_18
+[*] 2 tests passed:
+   - test_problem_id_18 [0.14781 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_18: [0.09058 s] survived
+   - [#   2] AOR problem_id_18: [0.11674 s] killed by test_problem_id_18.py::test_case_0
+   - [#   3] AOR problem_id_18: [0.10241 s] killed by test_problem_id_18.py::test_case_0
+   - [#   4] ASR problem_id_18: [0.10087 s] killed by test_problem_id_18.py::test_case_0
+   - [#   5] COI problem_id_18: [0.11475 s] killed by test_problem_id_18.py::test_case_0
+   - [#   6] ROR problem_id_18: [0.09506 s] killed by test_problem_id_18.py::test_case_0
+   - [#   7] SIR problem_id_18: [0.08097 s] survived
+   - [#   8] SIR problem_id_18: [0.08773 s] survived
+[*] Mutation score [1.02264 s]: 62.5%
+   - all: 8
+   - killed: 5 (62.5%)
+   - survived: 3 (37.5%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_19
+   - tests: test_problem_id_19
+[*] 0 tests passed:
+   - test_problem_id_19 [0.16880 s]
+[*] Start mutants generation and execution:
+[*] Mutation score [0.19437 s]: 0.0%
+   - all: 0
+[*] Start mutation process:
+   - targets: problem_id_1
+   - tests: test_problem_id_1
+[*] 2 tests passed:
+   - test_problem_id_1 [0.20661 s]
+[*] Start mutants generation and execution:
+   - [#   1] ASR problem_id_1: [0.09053 s] survived
+   - [#   2] ASR problem_id_1: [0.10432 s] survived
+   - [#   3] COI problem_id_1: [0.09957 s] survived
+   - [#   4] COI problem_id_1: [0.08901 s] survived
+   - [#   5] COI problem_id_1: [0.10193 s] survived
+   - [#   6] ROR problem_id_1: [0.11787 s] survived
+   - [#   7] ROR problem_id_1: [0.09131 s] survived
+   - [#   8] ROR problem_id_1: [0.08098 s] survived
+[*] Mutation score [1.05704 s]: 0.0%
+   - all: 8
+   - killed: 0 (0.0%)
+   - survived: 8 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_20
+   - tests: test_problem_id_20
+[*] 2 tests passed:
+   - test_problem_id_20 [0.16768 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_20: [0.08522 s] survived
+   - [#   2] AOR problem_id_20: [0.09401 s] survived
+   - [#   3] COI problem_id_20: [0.08905 s] survived
+   - [#   4] COI problem_id_20: [0.07710 s] incompetent
+   - [#   5] COI problem_id_20: [0.08044 s] survived
+   - [#   6] ROR problem_id_20: [0.09988 s] survived
+   - [#   7] ROR problem_id_20: [0.09400 s] survived
+   - [#   8] ROR problem_id_20: [0.08798 s] survived
+[*] Mutation score [0.99802 s]: 0.0%
+   - all: 8
+   - killed: 0 (0.0%)
+   - survived: 7 (87.5%)
+   - incompetent: 1 (12.5%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_21
+   - tests: test_problem_id_21
+[*] 1 tests passed:
+   - test_problem_id_21 [0.17861 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_21: [0.09400 s] survived
+   - [#   2] AOR problem_id_21: [0.08405 s] survived
+   - [#   3] AOR problem_id_21: [0.07813 s] survived
+   - [#   4] AOR problem_id_21: [0.09338 s] survived
+[*] Mutation score [0.57891 s]: 0.0%
+   - all: 4
+   - killed: 0 (0.0%)
+   - survived: 4 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_22
+   - tests: test_problem_id_22
+[*] Tests failed:
+   - /HDD18TB/wannita/active_repo/pyRL/text-to-testcase/pynguin/revision2/humaneval_test_3/./test_problem_id_22.py:16: TypeError: object() argument after ** must be a mapping, not float
+[*] Start mutation process:
+   - targets: problem_id_23
+   - tests: test_problem_id_23
+[*] 1 tests passed:
+   - test_problem_id_23 [0.14183 s]
+[*] Start mutants generation and execution:
+[*] Mutation score [0.15019 s]: 0.0%
+   - all: 0
+[*] Start mutation process:
+   - targets: problem_id_24
+   - tests: test_problem_id_24
+[*] 2 tests passed:
+   - test_problem_id_24 [0.16369 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_24: [0.08767 s] killed by test_problem_id_24.py::test_case_0
+   - [#   2] COI problem_id_24: [0.09287 s] killed by test_problem_id_24.py::test_case_0
+   - [#   3] ROR problem_id_24: [0.08040 s] killed by test_problem_id_24.py::test_case_0
+[*] Mutation score [0.47016 s]: 100.0%
+   - all: 3
+   - killed: 3 (100.0%)
+   - survived: 0 (0.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_25
+   - tests: test_problem_id_25
+[*] 1 tests passed:
+   - test_problem_id_25 [0.16917 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_25: [0.09817 s] survived
+   - [#   2] AOR problem_id_25: [0.09634 s] survived
+   - [#   3] ASR problem_id_25: [0.08680 s] survived
+   - [#   4] ASR problem_id_25: [0.09029 s] survived
+   - [#   5] ASR problem_id_25: [5.00975 s] timeout
+   - [#   6] COI problem_id_25: [5.00823 s] timeout
+   - [#   7] COI problem_id_25: [0.09481 s] survived
+   - [#   8] COI problem_id_25: [0.08138 s] survived
+   - [#   9] ROR problem_id_25: [5.00728 s] timeout
+   - [#  10] ROR problem_id_25: [0.09761 s] survived
+   - [#  11] ROR problem_id_25: [0.08241 s] survived
+   - [#  12] ROR problem_id_25: [0.09855 s] survived
+   - [#  13] ROR problem_id_25: [0.08119 s] survived
+[*] Mutation score [16.21584 s]: 23.1%
+   - all: 13
+   - killed: 0 (0.0%)
+   - survived: 10 (76.9%)
+   - incompetent: 0 (0.0%)
+   - timeout: 3 (23.1%)
+[*] Start mutation process:
+   - targets: problem_id_26
+   - tests: test_problem_id_26
+[*] 2 tests passed:
+   - test_problem_id_26 [0.13931 s]
+[*] Start mutants generation and execution:
+   - [#   1] ROR problem_id_26: [0.09028 s] survived
+   - [#   2] ROR problem_id_26: [0.09114 s] survived
+[*] Mutation score [0.35303 s]: 0.0%
+   - all: 2
+   - killed: 0 (0.0%)
+   - survived: 2 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_27
+   - tests: test_problem_id_27
+[*] 1 tests passed:
+   - test_problem_id_27 [0.13874 s]
+[*] Start mutants generation and execution:
+[*] Mutation score [0.14688 s]: 0.0%
+   - all: 0
+[*] Start mutation process:
+   - targets: problem_id_28
+   - tests: test_problem_id_28
+[*] 0 tests passed:
+   - test_problem_id_28 [0.15970 s]
+[*] Start mutants generation and execution:
+[*] Mutation score [0.17050 s]: 0.0%
+   - all: 0
+[*] Start mutation process:
+   - targets: problem_id_29
+   - tests: test_problem_id_29
+[*] Tests failed:
+   - /HDD18TB/wannita/active_repo/pyRL/text-to-testcase/pynguin/revision2/humaneval_test_3/./problem_id_29.py:11: TypeError: startswith first arg must be bytes or a tuple of bytes, not str
+[*] Start mutation process:
+   - targets: problem_id_2
+   - tests: test_problem_id_2
+[*] 1 tests passed:
+   - test_problem_id_2 [0.13679 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_2: [0.10971 s] killed by test_problem_id_2.py::test_case_0
+[*] Mutation score [0.26842 s]: 100.0%
+   - all: 1
+   - killed: 1 (100.0%)
+   - survived: 0 (0.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_30
+   - tests: test_problem_id_30
+[*] 2 tests passed:
+   - test_problem_id_30 [0.14494 s]
+[*] Start mutants generation and execution:
+   - [#   1] ROR problem_id_30: [0.07216 s] survived
+   - [#   2] ROR problem_id_30: [0.08041 s] survived
+[*] Mutation score [0.31633 s]: 0.0%
+   - all: 2
+   - killed: 0 (0.0%)
+   - survived: 2 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_31
+   - tests: test_problem_id_31
+[*] 2 tests passed:
+   - test_problem_id_31 [0.16230 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_31: [0.09211 s] survived
+   - [#   2] AOR problem_id_31: [0.09314 s] killed by test_problem_id_31.py::test_case_2
+   - [#   3] COI problem_id_31: [0.09200 s] killed by test_problem_id_31.py::test_case_0
+   - [#   4] COI problem_id_31: [0.09877 s] survived
+   - [#   5] ROR problem_id_31: [0.09303 s] killed by test_problem_id_31.py::test_case_0
+   - [#   6] ROR problem_id_31: [0.08151 s] survived
+   - [#   7] ROR problem_id_31: [0.07771 s] survived
+[*] Mutation score [0.84301 s]: 42.9%
+   - all: 7
+   - killed: 3 (42.9%)
+   - survived: 4 (57.1%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_32
+   - tests: test_problem_id_32
+[*] Can't load module: test_problem_id_32 (ModuleNotFoundError: No module named 'test_problem_id_32')
+[*] Start mutation process:
+   - targets: problem_id_33
+   - tests: test_problem_id_33
+[*] 0 tests passed:
+   - test_problem_id_33 [0.16200 s]
+[*] Start mutants generation and execution:
+   - [#   1] SIR problem_id_33: [0.09247 s] survived
+   - [#   2] SIR problem_id_33: [0.08167 s] survived
+[*] Mutation score [0.35543 s]: 0.0%
+   - all: 2
+   - killed: 0 (0.0%)
+   - survived: 2 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_34
+   - tests: test_problem_id_34
+[*] 1 tests passed:
+   - test_problem_id_34 [0.14321 s]
+[*] Start mutants generation and execution:
+[*] Mutation score [0.15277 s]: 0.0%
+   - all: 0
+[*] Start mutation process:
+   - targets: problem_id_35
+   - tests: test_problem_id_35
+[*] 1 tests passed:
+   - test_problem_id_35 [0.16144 s]
+[*] Start mutants generation and execution:
+   - [#   1] COI problem_id_35: [0.08716 s] survived
+   - [#   2] ROR problem_id_35: [0.08779 s] survived
+   - [#   3] ROR problem_id_35: [0.07540 s] survived
+[*] Mutation score [0.44939 s]: 0.0%
+   - all: 3
+   - killed: 0 (0.0%)
+   - survived: 3 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_36
+   - tests: test_problem_id_36
+[*] 2 tests passed:
+   - test_problem_id_36 [0.16406 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_36: [0.10069 s] killed by test_problem_id_36.py::test_case_2
+   - [#   2] AOR problem_id_36: [0.09744 s] killed by test_problem_id_36.py::test_case_2
+   - [#   3] ASR problem_id_36: [0.08038 s] killed by test_problem_id_36.py::test_case_2
+   - [#   4] COI problem_id_36: [0.08473 s] killed by test_problem_id_36.py::test_case_2
+   - [#   5] LCR problem_id_36: [0.09114 s] killed by test_problem_id_36.py::test_case_2
+   - [#   6] ROR problem_id_36: [0.08105 s] killed by test_problem_id_36.py::test_case_2
+   - [#   7] ROR problem_id_36: [0.09430 s] killed by test_problem_id_36.py::test_case_2
+   - [#   8] ROR problem_id_36: [0.09296 s] killed by test_problem_id_36.py::test_case_0
+[*] Mutation score [0.97660 s]: 100.0%
+   - all: 8
+   - killed: 8 (100.0%)
+   - survived: 0 (0.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_37
+   - tests: test_problem_id_37
+[*] 1 tests passed:
+   - test_problem_id_37 [0.15757 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_37: [0.09252 s] survived
+   - [#   2] AOR problem_id_37: [0.07660 s] survived
+   - [#   3] COI problem_id_37: [0.08637 s] survived
+   - [#   4] ROR problem_id_37: [0.09338 s] survived
+   - [#   5] ROR problem_id_37: [0.09204 s] survived
+   - [#   6] SIR problem_id_37: [0.09147 s] survived
+   - [#   7] SIR problem_id_37: [0.09191 s] survived
+   - [#   8] SIR problem_id_37: [0.07578 s] survived
+[*] Mutation score [0.95639 s]: 0.0%
+   - all: 8
+   - killed: 0 (0.0%)
+   - survived: 8 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_38
+   - tests: test_problem_id_38
+[*] 1 tests passed:
+   - test_problem_id_38 [0.13686 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_38: [0.13075 s] killed by test_problem_id_38.py::test_case_0
+   - [#   2] AOR problem_id_38: [0.11231 s] killed by test_problem_id_38.py::test_case_0
+   - [#   3] AOR problem_id_38: [0.11090 s] killed by test_problem_id_38.py::test_case_0
+   - [#   4] AOR problem_id_38: [0.11567 s] killed by test_problem_id_38.py::test_case_0
+   - [#   5] AOR problem_id_38: [0.11264 s] killed by test_problem_id_38.py::test_case_0
+   - [#   6] AOR problem_id_38: [0.09905 s] killed by test_problem_id_38.py::test_case_0
+   - [#   7] AOR problem_id_38: [0.10919 s] killed by test_problem_id_38.py::test_case_0
+   - [#   8] AOR problem_id_38: [0.10850 s] killed by test_problem_id_38.py::test_case_0
+   - [#   9] AOR problem_id_38: [0.10422 s] incompetent
+   - [#  10] AOR problem_id_38: [0.07363 s] survived
+   - [#  11] AOR problem_id_38: [0.10917 s] incompetent
+   - [#  12] ROR problem_id_38: [0.09770 s] killed by test_problem_id_38.py::test_case_0
+   - [#  13] SIR problem_id_38: [0.11268 s] killed by test_problem_id_38.py::test_case_0
+   - [#  14] SIR problem_id_38: [0.09398 s] killed by test_problem_id_38.py::test_case_0
+   - [#  15] SIR problem_id_38: [0.11389 s] killed by test_problem_id_38.py::test_case_0
+[*] Mutation score [1.85624 s]: 92.3%
+   - all: 15
+   - killed: 12 (80.0%)
+   - survived: 1 (6.7%)
+   - incompetent: 2 (13.3%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_39
+   - tests: test_problem_id_39
+[*] Can't load module: test_problem_id_39 (ModuleNotFoundError: No module named 'test_problem_id_39')
+[*] Start mutation process:
+   - targets: problem_id_3
+   - tests: test_problem_id_3
+[*] 3 tests passed:
+   - test_problem_id_3 [0.13785 s]
+[*] Start mutants generation and execution:
+   - [#   1] ASR problem_id_3: [0.10548 s] killed by test_problem_id_3.py::test_case_0
+   - [#   2] COI problem_id_3: [0.11144 s] killed by test_problem_id_3.py::test_case_0
+   - [#   3] ROR problem_id_3: [0.10928 s] killed by test_problem_id_3.py::test_case_0
+   - [#   4] ROR problem_id_3: [0.11452 s] killed by test_problem_id_3.py::test_case_0
+[*] Mutation score [0.63049 s]: 100.0%
+   - all: 4
+   - killed: 4 (100.0%)
+   - survived: 0 (0.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_40
+   - tests: test_problem_id_40
+[*] 1 tests passed:
+   - test_problem_id_40 [0.15914 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_40: [0.09356 s] survived
+   - [#   2] AOR problem_id_40: [0.09328 s] survived
+   - [#   3] AOR problem_id_40: [0.07760 s] incompetent
+   - [#   4] AOR problem_id_40: [0.09333 s] incompetent
+   - [#   5] COI problem_id_40: [0.09354 s] killed by test_problem_id_40.py::test_case_0
+   - [#   6] ROR problem_id_40: [0.07776 s] killed by test_problem_id_40.py::test_case_0
+[*] Mutation score [0.76828 s]: 50.0%
+   - all: 6
+   - killed: 2 (33.3%)
+   - survived: 2 (33.3%)
+   - incompetent: 2 (33.3%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_41
+   - tests: test_problem_id_41
+[*] 1 tests passed:
+   - test_problem_id_41 [0.13769 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_41: [0.09977 s] killed by test_problem_id_41.py::test_case_0
+[*] Mutation score [0.25563 s]: 100.0%
+   - all: 1
+   - killed: 1 (100.0%)
+   - survived: 0 (0.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_42
+   - tests: test_problem_id_42
+[*] 1 tests passed:
+   - test_problem_id_42 [0.15673 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_42: [0.09254 s] survived
+[*] Mutation score [0.27358 s]: 0.0%
+   - all: 1
+   - killed: 0 (0.0%)
+   - survived: 1 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_43
+   - tests: test_problem_id_43
+[*] 1 tests passed:
+   - test_problem_id_43 [0.16786 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_43: [0.09306 s] survived
+   - [#   2] AOR problem_id_43: [0.09532 s] survived
+   - [#   3] COI problem_id_43: [0.09523 s] killed by test_problem_id_43.py::test_case_0
+   - [#   4] ROR problem_id_43: [0.09243 s] killed by test_problem_id_43.py::test_case_0
+[*] Mutation score [0.60651 s]: 50.0%
+   - all: 4
+   - killed: 2 (50.0%)
+   - survived: 2 (50.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_44
+   - tests: test_problem_id_44
+[*] 2 tests passed:
+   - test_problem_id_44 [0.16043 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_44: [0.08479 s] killed by test_problem_id_44.py::test_case_0
+   - [#   2] AOR problem_id_44: [0.09155 s] incompetent
+   - [#   3] ASR problem_id_44: [0.08848 s] killed by test_problem_id_44.py::test_case_0
+   - [#   4] ASR problem_id_44: [5.00701 s] timeout
+   - [#   5] COI problem_id_44: [0.08136 s] killed by test_problem_id_44.py::test_case_0
+   - [#   6] ROR problem_id_44: [0.09371 s] killed by test_problem_id_44.py::test_case_0
+   - [#   7] ROR problem_id_44: [5.00945 s] timeout
+[*] Mutation score [10.68305 s]: 100.0%
+   - all: 7
+   - killed: 4 (57.1%)
+   - survived: 0 (0.0%)
+   - incompetent: 1 (14.3%)
+   - timeout: 2 (28.6%)
+[*] Start mutation process:
+   - targets: problem_id_45
+   - tests: test_problem_id_45
+[*] 1 tests passed:
+   - test_problem_id_45 [0.14666 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_45: [0.07952 s] survived
+   - [#   2] AOR problem_id_45: [0.08777 s] survived
+   - [#   3] AOR problem_id_45: [0.09167 s] survived
+   - [#   4] AOR problem_id_45: [0.09443 s] killed by test_problem_id_45.py::test_case_0
+   - [#   5] AOR problem_id_45: [0.09404 s] killed by test_problem_id_45.py::test_case_0
+[*] Mutation score [0.62550 s]: 40.0%
+   - all: 5
+   - killed: 2 (40.0%)
+   - survived: 3 (60.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_46
+   - tests: test_problem_id_46
+[*] 2 tests passed:
+   - test_problem_id_46 [0.14333 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_46: [0.11034 s] killed by test_problem_id_46.py::test_case_1
+   - [#   2] AOD problem_id_46: [0.07738 s] survived
+   - [#   3] AOD problem_id_46: [0.11262 s] killed by test_problem_id_46.py::test_case_1
+   - [#   4] AOD problem_id_46: [0.09516 s] killed by test_problem_id_46.py::test_case_1
+   - [#   5] AOD problem_id_46: [0.09462 s] killed by test_problem_id_46.py::test_case_1
+   - [#   6] AOR problem_id_46: [0.09377 s] killed by test_problem_id_46.py::test_case_1
+   - [#   7] AOR problem_id_46: [0.09546 s] killed by test_problem_id_46.py::test_case_1
+   - [#   8] AOR problem_id_46: [0.11293 s] killed by test_problem_id_46.py::test_case_1
+   - [#   9] AOR problem_id_46: [0.08449 s] survived
+   - [#  10] AOR problem_id_46: [0.11235 s] killed by test_problem_id_46.py::test_case_1
+   - [#  11] AOR problem_id_46: [0.10977 s] killed by test_problem_id_46.py::test_case_1
+   - [#  12] AOR problem_id_46: [0.11020 s] killed by test_problem_id_46.py::test_case_1
+   - [#  13] AOR problem_id_46: [0.11387 s] killed by test_problem_id_46.py::test_case_1
+   - [#  14] AOR problem_id_46: [0.11051 s] killed by test_problem_id_46.py::test_case_1
+   - [#  15] COI problem_id_46: [0.10878 s] killed by test_problem_id_46.py::test_case_1
+   - [#  16] ROR problem_id_46: [0.10296 s] killed by test_problem_id_46.py::test_case_1
+   - [#  17] ROR problem_id_46: [0.07293 s] survived
+[*] Mutation score [1.98579 s]: 82.4%
+   - all: 17
+   - killed: 14 (82.4%)
+   - survived: 3 (17.6%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_47
+   - tests: test_problem_id_47
+[*] 1 tests passed:
+   - test_problem_id_47 [0.17006 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_47: [0.09229 s] incompetent
+   - [#   2] AOR problem_id_47: [0.09662 s] incompetent
+   - [#   3] AOR problem_id_47: [0.09250 s] killed by test_problem_id_47.py::test_case_0
+   - [#   4] AOR problem_id_47: [0.09646 s] survived
+   - [#   5] AOR problem_id_47: [0.08022 s] survived
+   - [#   6] AOR problem_id_47: [0.07861 s] survived
+   - [#   7] AOR problem_id_47: [0.09229 s] survived
+   - [#   8] AOR problem_id_47: [0.10293 s] survived
+   - [#   9] AOR problem_id_47: [0.07751 s] survived
+   - [#  10] AOR problem_id_47: [0.09508 s] survived
+   - [#  11] AOR problem_id_47: [0.10376 s] survived
+   - [#  12] COI problem_id_47: [0.08114 s] incompetent
+   - [#  13] ROR problem_id_47: [0.09017 s] incompetent
+[*] Mutation score [1.44773 s]: 11.1%
+   - all: 13
+   - killed: 1 (7.7%)
+   - survived: 8 (61.5%)
+   - incompetent: 4 (30.8%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_48
+   - tests: test_problem_id_48
+[*] 2 tests passed:
+   - test_problem_id_48 [0.14375 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_48: [0.11177 s] killed by test_problem_id_48.py::test_case_0
+   - [#   2] AOR problem_id_48: [0.09021 s] survived
+   - [#   3] COI problem_id_48: [0.11065 s] killed by test_problem_id_48.py::test_case_1
+   - [#   4] ROR problem_id_48: [0.09720 s] killed by test_problem_id_48.py::test_case_1
+[*] Mutation score [0.61166 s]: 75.0%
+   - all: 4
+   - killed: 3 (75.0%)
+   - survived: 1 (25.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_49
+   - tests: test_problem_id_49
+[*] 1 tests passed:
+   - test_problem_id_49 [0.16731 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_49: [0.09049 s] survived
+   - [#   2] AOR problem_id_49: [0.09695 s] survived
+   - [#   3] AOR problem_id_49: [0.10419 s] survived
+   - [#   4] AOR problem_id_49: [0.07402 s] survived
+[*] Mutation score [0.57461 s]: 0.0%
+   - all: 4
+   - killed: 0 (0.0%)
+   - survived: 4 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_4
+   - tests: test_problem_id_4
+[*] 1 tests passed:
+   - test_problem_id_4 [0.16295 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_4: [0.09454 s] survived
+   - [#   2] AOR problem_id_4: [0.07643 s] killed by test_problem_id_4.py::test_case_0
+   - [#   3] AOR problem_id_4: [0.07966 s] killed by test_problem_id_4.py::test_case_0
+   - [#   4] AOR problem_id_4: [0.07914 s] survived
+   - [#   5] AOR problem_id_4: [0.09424 s] survived
+[*] Mutation score [0.64091 s]: 40.0%
+   - all: 5
+   - killed: 2 (40.0%)
+   - survived: 3 (60.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_50
+   - tests: test_problem_id_50
+[*] 1 tests passed:
+   - test_problem_id_50 [0.17402 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_50: [0.07928 s] killed by test_problem_id_50.py::test_case_1
+   - [#   2] AOR problem_id_50: [0.09855 s] killed by test_problem_id_50.py::test_case_1
+   - [#   3] AOR problem_id_50: [0.07829 s] killed by test_problem_id_50.py::test_case_1
+   - [#   4] AOR problem_id_50: [0.09572 s] killed by test_problem_id_50.py::test_case_1
+   - [#   5] AOR problem_id_50: [0.08926 s] killed by test_problem_id_50.py::test_case_1
+   - [#   6] AOR problem_id_50: [0.09590 s] killed by test_problem_id_50.py::test_case_1
+   - [#   7] AOR problem_id_50: [0.09436 s] killed by test_problem_id_50.py::test_case_1
+   - [#   8] AOR problem_id_50: [0.09216 s] killed by test_problem_id_50.py::test_case_1
+[*] Mutation score [0.96831 s]: 100.0%
+   - all: 8
+   - killed: 8 (100.0%)
+   - survived: 0 (0.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_51
+   - tests: test_problem_id_51
+[*] 0 tests passed:
+   - test_problem_id_51 [0.16890 s]
+[*] Start mutants generation and execution:
+   - [#   1] COD problem_id_51: [0.09292 s] survived
+[*] Mutation score [0.28793 s]: 0.0%
+   - all: 1
+   - killed: 0 (0.0%)
+   - survived: 1 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_52
+   - tests: test_problem_id_52
+[*] 1 tests passed:
+   - test_problem_id_52 [0.16955 s]
+[*] Start mutants generation and execution:
+   - [#   1] COI problem_id_52: [0.07927 s] killed by test_problem_id_52.py::test_case_0
+   - [#   2] ROR problem_id_52: [0.08588 s] survived
+   - [#   3] ROR problem_id_52: [0.07633 s] killed by test_problem_id_52.py::test_case_0
+[*] Mutation score [0.43513 s]: 66.7%
+   - all: 3
+   - killed: 2 (66.7%)
+   - survived: 1 (33.3%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_53
+   - tests: test_problem_id_53
+[*] 1 tests passed:
+   - test_problem_id_53 [0.14644 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_53: [0.12496 s] killed by test_problem_id_53.py::test_case_0
+[*] Mutation score [0.28193 s]: 100.0%
+   - all: 1
+   - killed: 1 (100.0%)
+   - survived: 0 (0.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_54
+   - tests: test_problem_id_54
+[*] 1 tests passed:
+   - test_problem_id_54 [0.13987 s]
+[*] Start mutants generation and execution:
+   - [#   1] ROR problem_id_54: [0.10920 s] killed by test_problem_id_54.py::test_case_0
+[*] Mutation score [0.26630 s]: 100.0%
+   - all: 1
+   - killed: 1 (100.0%)
+   - survived: 0 (0.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_55
+   - tests: test_problem_id_55
+[*] 0 tests passed:
+   - test_problem_id_55 [0.17259 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_55: [0.08102 s] survived
+   - [#   2] AOR problem_id_55: [0.08245 s] survived
+   - [#   3] AOR problem_id_55: [0.08036 s] survived
+   - [#   4] COI problem_id_55: [0.09545 s] survived
+   - [#   5] COI problem_id_55: [0.07827 s] survived
+   - [#   6] ROR problem_id_55: [0.09234 s] survived
+   - [#   7] ROR problem_id_55: [0.07624 s] survived
+[*] Mutation score [0.82051 s]: 0.0%
+   - all: 7
+   - killed: 0 (0.0%)
+   - survived: 7 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_56
+   - tests: test_problem_id_56
+[*] 3 tests passed:
+   - test_problem_id_56 [0.16472 s]
+[*] Start mutants generation and execution:
+   - [#   1] ASR problem_id_56: [0.09489 s] survived
+   - [#   2] ASR problem_id_56: [0.09506 s] survived
+   - [#   3] COI problem_id_56: [0.09539 s] survived
+   - [#   4] COI problem_id_56: [0.09186 s] survived
+   - [#   5] ROR problem_id_56: [0.10243 s] survived
+   - [#   6] ROR problem_id_56: [0.09002 s] survived
+   - [#   7] ROR problem_id_56: [0.09423 s] survived
+   - [#   8] ROR problem_id_56: [0.07745 s] killed by test_problem_id_56.py::test_case_1
+[*] Mutation score [0.97315 s]: 12.5%
+   - all: 8
+   - killed: 1 (12.5%)
+   - survived: 7 (87.5%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_57
+   - tests: test_problem_id_57
+[*] 2 tests passed:
+   - test_problem_id_57 [0.16717 s]
+[*] Start mutants generation and execution:
+   - [#   1] COI problem_id_57: [0.09129 s] killed by test_problem_id_57.py::test_case_0
+   - [#   2] LCR problem_id_57: [0.08229 s] survived
+   - [#   3] ROR problem_id_57: [0.09109 s] killed by test_problem_id_57.py::test_case_0
+   - [#   4] ROR problem_id_57: [0.08676 s] killed by test_problem_id_57.py::test_case_0
+[*] Mutation score [0.56309 s]: 75.0%
+   - all: 4
+   - killed: 3 (75.0%)
+   - survived: 1 (25.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_58
+   - tests: test_problem_id_58
+[*] 2 tests passed:
+   - test_problem_id_58 [0.16544 s]
+[*] Start mutants generation and execution:
+   - [#   1] COI problem_id_58: [0.09180 s] survived
+   - [#   2] ROR problem_id_58: [0.09579 s] survived
+[*] Mutation score [0.40265 s]: 0.0%
+   - all: 2
+   - killed: 0 (0.0%)
+   - survived: 2 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_59
+   - tests: test_problem_id_59
+[*] Can't load module: test_problem_id_59 (ModuleNotFoundError: No module named 'test_problem_id_59')
+[*] Start mutation process:
+   - targets: problem_id_5
+   - tests: test_problem_id_5
+[*] 3 tests passed:
+   - test_problem_id_5 [0.16528 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_5: [0.08729 s] survived
+   - [#   2] AOD problem_id_5: [0.10341 s] killed by test_problem_id_5.py::test_case_0
+   - [#   3] AOR problem_id_5: [0.08775 s] survived
+   - [#   4] AOR problem_id_5: [0.10266 s] killed by test_problem_id_5.py::test_case_0
+   - [#   5] COD problem_id_5: [0.10211 s] incompetent
+   - [#   6] COI problem_id_5: [0.09903 s] incompetent
+   - [#   7] SIR problem_id_5: [0.08366 s] survived
+[*] Mutation score [0.91172 s]: 40.0%
+   - all: 7
+   - killed: 2 (28.6%)
+   - survived: 3 (42.9%)
+   - incompetent: 2 (28.6%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_60
+   - tests: test_problem_id_60
+[*] Can't load module: test_problem_id_60 (ModuleNotFoundError: No module named 'test_problem_id_60')
+[*] Start mutation process:
+   - targets: problem_id_61
+   - tests: test_problem_id_61
+[*] 1 tests passed:
+   - test_problem_id_61 [0.16519 s]
+[*] Start mutants generation and execution:
+   - [#   1] ASR problem_id_61: [0.08596 s] survived
+   - [#   2] ASR problem_id_61: [0.07810 s] survived
+   - [#   3] COI problem_id_61: [0.09355 s] survived
+   - [#   4] COI problem_id_61: [0.09639 s] survived
+   - [#   5] ROR problem_id_61: [0.08283 s] survived
+   - [#   6] ROR problem_id_61: [0.09409 s] survived
+   - [#   7] ROR problem_id_61: [0.09615 s] survived
+   - [#   8] ROR problem_id_61: [0.07599 s] survived
+[*] Mutation score [0.93460 s]: 0.0%
+   - all: 8
+   - killed: 0 (0.0%)
+   - survived: 8 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_62
+   - tests: test_problem_id_62
+[*] 1 tests passed:
+   - test_problem_id_62 [0.14053 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_62: [0.11323 s] killed by test_problem_id_62.py::test_case_0
+   - [#   2] AOR problem_id_62: [0.12115 s] killed by test_problem_id_62.py::test_case_0
+   - [#   3] AOR problem_id_62: [0.11041 s] survived
+   - [#   4] SIR problem_id_62: [0.08805 s] survived
+[*] Mutation score [0.59671 s]: 50.0%
+   - all: 4
+   - killed: 2 (50.0%)
+   - survived: 2 (50.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_63
+   - tests: test_problem_id_63
+[*] 1 tests passed:
+   - test_problem_id_63 [0.36446 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_63: [0.30596 s] survived
+   - [#   2] AOR problem_id_63: [0.28828 s] survived
+   - [#   3] AOR problem_id_63: [0.28538 s] survived
+   - [#   4] AOR problem_id_63: [0.28353 s] survived
+   - [#   5] AOR problem_id_63: [0.28305 s] survived
+   - [#   6] COI problem_id_63: [0.09509 s] survived
+   - [#   7] COI problem_id_63: [0.07781 s] survived
+   - [#   8] COI problem_id_63: [0.08561 s] survived
+   - [#   9] ROR problem_id_63: [0.08238 s] survived
+   - [#  10] ROR problem_id_63: [0.07615 s] survived
+   - [#  11] ROR problem_id_63: [0.07638 s] survived
+[*] Mutation score [2.38853 s]: 0.0%
+   - all: 11
+   - killed: 0 (0.0%)
+   - survived: 11 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_64
+   - tests: test_problem_id_64
+[*] 1 tests passed:
+   - test_problem_id_64 [0.16267 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_64: [0.08607 s] survived
+   - [#   2] AOD problem_id_64: [0.09135 s] survived
+   - [#   3] AOR problem_id_64: [0.09602 s] survived
+   - [#   4] AOR problem_id_64: [0.10114 s] survived
+   - [#   5] ASR problem_id_64: [0.09181 s] survived
+   - [#   6] COI problem_id_64: [0.09303 s] killed by test_problem_id_64.py::test_case_0
+   - [#   7] COI problem_id_64: [0.09157 s] killed by test_problem_id_64.py::test_case_0
+   - [#   8] LCR problem_id_64: [0.09253 s] survived
+   - [#   9] ROR problem_id_64: [0.09230 s] killed by test_problem_id_64.py::test_case_0
+   - [#  10] ROR problem_id_64: [0.08271 s] killed by test_problem_id_64.py::test_case_0
+[*] Mutation score [1.17341 s]: 40.0%
+   - all: 10
+   - killed: 4 (40.0%)
+   - survived: 6 (60.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_65
+   - tests: test_problem_id_65
+[*] 1 tests passed:
+   - test_problem_id_65 [0.15960 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_65: [0.09290 s] killed by test_problem_id_65.py::test_case_0
+   - [#   2] AOR problem_id_65: [0.09461 s] killed by test_problem_id_65.py::test_case_0
+   - [#   3] AOR problem_id_65: [0.09374 s] survived
+   - [#   4] AOR problem_id_65: [0.07605 s] survived
+   - [#   5] AOR problem_id_65: [0.07386 s] survived
+   - [#   6] COI problem_id_65: [0.08197 s] killed by test_problem_id_65.py::test_case_0
+   - [#   7] ROR problem_id_65: [0.09375 s] killed by test_problem_id_65.py::test_case_0
+   - [#   8] ROR problem_id_65: [0.09385 s] survived
+   - [#   9] SIR problem_id_65: [0.09121 s] killed by test_problem_id_65.py::test_case_0
+   - [#  10] SIR problem_id_65: [0.09333 s] survived
+   - [#  11] SIR problem_id_65: [0.07968 s] survived
+[*] Mutation score [1.21582 s]: 45.5%
+   - all: 11
+   - killed: 5 (45.5%)
+   - survived: 6 (54.5%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_66
+   - tests: test_problem_id_66
+[*] 1 tests passed:
+   - test_problem_id_66 [0.16594 s]
+[*] Start mutants generation and execution:
+   - [#   1] COI problem_id_66: [0.09487 s] survived
+   - [#   2] ROR problem_id_66: [0.08776 s] survived
+[*] Mutation score [0.37737 s]: 0.0%
+   - all: 2
+   - killed: 0 (0.0%)
+   - survived: 2 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_67
+   - tests: test_problem_id_67
+[*] 0 tests passed:
+   - test_problem_id_67 [0.16435 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_67: [0.09464 s] survived
+   - [#   2] COI problem_id_67: [0.08067 s] survived
+[*] Mutation score [0.38311 s]: 0.0%
+   - all: 2
+   - killed: 0 (0.0%)
+   - survived: 2 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_68
+   - tests: test_problem_id_68
+[*] 1 tests passed:
+   - test_problem_id_68 [0.16948 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_68: [0.09561 s] survived
+   - [#   2] COI problem_id_68: [0.07856 s] survived
+   - [#   3] COI problem_id_68: [0.08229 s] survived
+   - [#   4] ROR problem_id_68: [0.09118 s] survived
+   - [#   5] ROR problem_id_68: [0.09853 s] survived
+   - [#   6] ROR problem_id_68: [0.09541 s] survived
+[*] Mutation score [0.79278 s]: 0.0%
+   - all: 6
+   - killed: 0 (0.0%)
+   - survived: 6 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_69
+   - tests: test_problem_id_69
+[*] 0 tests passed:
+   - test_problem_id_69 [0.16277 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_69: [0.09286 s] survived
+   - [#   2] AOR problem_id_69: [0.09863 s] survived
+   - [#   3] AOR problem_id_69: [0.10185 s] survived
+   - [#   4] AOR problem_id_69: [0.07849 s] survived
+   - [#   5] AOR problem_id_69: [0.09341 s] survived
+   - [#   6] AOR problem_id_69: [0.08180 s] survived
+   - [#   7] ASR problem_id_69: [0.08077 s] survived
+   - [#   8] COI problem_id_69: [0.09511 s] survived
+   - [#   9] ROR problem_id_69: [0.09449 s] survived
+   - [#  10] ROR problem_id_69: [0.09817 s] survived
+[*] Mutation score [1.17153 s]: 0.0%
+   - all: 10
+   - killed: 0 (0.0%)
+   - survived: 10 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_6
+   - tests: test_problem_id_6
+[*] 2 tests passed:
+   - test_problem_id_6 [0.16098 s]
+[*] Start mutants generation and execution:
+   - [#   1] ASR problem_id_6: [0.09315 s] survived
+   - [#   2] ASR problem_id_6: [0.08489 s] survived
+   - [#   3] COI problem_id_6: [0.09511 s] survived
+   - [#   4] ROR problem_id_6: [0.07786 s] survived
+[*] Mutation score [0.57761 s]: 0.0%
+   - all: 4
+   - killed: 0 (0.0%)
+   - survived: 4 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_70
+   - tests: test_problem_id_70
+[*] 2 tests passed:
+   - test_problem_id_70 [0.16690 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_70: [0.09524 s] killed by test_problem_id_70.py::test_case_2
+   - [#   2] AOR problem_id_70: [0.08258 s] killed by test_problem_id_70.py::test_case_2
+   - [#   3] COD problem_id_70: [0.11486 s] survived
+   - [#   4] COI problem_id_70: [0.09676 s] survived
+[*] Mutation score [0.62319 s]: 50.0%
+   - all: 4
+   - killed: 2 (50.0%)
+   - survived: 2 (50.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_71
+   - tests: test_problem_id_71
+[*] 3 tests passed:
+   - test_problem_id_71 [0.17420 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_71: [0.07490 s] killed by test_problem_id_71.py::test_case_0
+   - [#   2] AOR problem_id_71: [0.08780 s] survived
+   - [#   3] AOR problem_id_71: [0.08173 s] survived
+   - [#   4] AOR problem_id_71: [0.08483 s] survived
+   - [#   5] AOR problem_id_71: [0.09548 s] killed by test_problem_id_71.py::test_case_0
+   - [#   6] AOR problem_id_71: [0.08933 s] survived
+   - [#   7] AOR problem_id_71: [0.09792 s] survived
+   - [#   8] AOR problem_id_71: [0.09904 s] survived
+   - [#   9] AOR problem_id_71: [0.08140 s] survived
+   - [#  10] AOR problem_id_71: [0.08092 s] survived
+   - [#  11] AOR problem_id_71: [0.09613 s] survived
+   - [#  12] AOR problem_id_71: [0.09738 s] survived
+   - [#  13] AOR problem_id_71: [0.09816 s] survived
+   - [#  14] AOR problem_id_71: [0.09997 s] survived
+   - [#  15] AOR problem_id_71: [0.09861 s] survived
+   - [#  16] AOR problem_id_71: [0.08350 s] survived
+   - [#  17] AOR problem_id_71: [0.08193 s] survived
+   - [#  18] AOR problem_id_71: [0.07985 s] survived
+   - [#  19] AOR problem_id_71: [0.09866 s] survived
+   - [#  20] AOR problem_id_71: [0.10148 s] survived
+   - [#  21] AOR problem_id_71: [0.09784 s] survived
+   - [#  22] AOR problem_id_71: [0.07886 s] survived
+   - [#  23] COI problem_id_71: [0.09178 s] incompetent
+   - [#  24] LCR problem_id_71: [0.08599 s] incompetent
+   - [#  25] ROR problem_id_71: [0.07705 s] incompetent
+   - [#  26] ROR problem_id_71: [0.07836 s] survived
+   - [#  27] ROR problem_id_71: [0.09818 s] survived
+   - [#  28] ROR problem_id_71: [0.08058 s] survived
+   - [#  29] ROR problem_id_71: [0.09454 s] incompetent
+   - [#  30] ROR problem_id_71: [0.08869 s] survived
+[*] Mutation score [3.02645 s]: 7.7%
+   - all: 30
+   - killed: 2 (6.7%)
+   - survived: 24 (80.0%)
+   - incompetent: 4 (13.3%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_72
+   - tests: test_problem_id_72
+[*] 2 tests passed:
+   - test_problem_id_72 [0.17002 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_72: [0.09129 s] incompetent
+   - [#   2] ASR problem_id_72: [0.08578 s] survived
+   - [#   3] ASR problem_id_72: [0.08230 s] survived
+   - [#   4] COI problem_id_72: [0.09592 s] killed by test_problem_id_72.py::test_case_0
+   - [#   5] COI problem_id_72: [0.09576 s] incompetent
+   - [#   6] COI problem_id_72: [0.08903 s] survived
+   - [#   7] ROR problem_id_72: [0.09920 s] survived
+   - [#   8] ROR problem_id_72: [0.09194 s] killed by test_problem_id_72.py::test_case_0
+   - [#   9] ROR problem_id_72: [0.10501 s] survived
+   - [#  10] ROR problem_id_72: [0.09391 s] incompetent
+   - [#  11] ROR problem_id_72: [0.08924 s] survived
+[*] Mutation score [1.28167 s]: 25.0%
+   - all: 11
+   - killed: 2 (18.2%)
+   - survived: 6 (54.5%)
+   - incompetent: 3 (27.3%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_73
+   - tests: test_problem_id_73
+[*] 1 tests passed:
+   - test_problem_id_73 [0.16875 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_73: [0.09723 s] incompetent
+   - [#   2] AOR problem_id_73: [0.08278 s] incompetent
+   - [#   3] AOR problem_id_73: [0.08043 s] survived
+   - [#   4] AOR problem_id_73: [0.08083 s] survived
+   - [#   5] ASR problem_id_73: [0.10291 s] survived
+   - [#   6] COI problem_id_73: [0.07966 s] survived
+   - [#   7] ROR problem_id_73: [0.08526 s] survived
+[*] Mutation score [0.85342 s]: 0.0%
+   - all: 7
+   - killed: 0 (0.0%)
+   - survived: 5 (71.4%)
+   - incompetent: 2 (28.6%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_74
+   - tests: test_problem_id_74
+[*] 2 tests passed:
+   - test_problem_id_74 [0.16781 s]
+[*] Start mutants generation and execution:
+   - [#   1] ASR problem_id_74: [0.09268 s] survived
+   - [#   2] ASR problem_id_74: [0.09579 s] survived
+   - [#   3] COI problem_id_74: [0.08181 s] survived
+   - [#   4] ROR problem_id_74: [0.08130 s] survived
+   - [#   5] ROR problem_id_74: [0.07925 s] survived
+[*] Mutation score [0.66601 s]: 0.0%
+   - all: 5
+   - killed: 0 (0.0%)
+   - survived: 5 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_75
+   - tests: test_problem_id_75
+[*] Can't load module: test_problem_id_75 (ModuleNotFoundError: No module named 'test_problem_id_75')
+[*] Start mutation process:
+   - targets: problem_id_76
+   - tests: test_problem_id_76
+[*] 0 tests passed:
+   - test_problem_id_76 [0.17264 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_76: [5.00729 s] timeout
+   - [#   2] AOR problem_id_76: [5.00907 s] timeout
+   - [#   3] AOR problem_id_76: [5.00940 s] timeout
+   - [#   4] COI problem_id_76: [0.08177 s] survived
+   - [#   5] COI problem_id_76: [0.09437 s] survived
+   - [#   6] ROR problem_id_76: [0.08845 s] survived
+   - [#   7] ROR problem_id_76: [0.09661 s] survived
+   - [#   8] ROR problem_id_76: [0.09771 s] survived
+   - [#   9] ROR problem_id_76: [0.09839 s] survived
+   - [#  10] ROR problem_id_76: [0.07947 s] survived
+[*] Mutation score [15.89985 s]: 30.0%
+   - all: 10
+   - killed: 0 (0.0%)
+   - survived: 7 (70.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 3 (30.0%)
+[*] Start mutation process:
+   - targets: problem_id_77
+   - tests: test_problem_id_77
+[*] 1 tests passed:
+   - test_problem_id_77 [0.13771 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_77: [0.07965 s] survived
+   - [#   2] AOR problem_id_77: [0.09061 s] survived
+   - [#   3] AOR problem_id_77: [0.08561 s] survived
+   - [#   4] AOR problem_id_77: [0.08968 s] survived
+   - [#   5] ROR problem_id_77: [0.11009 s] killed by test_problem_id_77.py::test_case_0
+[*] Mutation score [0.63946 s]: 20.0%
+   - all: 5
+   - killed: 1 (20.0%)
+   - survived: 4 (80.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_78
+   - tests: test_problem_id_78
+[*] 2 tests passed:
+   - test_problem_id_78 [0.16665 s]
+[*] Start mutants generation and execution:
+   - [#   1] ASR problem_id_78: [0.09380 s] killed by test_problem_id_78.py::test_case_2
+   - [#   2] COI problem_id_78: [0.09390 s] killed by test_problem_id_78.py::test_case_2
+   - [#   3] COI problem_id_78: [0.09614 s] killed by test_problem_id_78.py::test_case_2
+[*] Mutation score [0.50107 s]: 100.0%
+   - all: 3
+   - killed: 3 (100.0%)
+   - survived: 0 (0.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_79
+   - tests: test_problem_id_79
+[*] 1 tests passed:
+   - test_problem_id_79 [0.14031 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_79: [0.10884 s] incompetent
+   - [#   2] AOR problem_id_79: [0.09227 s] incompetent
+   - [#   3] SIR problem_id_79: [0.09552 s] killed by test_problem_id_79.py::test_case_0
+[*] Mutation score [0.46679 s]: 100.0%
+   - all: 3
+   - killed: 1 (33.3%)
+   - survived: 0 (0.0%)
+   - incompetent: 2 (66.7%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_7
+   - tests: test_problem_id_7
+[*] 2 tests passed:
+   - test_problem_id_7 [0.16564 s]
+[*] Start mutants generation and execution:
+   - [#   1] COI problem_id_7: [0.09441 s] survived
+[*] Mutation score [0.29358 s]: 0.0%
+   - all: 1
+   - killed: 0 (0.0%)
+   - survived: 1 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_80
+   - tests: test_problem_id_80
+[*] 3 tests passed:
+   - test_problem_id_80 [0.16614 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_80: [0.07665 s] killed by test_problem_id_80.py::test_case_1
+   - [#   2] AOR problem_id_80: [0.08108 s] survived
+   - [#   3] AOR problem_id_80: [0.09825 s] survived
+   - [#   4] AOR problem_id_80: [0.09506 s] survived
+   - [#   5] AOR problem_id_80: [0.09819 s] survived
+   - [#   6] COI problem_id_80: [0.08875 s] killed by test_problem_id_80.py::test_case_0
+   - [#   7] COI problem_id_80: [0.09133 s] killed by test_problem_id_80.py::test_case_1
+   - [#   8] LCR problem_id_80: [0.09296 s] survived
+   - [#   9] ROR problem_id_80: [0.08284 s] killed by test_problem_id_80.py::test_case_0
+   - [#  10] ROR problem_id_80: [0.09030 s] survived
+   - [#  11] ROR problem_id_80: [0.08409 s] killed by test_problem_id_80.py::test_case_1
+   - [#  12] ROR problem_id_80: [0.09446 s] killed by test_problem_id_80.py::test_case_1
+   - [#  13] ROR problem_id_80: [0.08749 s] killed by test_problem_id_80.py::test_case_1
+[*] Mutation score [1.42706 s]: 53.8%
+   - all: 13
+   - killed: 7 (53.8%)
+   - survived: 6 (46.2%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_81
+   - tests: test_problem_id_81
+[*] Can't load module: test_problem_id_81 (ModuleNotFoundError: No module named 'test_problem_id_81')
+[*] Start mutation process:
+   - targets: problem_id_82
+   - tests: test_problem_id_82
+[*] 0 tests passed:
+   - test_problem_id_82 [0.18417 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_82: [0.10358 s] survived
+   - [#   2] COI problem_id_82: [0.10004 s] survived
+   - [#   3] COI problem_id_82: [0.10259 s] survived
+   - [#   4] LCR problem_id_82: [0.09417 s] survived
+   - [#   5] ROR problem_id_82: [0.10041 s] survived
+   - [#   6] ROR problem_id_82: [0.09629 s] survived
+   - [#   7] ROR problem_id_82: [0.09146 s] survived
+[*] Mutation score [0.94636 s]: 0.0%
+   - all: 7
+   - killed: 0 (0.0%)
+   - survived: 7 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_83
+   - tests: test_problem_id_83
+[*] 1 tests passed:
+   - test_problem_id_83 [0.15772 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_83: [0.08958 s] survived
+   - [#   2] AOR problem_id_83: [0.08867 s] survived
+   - [#   3] AOR problem_id_83: [0.07897 s] survived
+   - [#   4] AOR problem_id_83: [0.07546 s] survived
+   - [#   5] AOR problem_id_83: [0.09223 s] survived
+   - [#   6] COI problem_id_83: [0.09531 s] killed by test_problem_id_83.py::test_case_0
+   - [#   7] ROR problem_id_83: [0.09471 s] killed by test_problem_id_83.py::test_case_0
+[*] Mutation score [0.81381 s]: 28.6%
+   - all: 7
+   - killed: 2 (28.6%)
+   - survived: 5 (71.4%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_84
+   - tests: test_problem_id_84
+[*] 0 tests passed:
+   - test_problem_id_84 [0.17011 s]
+[*] Start mutants generation and execution:
+   - [#   1] SIR problem_id_84: [0.09197 s] survived
+[*] Mutation score [0.27791 s]: 0.0%
+   - all: 1
+   - killed: 0 (0.0%)
+   - survived: 1 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_85
+   - tests: test_problem_id_85
+[*] 1 tests passed:
+   - test_problem_id_85 [0.16502 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_85: [0.07989 s] survived
+   - [#   2] ROR problem_id_85: [0.07644 s] killed by test_problem_id_85.py::test_case_0
+[*] Mutation score [0.36554 s]: 50.0%
+   - all: 2
+   - killed: 1 (50.0%)
+   - survived: 1 (50.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_86
+   - tests: test_problem_id_86
+[*] 0 tests passed:
+   - test_problem_id_86 [0.16397 s]
+[*] Start mutants generation and execution:
+[*] Mutation score [0.17876 s]: 0.0%
+   - all: 0
+[*] Start mutation process:
+   - targets: problem_id_87
+   - tests: test_problem_id_87
+[*] 0 tests passed:
+   - test_problem_id_87 [0.17421 s]
+[*] Start mutants generation and execution:
+   - [#   1] ROR problem_id_87: [0.09461 s] survived
+[*] Mutation score [0.31372 s]: 0.0%
+   - all: 1
+   - killed: 0 (0.0%)
+   - survived: 1 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_88
+   - tests: test_problem_id_88
+[*] 2 tests passed:
+   - test_problem_id_88 [0.16093 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD problem_id_88: [0.09310 s] survived
+   - [#   2] AOR problem_id_88: [0.07736 s] survived
+   - [#   3] AOR problem_id_88: [0.07653 s] survived
+   - [#   4] AOR problem_id_88: [0.09414 s] survived
+   - [#   5] ROR problem_id_88: [0.07556 s] killed by test_problem_id_88.py::test_case_0
+   - [#   6] ROR problem_id_88: [0.09460 s] survived
+[*] Mutation score [0.72978 s]: 16.7%
+   - all: 6
+   - killed: 1 (16.7%)
+   - survived: 5 (83.3%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_89
+   - tests: test_problem_id_89
+[*] 0 tests passed:
+   - test_problem_id_89 [0.17276 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_89: [0.09899 s] survived
+   - [#   2] AOR problem_id_89: [0.09235 s] survived
+   - [#   3] AOR problem_id_89: [0.08193 s] survived
+   - [#   4] AOR problem_id_89: [0.09896 s] survived
+   - [#   5] AOR problem_id_89: [0.08351 s] survived
+   - [#   6] ASR problem_id_89: [0.09787 s] survived
+   - [#   7] ASR problem_id_89: [0.09674 s] survived
+   - [#   8] COI problem_id_89: [0.08705 s] survived
+   - [#   9] COI problem_id_89: [0.09868 s] survived
+[*] Mutation score [1.07977 s]: 0.0%
+   - all: 9
+   - killed: 0 (0.0%)
+   - survived: 9 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_8
+   - tests: test_problem_id_8
+[*] 2 tests passed:
+   - test_problem_id_8 [0.16326 s]
+[*] Start mutants generation and execution:
+   - [#   1] ASR problem_id_8: [0.08693 s] survived
+   - [#   2] ASR problem_id_8: [0.09051 s] survived
+   - [#   3] ASR problem_id_8: [0.09267 s] survived
+   - [#   4] ASR problem_id_8: [0.09397 s] survived
+[*] Mutation score [0.55781 s]: 0.0%
+   - all: 4
+   - killed: 0 (0.0%)
+   - survived: 4 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_90
+   - tests: test_problem_id_90
+[*] 0 tests passed:
+   - test_problem_id_90 [0.16850 s]
+[*] Start mutants generation and execution:
+   - [#   1] ROR problem_id_90: [0.09010 s] survived
+   - [#   2] ROR problem_id_90: [0.08710 s] survived
+[*] Mutation score [0.36971 s]: 0.0%
+   - all: 2
+   - killed: 0 (0.0%)
+   - survived: 2 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_91
+   - tests: test_problem_id_91
+[*] 0 tests passed:
+   - test_problem_id_91 [0.16947 s]
+[*] Start mutants generation and execution:
+   - [#   1] ROR problem_id_91: [0.08521 s] survived
+   - [#   2] SIR problem_id_91: [0.09995 s] survived
+   - [#   3] SIR problem_id_91: [0.10405 s] survived
+[*] Mutation score [0.48622 s]: 0.0%
+   - all: 3
+   - killed: 0 (0.0%)
+   - survived: 3 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_92
+   - tests: test_problem_id_92
+[*] Can't load module: test_problem_id_92 (ModuleNotFoundError: No module named 'test_problem_id_92')
+[*] Start mutation process:
+   - targets: problem_id_93
+   - tests: test_problem_id_93
+[*] 0 tests passed:
+   - test_problem_id_93 [0.17022 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_93: [0.09514 s] survived
+   - [#   2] COI problem_id_93: [0.09866 s] survived
+[*] Mutation score [0.39712 s]: 0.0%
+   - all: 2
+   - killed: 0 (0.0%)
+   - survived: 2 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_94
+   - tests: test_problem_id_94
+[*] 1 tests passed:
+   - test_problem_id_94 [0.17675 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_94: [0.09779 s] survived
+   - [#   2] AOR problem_id_94: [0.10014 s] survived
+   - [#   3] AOR problem_id_94: [0.09361 s] survived
+   - [#   4] ASR problem_id_94: [0.10684 s] survived
+   - [#   5] COI problem_id_94: [0.08653 s] survived
+   - [#   6] COI problem_id_94: [0.08470 s] survived
+   - [#   7] COI problem_id_94: [0.08613 s] survived
+   - [#   8] LCR problem_id_94: [0.08307 s] survived
+   - [#   9] ROR problem_id_94: [0.08758 s] survived
+   - [#  10] ROR problem_id_94: [0.07680 s] survived
+   - [#  11] ROR problem_id_94: [0.07861 s] killed by test_problem_id_94.py::test_case_1
+   - [#  12] ROR problem_id_94: [0.08236 s] survived
+   - [#  13] ROR problem_id_94: [0.08512 s] survived
+[*] Mutation score [1.47185 s]: 7.7%
+   - all: 13
+   - killed: 1 (7.7%)
+   - survived: 12 (92.3%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_95
+   - tests: test_problem_id_95
+[*] Can't load module: test_problem_id_95 (ModuleNotFoundError: No module named 'test_problem_id_95')
+[*] Start mutation process:
+   - targets: problem_id_96
+   - tests: test_problem_id_96
+[*] 0 tests passed:
+   - test_problem_id_96 [0.16542 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_96: [0.09990 s] survived
+   - [#   2] BCR problem_id_96: [0.10203 s] survived
+   - [#   3] COI problem_id_96: [0.09630 s] survived
+   - [#   4] COI problem_id_96: [0.09609 s] survived
+   - [#   5] ROR problem_id_96: [0.09027 s] survived
+[*] Mutation score [0.71832 s]: 0.0%
+   - all: 5
+   - killed: 0 (0.0%)
+   - survived: 5 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_97
+   - tests: test_problem_id_97
+[*] 0 tests passed:
+   - test_problem_id_97 [0.16408 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR problem_id_97: [0.09156 s] survived
+   - [#   2] AOR problem_id_97: [0.09031 s] survived
+   - [#   3] AOR problem_id_97: [0.09255 s] survived
+   - [#   4] AOR problem_id_97: [0.07730 s] survived
+   - [#   5] AOR problem_id_97: [0.08278 s] survived
+[*] Mutation score [0.62266 s]: 0.0%
+   - all: 5
+   - killed: 0 (0.0%)
+   - survived: 5 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_98
+   - tests: test_problem_id_98
+[*] 0 tests passed:
+   - test_problem_id_98 [0.17268 s]
+[*] Start mutants generation and execution:
+   - [#   1] ASR problem_id_98: [0.09851 s] survived
+   - [#   2] COI problem_id_98: [0.09843 s] survived
+   - [#   3] COI problem_id_98: [0.08365 s] survived
+[*] Mutation score [0.50078 s]: 0.0%
+   - all: 3
+   - killed: 0 (0.0%)
+   - survived: 3 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)
+[*] Start mutation process:
+   - targets: problem_id_99
+   - tests: test_problem_id_99
+[*] Can't load module: test_problem_id_99 (ModuleNotFoundError: No module named 'test_problem_id_99')
+[*] Start mutation process:
+   - targets: problem_id_9
+   - tests: test_problem_id_9
+[*] 1 tests passed:
+   - test_problem_id_9 [0.16685 s]
+[*] Start mutants generation and execution:
+   - [#   1] COI problem_id_9: [0.09778 s] incompetent
+[*] Mutation score [0.30945 s]: 0.0%
+   - all: 1
+   - killed: 0 (0.0%)
+   - survived: 0 (0.0%)
+   - incompetent: 1 (100.0%)
+   - timeout: 0 (0.0%)

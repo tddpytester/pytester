@@ -1,0 +1,927 @@
+06/14/2023 16:59:18 - INFO - __main__ - evaluated_model_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000/prediction-5.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_3765.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000,
+            output_suffix: ,
+            on_codex_result: False,
+            
+06/14/2023 16:59:18 - INFO - __main__ - load gen data finish.
+06/14/2023 17:00:53 - INFO - __main__ - # test data: 3765
+06/14/2023 17:04:21 - INFO - __main__ - evaluated_model_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000/prediction-5.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_3765.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000,
+            output_suffix: ,
+            on_codex_result: False,
+            
+06/14/2023 17:04:21 - INFO - __main__ - load gen data finish.
+06/14/2023 17:04:38 - INFO - __main__ - # test data: 3765
+06/14/2023 17:07:36 - INFO - __main__ - Exact Match: 0.2390438247011952%
+06/14/2023 17:07:36 - INFO - __main__ - Edit Similarity: 29.854714475431607%
+06/14/2023 17:07:36 - INFO - __main__ - MRR: 0.28640991589198755%
+06/14/2023 17:07:36 - INFO - __main__ - -----AST Parsable Rate-----
+06/14/2023 17:07:36 - INFO - __main__ - success: 38.91102257636122%
+06/14/2023 17:07:36 - INFO - __main__ - SyntaxError: 61.08897742363878%
+06/14/2023 17:07:36 - INFO - __main__ - *Filtered assertions syntax results*
+06/14/2023 17:11:41 - INFO - __main__ - Exact Match: 0.0%
+06/14/2023 17:11:41 - INFO - __main__ - Edit Similarity: 26.532802124833996%
+06/14/2023 17:11:41 - INFO - __main__ - MRR: 0.0%
+06/14/2023 17:11:41 - INFO - __main__ - -----AST Parsable Rate-----
+06/14/2023 17:11:41 - INFO - __main__ - success: 96.78618857901726%
+06/14/2023 17:11:41 - INFO - __main__ - SyntaxError: 3.213811420982736%
+06/14/2023 17:11:41 - INFO - __main__ - -----Functional Rate-----
+06/14/2023 17:12:20 - INFO - __main__ - exec_success: 11.128818061088976%
+06/14/2023 17:12:20 - INFO - __main__ - SyntaxError: 59.734395750332006%
+06/14/2023 17:12:20 - INFO - __main__ - AssertionError: 20.637450199203187%
+06/14/2023 17:12:20 - INFO - __main__ - ValueError: 2.8154050464807434%
+06/14/2023 17:12:20 - INFO - __main__ - IndexError: 2.045152722443559%
+06/14/2023 17:12:20 - INFO - __main__ - RuntimeError: 0.9827357237715804%
+06/14/2023 17:12:20 - INFO - __main__ - NameError: 0.2390438247011952%
+06/14/2023 17:12:20 - INFO - __main__ - EOFError: 1.0889774236387781%
+06/14/2023 17:12:20 - INFO - __main__ - TypeError: 0.10624169986719788%
+06/14/2023 17:12:20 - INFO - __main__ - FileNotFoundError: 0.02656042496679947%
+06/14/2023 17:12:20 - INFO - __main__ - TimeoutException: 0.13280212483399734%
+06/14/2023 17:12:20 - INFO - __main__ - OSError: 0.13280212483399734%
+06/14/2023 17:12:20 - INFO - __main__ - KeyError: 0.02656042496679947%
+06/14/2023 17:12:20 - INFO - __main__ - AttributeError: 0.02656042496679947%
+06/14/2023 17:12:20 - INFO - __main__ - ModuleNotFoundError: 0.05312084993359894%
+06/14/2023 17:12:20 - INFO - __main__ - IndentationError: 0.796812749003984%
+06/14/2023 17:12:20 - INFO - __main__ - UnboundLocalError: 0.02656042496679947%
+06/14/2023 17:12:20 - INFO - __main__ - *Filtered assertions syntax results*
+06/14/2023 17:12:23 - INFO - __main__ - exec_success: 0.13280212483399734%
+06/14/2023 17:12:23 - INFO - __main__ - NameError: 95.5378486055777%
+06/14/2023 17:12:23 - INFO - __main__ - RuntimeError: 3.187250996015936%
+06/14/2023 17:12:23 - INFO - __main__ - SyntaxError: 0.2921646746347942%
+06/14/2023 17:12:23 - INFO - __main__ - AssertionError: 0.02656042496679947%
+06/14/2023 17:12:23 - INFO - __main__ - IndentationError: 0.796812749003984%
+06/14/2023 17:12:23 - INFO - __main__ - UnboundLocalError: 0.02656042496679947%
+06/14/2023 17:59:02 - INFO - __main__ - evaluated_model_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000/prediction-5.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_3765.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000,
+            output_suffix: ,
+            on_codex_result: False,
+            
+06/14/2023 17:59:04 - INFO - __main__ - load gen data finish.
+06/14/2023 18:02:15 - INFO - __main__ - evaluated_model_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000/prediction-5.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_3765.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000,
+            output_suffix: ,
+            on_codex_result: False,
+            
+06/14/2023 18:02:15 - INFO - __main__ - load gen data finish.
+06/14/2023 18:02:38 - INFO - __main__ - # test data: 3765
+06/14/2023 18:02:38 - INFO - __main__ - *None-filtered assertions syntax results*
+06/14/2023 18:05:31 - INFO - __main__ - Exact Match: 0.2390438247011952%
+06/14/2023 18:05:31 - INFO - __main__ - Edit Similarity: 29.854714475431607%
+06/14/2023 18:05:31 - INFO - __main__ - MRR: 0.28640991589198755%
+06/14/2023 18:05:31 - INFO - __main__ - -----AST Parsable Rate-----
+06/14/2023 18:05:31 - INFO - __main__ - success: 38.91102257636122%
+06/14/2023 18:05:31 - INFO - __main__ - SyntaxError: 61.08897742363878%
+06/14/2023 18:05:31 - INFO - __main__ - *Filtered assertions syntax results*
+06/14/2023 18:09:28 - INFO - __main__ - Exact Match: 0.0%
+06/14/2023 18:09:28 - INFO - __main__ - Edit Similarity: 26.532802124833996%
+06/14/2023 18:09:28 - INFO - __main__ - MRR: 0.0%
+06/14/2023 18:09:28 - INFO - __main__ - -----AST Parsable Rate-----
+06/14/2023 18:09:28 - INFO - __main__ - success: 96.78618857901726%
+06/14/2023 18:09:28 - INFO - __main__ - SyntaxError: 3.213811420982736%
+06/14/2023 18:09:28 - INFO - __main__ - -----Functional Rate-----
+06/14/2023 18:09:28 - INFO - __main__ - *None-filtered assertions syntax results*
+06/14/2023 18:10:07 - INFO - __main__ - exec_success: 11.128818061088976%
+06/14/2023 18:10:07 - INFO - __main__ - SyntaxError: 59.734395750332006%
+06/14/2023 18:10:07 - INFO - __main__ - AssertionError: 20.637450199203187%
+06/14/2023 18:10:07 - INFO - __main__ - ValueError: 2.8154050464807434%
+06/14/2023 18:10:07 - INFO - __main__ - IndexError: 2.045152722443559%
+06/14/2023 18:10:07 - INFO - __main__ - RuntimeError: 0.9827357237715804%
+06/14/2023 18:10:07 - INFO - __main__ - NameError: 0.2390438247011952%
+06/14/2023 18:10:07 - INFO - __main__ - EOFError: 1.0889774236387781%
+06/14/2023 18:10:07 - INFO - __main__ - TypeError: 0.10624169986719788%
+06/14/2023 18:10:07 - INFO - __main__ - FileNotFoundError: 0.02656042496679947%
+06/14/2023 18:10:07 - INFO - __main__ - TimeoutException: 0.13280212483399734%
+06/14/2023 18:10:07 - INFO - __main__ - OSError: 0.13280212483399734%
+06/14/2023 18:10:07 - INFO - __main__ - KeyError: 0.02656042496679947%
+06/14/2023 18:10:07 - INFO - __main__ - AttributeError: 0.02656042496679947%
+06/14/2023 18:10:07 - INFO - __main__ - ModuleNotFoundError: 0.05312084993359894%
+06/14/2023 18:10:07 - INFO - __main__ - IndentationError: 0.796812749003984%
+06/14/2023 18:10:07 - INFO - __main__ - UnboundLocalError: 0.02656042496679947%
+06/14/2023 18:10:07 - INFO - __main__ - *Filtered assertions syntax results*
+exec_success: 28.233731739707835%
+AssertionError: 50.54448871181939%
+ValueError: 6.055776892430279%
+IndexError: 5.710491367861885%
+EOFError: 3.0278884462151394%
+RuntimeError: 3.187250996015936%
+NameError: 0.5046480743691899%
+SyntaxError: 0.2921646746347942%
+TimeoutException: 0.3187250996015936%
+TypeError: 0.398406374501992%
+AttributeError: 0.1593625498007968%
+FileNotFoundError: 0.21248339973439576%
+OSError: 0.2921646746347942%
+KeyError: 0.10624169986719788%
+ZeroDivisionError: 0.05312084993359894%
+ModuleNotFoundError: 0.0796812749003984%
+IndentationError: 0.796812749003984%
+UnboundLocalError: 0.02656042496679947%06/14/2023 19:14:02 - INFO - __main__ - evaluated_model_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000/prediction-5.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000,
+            output_suffix: _executable,
+            on_save: False,
+            on_codex_result: False,
+            
+06/14/2023 19:14:02 - INFO - __main__ - load gen data finish.
+06/14/2023 19:14:16 - INFO - __main__ - # test data: 3259
+06/14/2023 19:14:16 - INFO - __main__ - *None-filtered assertions syntax results*
+06/14/2023 19:19:18 - INFO - __main__ - Exact Match: 0.0%
+06/14/2023 19:19:18 - INFO - __main__ - Edit Similarity: 24.794722307456276%
+06/14/2023 19:19:18 - INFO - __main__ - MRR: 0.0%
+06/14/2023 19:19:18 - INFO - __main__ - -----AST Parsable Rate-----
+06/14/2023 19:19:18 - INFO - __main__ - success: 35.317582080392754%
+06/14/2023 19:19:18 - INFO - __main__ - SyntaxError: 64.68241791960723%
+06/14/2023 20:18:22 - INFO - __main__ - evaluated_model_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000/prediction-5.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000,
+            output_suffix: _executable,
+            on_save: False,
+            on_codex_result: False,
+            
+06/14/2023 20:18:22 - INFO - __main__ - load gen data finish.
+06/14/2023 21:57:38 - INFO - __main__ - evaluated_model_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000/prediction-5_executable.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000,
+            output_suffix: _executable,
+            on_save: False,
+            on_codex_result: False,
+            
+06/14/2023 21:57:38 - INFO - __main__ - load gen data finish.
+06/14/2023 21:57:51 - INFO - __main__ - # test data: 3259
+06/14/2023 21:57:51 - INFO - __main__ - *None-filtered assertions syntax results*
+06/14/2023 22:00:48 - INFO - __main__ - Exact Match: 0.245474071801166%
+06/14/2023 22:00:48 - INFO - __main__ - Edit Similarity: 30.135010739490642%
+06/14/2023 22:00:48 - INFO - __main__ - MRR: 0.28638641710136026%
+06/14/2023 22:00:48 - INFO - __main__ - -----AST Parsable Rate-----
+06/14/2023 22:00:48 - INFO - __main__ - success: 39.52132555998772%
+06/14/2023 22:00:48 - INFO - __main__ - SyntaxError: 60.47867444001227%
+06/14/2023 22:00:48 - INFO - __main__ - *Filtered assertions syntax results*
+06/14/2023 22:04:58 - INFO - __main__ - Exact Match: 0.0%
+06/14/2023 22:04:58 - INFO - __main__ - Edit Similarity: 26.90948143602332%
+06/14/2023 22:04:58 - INFO - __main__ - MRR: 0.0%
+06/14/2023 22:04:58 - INFO - __main__ - -----AST Parsable Rate-----
+06/14/2023 22:04:58 - INFO - __main__ - success: 96.34857318195765%
+06/14/2023 22:04:58 - INFO - __main__ - SyntaxError: 3.6514268180423444%
+06/14/2023 22:04:58 - INFO - __main__ - -----Functional Rate-----
+06/14/2023 22:04:58 - INFO - __main__ - *None-filtered assertions syntax results*
+06/14/2023 22:05:31 - INFO - __main__ - exec_success: 12.181650813132864%
+06/14/2023 22:05:31 - INFO - __main__ - AssertionError: 21.663086836452898%
+06/14/2023 22:05:31 - INFO - __main__ - SyntaxError: 58.69898741945382%
+06/14/2023 22:05:31 - INFO - __main__ - ValueError: 2.9456888616139922%
+06/14/2023 22:05:31 - INFO - __main__ - IndexError: 2.086529610309911%
+06/14/2023 22:05:31 - INFO - __main__ - RuntimeError: 1.22737035900583%
+06/14/2023 22:05:31 - INFO - __main__ - EOFError: 0.8898435102792267%
+06/14/2023 22:05:31 - INFO - __main__ - KeyError: 0.0613685179502915%
+06/14/2023 22:05:31 - INFO - __main__ - TimeoutException: 0.122737035900583%
+06/14/2023 22:05:31 - INFO - __main__ - AttributeError: 0.03068425897514575%
+06/14/2023 22:05:31 - INFO - __main__ - ZeroDivisionError: 0.03068425897514575%
+06/14/2023 22:05:31 - INFO - __main__ - TypeError: 0.03068425897514575%
+06/14/2023 22:05:31 - INFO - __main__ - ParseError: 0.03068425897514575%
+06/14/2023 22:05:31 - INFO - __main__ - *Filtered assertions syntax results*
+06/14/2023 22:06:50 - INFO - __main__ - exec_success: 30.714943234120895%
+06/14/2023 22:06:50 - INFO - __main__ - AssertionError: 49.4937097269101%
+06/14/2023 22:06:50 - INFO - __main__ - ValueError: 6.320957348880024%
+06/14/2023 22:06:50 - INFO - __main__ - IndexError: 6.689168456581774%
+06/14/2023 22:06:50 - INFO - __main__ - RuntimeError: 3.6514268180423444%
+06/14/2023 22:06:50 - INFO - __main__ - TimeoutException: 0.245474071801166%
+06/14/2023 22:06:50 - INFO - __main__ - EOFError: 2.546793494937097%
+06/14/2023 22:06:50 - INFO - __main__ - KeyError: 0.122737035900583%
+06/14/2023 22:06:50 - INFO - __main__ - NameError: 0.03068425897514575%
+06/14/2023 22:06:50 - INFO - __main__ - StopIteration: 0.03068425897514575%
+06/14/2023 22:06:50 - INFO - __main__ - AttributeError: 0.03068425897514575%
+06/14/2023 22:06:50 - INFO - __main__ - TypeError: 0.0613685179502915%
+06/14/2023 22:06:50 - INFO - __main__ - ZeroDivisionError: 0.03068425897514575%
+06/14/2023 22:06:50 - INFO - __main__ - ParseError: 0.03068425897514575%
+06/27/2023 15:51:03 - INFO - __main__ - evaluated_model_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000/prediction-5_executable2.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000,
+            output_suffix: _exec2,
+            on_save: False,
+            result_mode: ours,
+            
+06/27/2023 15:51:03 - INFO - __main__ - load gen data finish.
+06/27/2023 15:51:16 - INFO - __main__ - # test data: 3259
+06/27/2023 15:51:16 - INFO - __main__ - *None-filtered assertions syntax results*
+06/27/2023 15:54:05 - INFO - __main__ - Exact Match: 0.21478981282602025%
+06/27/2023 15:54:05 - INFO - __main__ - Edit Similarity: 30.253451979134702%
+06/27/2023 15:54:05 - INFO - __main__ - MRR: 0.2771811394088166%
+06/27/2023 15:54:05 - INFO - __main__ - -----AST Parsable Rate-----
+06/27/2023 15:54:05 - INFO - __main__ - success: 39.367904265111996%
+06/27/2023 15:54:05 - INFO - __main__ - SyntaxError: 60.632095734888004%
+06/27/2023 15:54:05 - INFO - __main__ - *Filtered assertions syntax results*
+06/27/2023 15:55:47 - INFO - __main__ - Exact Match: 0.39889536667689474%
+06/27/2023 15:55:47 - INFO - __main__ - Edit Similarity: 26.858238723534825%
+06/27/2023 15:55:47 - INFO - __main__ - MRR: 0.512427124884934%
+06/27/2023 15:55:47 - INFO - __main__ - -----AST Parsable Rate-----
+06/27/2023 15:55:47 - INFO - __main__ - success: 96.40994169990795%
+06/27/2023 15:55:47 - INFO - __main__ - SyntaxError: 3.5900583000920525%
+06/27/2023 15:55:47 - INFO - __main__ - -----Functional Rate-----
+06/27/2023 15:58:48 - INFO - __main__ - *None-filtered assertions syntax results*
+06/27/2023 15:58:48 - INFO - __main__ - exec_success: 12.335072108008593%
+06/27/2023 15:58:48 - INFO - __main__ - AssertionError: 21.38692850567659%
+06/27/2023 15:58:48 - INFO - __main__ - SyntaxError: 58.42282908867751%
+06/27/2023 15:58:48 - INFO - __main__ - ValueError: 3.0070573795642837%
+06/27/2023 15:58:48 - INFO - __main__ - IndexError: 2.332003682111077%
+06/27/2023 15:58:48 - INFO - __main__ - EOFError: 1.1660018410555384%
+06/27/2023 15:58:48 - INFO - __main__ - RuntimeError: 1.135317582080393%
+06/27/2023 15:58:48 - INFO - __main__ - KeyError: 0.0613685179502915%
+06/27/2023 15:58:48 - INFO - __main__ - NameError: 0.03068425897514575%
+06/27/2023 15:58:48 - INFO - __main__ - ZeroDivisionError: 0.03068425897514575%
+06/27/2023 15:58:48 - INFO - __main__ - TimeoutException: 0.0613685179502915%
+06/27/2023 15:58:48 - INFO - __main__ - ParseError: 0.03068425897514575%
+06/27/2023 15:58:48 - INFO - __main__ - coverage: 12.017796870205585%
+06/27/2023 16:06:59 - INFO - __main__ - evaluated_model_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000/prediction-5_executable2.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000,
+            output_suffix: _cv,
+            on_save: False,
+            result_mode: ours,
+            
+06/27/2023 16:06:59 - INFO - __main__ - load gen data finish.
+06/27/2023 16:07:12 - INFO - __main__ - # test data: 3259
+06/27/2023 16:14:40 - INFO - __main__ - *Filtered assertions syntax results*
+06/27/2023 16:14:40 - INFO - __main__ - exec_success: 30.714943234120895%
+06/27/2023 16:14:40 - INFO - __main__ - AssertionError: 49.125498619208344%
+06/27/2023 16:14:40 - INFO - __main__ - ValueError: 5.983430500153421%
+06/27/2023 16:14:40 - INFO - __main__ - EOFError: 3.0991101564897208%
+06/27/2023 16:14:40 - INFO - __main__ - RuntimeError: 3.5900583000920525%
+06/27/2023 16:14:40 - INFO - __main__ - IndexError: 6.9653267873580855%
+06/27/2023 16:14:40 - INFO - __main__ - KeyError: 0.15342129487572875%
+06/27/2023 16:14:40 - INFO - __main__ - StopIteration: 0.03068425897514575%
+06/27/2023 16:14:40 - INFO - __main__ - NameError: 0.03068425897514575%
+06/27/2023 16:14:40 - INFO - __main__ - ZeroDivisionError: 0.15342129487572875%
+06/27/2023 16:14:40 - INFO - __main__ - TimeoutException: 0.122737035900583%
+06/27/2023 16:14:40 - INFO - __main__ - ParseError: 0.03068425897514575%
+06/27/2023 16:14:40 - INFO - __main__ - coverage: 29.71095428045413%
+06/27/2023 16:14:40 - INFO - __main__ - finish program.
+06/27/2023 16:19:10 - INFO - __main__ - evaluated_model_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000/prediction-5.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_3765.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000,
+            output_suffix: ,
+            on_save: False,
+            result_mode: ours,
+            
+06/27/2023 16:19:10 - INFO - __main__ - load gen data finish.
+06/27/2023 16:19:24 - INFO - __main__ - # test data: 3765
+06/27/2023 16:19:24 - INFO - __main__ - *None-filtered assertions syntax results*
+06/27/2023 16:22:19 - INFO - __main__ - Exact Match: 0.2390438247011952%
+06/27/2023 16:22:19 - INFO - __main__ - Edit Similarity: 29.854714475431607%
+06/27/2023 16:22:19 - INFO - __main__ - MRR: 0.28640991589198755%
+06/27/2023 16:22:19 - INFO - __main__ - -----AST Parsable Rate-----
+06/27/2023 16:22:19 - INFO - __main__ - success: 38.91102257636122%
+06/27/2023 16:22:19 - INFO - __main__ - SyntaxError: 61.08897742363878%
+06/27/2023 16:22:20 - INFO - __main__ - *Filtered assertions syntax results*
+06/27/2023 16:24:19 - INFO - __main__ - Exact Match: 0.4249667994687915%
+06/27/2023 16:24:19 - INFO - __main__ - Edit Similarity: 26.445418326693225%
+06/27/2023 16:24:19 - INFO - __main__ - MRR: 0.5055334218680831%
+06/27/2023 16:24:19 - INFO - __main__ - -----AST Parsable Rate-----
+06/27/2023 16:24:19 - INFO - __main__ - success: 96.78618857901726%
+06/27/2023 16:24:19 - INFO - __main__ - SyntaxError: 3.213811420982736%
+06/27/2023 16:24:19 - INFO - __main__ - -----Functional Rate-----
+06/27/2023 16:27:37 - INFO - __main__ - *None-filtered assertions syntax results*
+06/27/2023 16:27:37 - INFO - __main__ - exec_success: 11.128818061088976%
+06/27/2023 16:27:37 - INFO - __main__ - SyntaxError: 59.30942895086322%
+06/27/2023 16:27:37 - INFO - __main__ - AssertionError: 21.035856573705182%
+06/27/2023 16:27:37 - INFO - __main__ - ValueError: 2.8419654714475433%
+06/27/2023 16:27:37 - INFO - __main__ - IndexError: 2.045152722443559%
+06/27/2023 16:27:37 - INFO - __main__ - RuntimeError: 0.9827357237715804%
+06/27/2023 16:27:37 - INFO - __main__ - NameError: 0.2390438247011952%
+06/27/2023 16:27:37 - INFO - __main__ - EOFError: 1.0889774236387781%
+06/27/2023 16:27:37 - INFO - __main__ - TypeError: 0.10624169986719788%
+06/27/2023 16:27:37 - INFO - __main__ - FileNotFoundError: 0.02656042496679947%
+06/27/2023 16:27:37 - INFO - __main__ - TimeoutException: 0.13280212483399734%
+06/27/2023 16:27:37 - INFO - __main__ - OSError: 0.13280212483399734%
+06/27/2023 16:27:37 - INFO - __main__ - KeyError: 0.02656042496679947%
+06/27/2023 16:27:37 - INFO - __main__ - AttributeError: 0.02656042496679947%
+06/27/2023 16:27:37 - INFO - __main__ - ModuleNotFoundError: 0.05312084993359894%
+06/27/2023 16:27:37 - INFO - __main__ - IndentationError: 0.796812749003984%
+06/27/2023 16:27:37 - INFO - __main__ - UnboundLocalError: 0.02656042496679947%
+06/27/2023 16:27:37 - INFO - __main__ - coverage: 10.6066401062417%
+filtered
+exec_success: 28.207171314741036%
+AssertionError: 50.59760956175299%
+ValueError: 6.029216467463479%
+IndexError: 5.710491367861885%
+EOFError: 3.0278884462151394%
+RuntimeError: 3.187250996015936%
+NameError: 0.5046480743691899%
+SyntaxError: 0.2921646746347942%
+TimeoutException: 0.3187250996015936%
+TypeError: 0.398406374501992%
+AttributeError: 0.1593625498007968%
+FileNotFoundError: 0.21248339973439576%
+OSError: 0.2921646746347942%
+KeyError: 0.10624169986719788%
+ZeroDivisionError: 0.05312084993359894%
+ModuleNotFoundError: 0.0796812749003984%
+IndentationError: 0.796812749003984%
+UnboundLocalError: 0.02656042496679947%
+coverage: 26.956972111553785%
+06/28/2023 22:58:47 - INFO - __main__ - evaluated_model_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000/prediction-5_executable.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000,
+            output_suffix: ,
+            on_save: False,
+            result_mode: ours,
+            pred_mode: single
+            
+06/28/2023 22:58:47 - INFO - __main__ - load gen data finish.
+06/28/2023 22:59:00 - INFO - __main__ - # test data: 3259
+06/28/2023 22:59:00 - INFO - __main__ - *None-filtered assertions syntax results*
+06/28/2023 22:59:06 - INFO - __main__ - Exact Match: 0.0%
+06/28/2023 22:59:06 - INFO - __main__ - Edit Similarity: 13.554157717091131%
+06/28/2023 22:59:06 - INFO - __main__ - MRR: 0.0%
+06/28/2023 22:59:06 - INFO - __main__ - -----AST Parsable Rate-----
+06/28/2023 22:59:06 - INFO - __main__ - success: 92.63577784596502%
+06/28/2023 22:59:06 - INFO - __main__ - SyntaxError: 7.36422215403498%
+06/28/2023 22:59:07 - INFO - __main__ - *Filtered assertions syntax results*
+06/28/2023 22:59:13 - INFO - __main__ - Exact Match: 0.0%
+06/28/2023 22:59:13 - INFO - __main__ - Edit Similarity: 12.661859466093894%
+06/28/2023 22:59:13 - INFO - __main__ - MRR: 0.0%
+06/28/2023 22:59:13 - INFO - __main__ - -----AST Parsable Rate-----
+06/28/2023 22:59:13 - INFO - __main__ - success: 91.31635471003375%
+06/28/2023 22:59:13 - INFO - __main__ - SyntaxError: 8.683645289966249%
+06/28/2023 22:59:13 - INFO - __main__ - -----Functional Rate-----
+06/28/2023 23:17:49 - INFO - __main__ - *None-filtered assertions syntax results*
+06/28/2023 23:17:49 - INFO - __main__ - exec_success: 80.54617980975759%
+06/28/2023 23:17:49 - INFO - __main__ - SyntaxError: 1.4421601718318502%
+06/28/2023 23:17:49 - INFO - __main__ - ValueError: 1.135317582080393%
+06/28/2023 23:17:49 - INFO - __main__ - RuntimeError: 7.241485118134397%
+06/28/2023 23:17:49 - INFO - __main__ - AssertionError: 7.394906413010125%
+06/28/2023 23:17:49 - INFO - __main__ - IndexError: 1.5342129487572875%
+06/28/2023 23:17:49 - INFO - __main__ - EOFError: 0.6443694384780607%
+06/28/2023 23:17:49 - INFO - __main__ - ParseError: 0.03068425897514575%
+06/28/2023 23:17:49 - INFO - __main__ - KeyError: 0.03068425897514575%
+06/28/2023 23:17:49 - INFO - __main__ - coverage: 71.59496778152807%
+06/28/2023 23:36:23 - INFO - __main__ - *Filtered assertions syntax results*
+06/28/2023 23:36:23 - INFO - __main__ - exec_success: 80.54617980975759%
+06/28/2023 23:36:23 - INFO - __main__ - RuntimeError: 8.683645289966249%
+06/28/2023 23:36:23 - INFO - __main__ - ValueError: 1.135317582080393%
+06/28/2023 23:36:23 - INFO - __main__ - AssertionError: 7.394906413010125%
+06/28/2023 23:36:23 - INFO - __main__ - IndexError: 1.5342129487572875%
+06/28/2023 23:36:23 - INFO - __main__ - EOFError: 0.6443694384780607%
+06/28/2023 23:36:23 - INFO - __main__ - ParseError: 0.03068425897514575%
+06/28/2023 23:36:23 - INFO - __main__ - KeyError: 0.03068425897514575%
+06/28/2023 23:36:23 - INFO - __main__ - coverage: 71.3274010432648%
+06/28/2023 23:36:23 - INFO - __main__ - finish program.
+07/04/2023 16:58:57 - INFO - __main__ - evaluated_model_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000/prediction-5_beam.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: /home/wannita/HDD18TB/active_repo/pyRL/text-to-testcase/save/APPS/codet5-testcase-v2/checkpoint-10000,
+            output_suffix: _beam,
+            on_save: False,
+            result_mode: ours,
+            pred_mode: single
+            
+07/04/2023 16:58:57 - INFO - __main__ - load gen data finish.
+07/04/2023 16:59:11 - INFO - __main__ - # test data: 3259
+07/04/2023 16:59:11 - INFO - __main__ - *None-filtered assertions syntax results :single*
+07/04/2023 16:59:16 - INFO - __main__ - Exact Match: 0.0%
+07/04/2023 16:59:16 - INFO - __main__ - Edit Similarity: 13.748389076403805%
+07/04/2023 16:59:16 - INFO - __main__ - MRR: 0.0%
+07/04/2023 16:59:16 - INFO - __main__ - -----AST Parsable Rate-----
+07/04/2023 16:59:16 - INFO - __main__ - success: 98.46578705124271%
+07/04/2023 16:59:16 - INFO - __main__ - SyntaxError: 1.5342129487572875%
+07/04/2023 16:59:16 - INFO - __main__ - *Filtered assertions syntax results :single*
+07/04/2023 16:59:21 - INFO - __main__ - Exact Match: 0.0%
+07/04/2023 16:59:21 - INFO - __main__ - Edit Similarity: 13.502915004602638%
+07/04/2023 16:59:21 - INFO - __main__ - MRR: 0.0%
+07/04/2023 16:59:21 - INFO - __main__ - -----AST Parsable Rate-----
+07/04/2023 16:59:21 - INFO - __main__ - success: 98.34305001534213%
+07/04/2023 16:59:21 - INFO - __main__ - SyntaxError: 1.6569499846578704%
+07/04/2023 16:59:21 - INFO - __main__ - -----Functional Rate-----
+07/04/2023 17:20:46 - INFO - __main__ - *None-filtered assertions syntax results :single*
+07/04/2023 17:20:46 - INFO - __main__ - exec_success: 87.91040196379257%
+07/04/2023 17:20:46 - INFO - __main__ - RuntimeError: 0.859159251304081%
+07/04/2023 17:20:46 - INFO - __main__ - ValueError: 1.104633323105247%
+07/04/2023 17:20:46 - INFO - __main__ - SyntaxError: 0.7977907333537895%
+07/04/2023 17:20:46 - INFO - __main__ - AssertionError: 7.456274930960418%
+07/04/2023 17:20:46 - INFO - __main__ - IndexError: 1.22737035900583%
+07/04/2023 17:20:46 - INFO - __main__ - EOFError: 0.5830009205277692%
+07/04/2023 17:20:46 - INFO - __main__ - KeyError: 0.03068425897514575%
+07/04/2023 17:20:46 - INFO - __main__ - ParseError: 0.03068425897514575%
+07/04/2023 17:20:46 - INFO - __main__ - coverage: 83.08008591592512%
+07/04/2023 17:42:18 - INFO - __main__ - *Filtered assertions syntax results :single*
+07/04/2023 17:42:18 - INFO - __main__ - exec_success: 87.91040196379257%
+07/04/2023 17:42:18 - INFO - __main__ - RuntimeError: 1.6569499846578704%
+07/04/2023 17:42:18 - INFO - __main__ - ValueError: 1.104633323105247%
+07/04/2023 17:42:18 - INFO - __main__ - AssertionError: 7.456274930960418%
+07/04/2023 17:42:18 - INFO - __main__ - IndexError: 1.22737035900583%
+07/04/2023 17:42:18 - INFO - __main__ - EOFError: 0.5830009205277692%
+07/04/2023 17:42:18 - INFO - __main__ - KeyError: 0.03068425897514575%
+07/04/2023 17:42:18 - INFO - __main__ - ParseError: 0.03068425897514575%
+07/04/2023 17:42:18 - INFO - __main__ - coverage: 82.45780914390917%
+07/04/2023 17:42:18 - INFO - __main__ - finish program.
+07/20/2023 19:22:50 - INFO - __main__ - evaluated_model_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000/prediction-5_beam.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000,
+            output_suffix: _beam,
+            on_save: False,
+            result_mode: ours,
+            pred_mode: multi
+            
+07/20/2023 19:22:50 - INFO - __main__ - load gen data finish.
+07/20/2023 19:23:03 - INFO - __main__ - # test data: 3259
+07/20/2023 19:23:03 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+07/20/2023 19:23:48 - INFO - __main__ - evaluated_model_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000/prediction-5_beam.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000,
+            output_suffix: _beam,
+            on_save: False,
+            result_mode: ours,
+            pred_mode: multi
+            
+07/20/2023 19:23:48 - INFO - __main__ - load gen data finish.
+07/20/2023 19:24:01 - INFO - __main__ - # test data: 3259
+07/20/2023 19:24:01 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+07/20/2023 19:24:01 - INFO - __main__ - -----Functional Rate-----
+07/20/2023 19:39:45 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+07/20/2023 19:39:45 - INFO - __main__ - exec_success: 35.56305615219392%
+07/20/2023 19:39:45 - INFO - __main__ - AssertionError: 38.78490334458423%
+07/20/2023 19:39:45 - INFO - __main__ - ValueError: 5.154955507824486%
+07/20/2023 19:39:45 - INFO - __main__ - RuntimeError: 0.39889536667689474%
+07/20/2023 19:39:45 - INFO - __main__ - IndexError: 3.3752684872660326%
+07/20/2023 19:39:45 - INFO - __main__ - SyntaxError: 13.838600797790734%
+07/20/2023 19:39:45 - INFO - __main__ - ZeroDivisionError: 0.03068425897514575%
+07/20/2023 19:39:45 - INFO - __main__ - TimeoutException: 0.245474071801166%
+07/20/2023 19:39:45 - INFO - __main__ - EOFError: 2.393372200061368%
+07/20/2023 19:39:45 - INFO - __main__ - StopIteration: 0.0613685179502915%
+07/20/2023 19:39:45 - INFO - __main__ - TypeError: 0.0613685179502915%
+07/20/2023 19:39:45 - INFO - __main__ - AttributeError: 0.03068425897514575%
+07/20/2023 19:39:45 - INFO - __main__ - KeyError: 0.03068425897514575%
+07/20/2023 19:39:45 - INFO - __main__ - ParseError: 0.03068425897514575%
+07/20/2023 19:39:45 - INFO - __main__ - coverage: 34.48573181957656%
+07/20/2023 19:39:45 - INFO - __main__ - Mutation score: 0.0%
+07/20/2023 19:56:46 - INFO - __main__ - *Filtered assertions syntax results :multi*
+07/20/2023 19:56:46 - INFO - __main__ - exec_success: 38.38600797790733%
+07/20/2023 19:56:46 - INFO - __main__ - AssertionError: 46.27186253451979%
+07/20/2023 19:56:46 - INFO - __main__ - ValueError: 5.860693464252838%
+07/20/2023 19:56:46 - INFO - __main__ - RuntimeError: 1.0739490641301013%
+07/20/2023 19:56:46 - INFO - __main__ - IndexError: 4.541270328321572%
+07/20/2023 19:56:46 - INFO - __main__ - TimeoutException: 0.27615833077631174%
+07/20/2023 19:56:46 - INFO - __main__ - ZeroDivisionError: 0.0613685179502915%
+07/20/2023 19:56:46 - INFO - __main__ - EOFError: 3.283215710340595%
+07/20/2023 19:56:46 - INFO - __main__ - StopIteration: 0.0613685179502915%
+07/20/2023 19:56:46 - INFO - __main__ - TypeError: 0.0613685179502915%
+07/20/2023 19:56:46 - INFO - __main__ - AttributeError: 0.03068425897514575%
+07/20/2023 19:56:46 - INFO - __main__ - KeyError: 0.0613685179502915%
+07/20/2023 19:56:46 - INFO - __main__ - ParseError: 0.03068425897514575%
+07/20/2023 19:56:46 - INFO - __main__ - coverage: 37.243326173672905%
+07/20/2023 19:56:46 - INFO - __main__ - Mutation score: 0.0%
+07/20/2023 20:46:30 - INFO - __main__ - evaluated_model_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000/prediction-5_beam.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000,
+            output_suffix: _beam,
+            on_save: False,
+            result_mode: ours,
+            pred_mode: multi
+            
+07/20/2023 20:46:30 - INFO - __main__ - load gen data finish.
+07/20/2023 20:46:44 - INFO - __main__ - # test data: 3259
+07/20/2023 20:46:44 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+07/20/2023 20:46:44 - INFO - __main__ - -----Functional Rate-----
+07/20/2023 22:27:52 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+07/20/2023 22:27:52 - INFO - __main__ - exec_success: 35.56305615219392%
+07/20/2023 22:27:52 - INFO - __main__ - AssertionError: 38.78490334458423%
+07/20/2023 22:27:52 - INFO - __main__ - ValueError: 5.154955507824486%
+07/20/2023 22:27:52 - INFO - __main__ - RuntimeError: 0.39889536667689474%
+07/20/2023 22:27:52 - INFO - __main__ - IndexError: 3.3752684872660326%
+07/20/2023 22:27:52 - INFO - __main__ - SyntaxError: 13.838600797790734%
+07/20/2023 22:27:52 - INFO - __main__ - ZeroDivisionError: 0.03068425897514575%
+07/20/2023 22:27:52 - INFO - __main__ - TimeoutException: 0.245474071801166%
+07/20/2023 22:27:52 - INFO - __main__ - EOFError: 2.393372200061368%
+07/20/2023 22:27:52 - INFO - __main__ - StopIteration: 0.0613685179502915%
+07/20/2023 22:27:52 - INFO - __main__ - TypeError: 0.0613685179502915%
+07/20/2023 22:27:52 - INFO - __main__ - AttributeError: 0.03068425897514575%
+07/20/2023 22:27:52 - INFO - __main__ - KeyError: 0.03068425897514575%
+07/20/2023 22:27:52 - INFO - __main__ - ParseError: 0.03068425897514575%
+07/20/2023 22:27:52 - INFO - __main__ - coverage: 34.04602638846272%
+07/20/2023 22:27:52 - INFO - __main__ - Mutation score: 22.94829702362687%
+07/21/2023 00:15:52 - INFO - __main__ - *Filtered assertions syntax results :multi*
+07/21/2023 00:15:52 - INFO - __main__ - exec_success: 38.38600797790733%
+07/21/2023 00:15:52 - INFO - __main__ - AssertionError: 46.27186253451979%
+07/21/2023 00:15:52 - INFO - __main__ - ValueError: 5.860693464252838%
+07/21/2023 00:15:52 - INFO - __main__ - RuntimeError: 1.0739490641301013%
+07/21/2023 00:15:52 - INFO - __main__ - IndexError: 4.541270328321572%
+07/21/2023 00:15:52 - INFO - __main__ - TimeoutException: 0.27615833077631174%
+07/21/2023 00:15:52 - INFO - __main__ - ZeroDivisionError: 0.0613685179502915%
+07/21/2023 00:15:52 - INFO - __main__ - EOFError: 3.283215710340595%
+07/21/2023 00:15:52 - INFO - __main__ - StopIteration: 0.0613685179502915%
+07/21/2023 00:15:52 - INFO - __main__ - TypeError: 0.0613685179502915%
+07/21/2023 00:15:52 - INFO - __main__ - AttributeError: 0.03068425897514575%
+07/21/2023 00:15:52 - INFO - __main__ - KeyError: 0.0613685179502915%
+07/21/2023 00:15:52 - INFO - __main__ - ParseError: 0.03068425897514575%
+07/21/2023 00:15:52 - INFO - __main__ - coverage: 36.85240871432955%
+07/21/2023 00:15:52 - INFO - __main__ - Mutation score: 24.86477447069652%
+07/21/2023 02:37:59 - INFO - __main__ - *Filtered assertions error results: multi*
+07/21/2023 02:37:59 - INFO - __main__ - Compilable Rate
+07/21/2023 02:37:59 - INFO - __main__ - success: 100.0%
+07/21/2023 02:37:59 - INFO - __main__ - Functional Rate
+07/21/2023 02:37:59 - INFO - __main__ - exec_success: 92.29825099723841%
+07/21/2023 02:37:59 - INFO - __main__ - RuntimeError: 7.701749002761583%
+07/21/2023 02:37:59 - INFO - __main__ - Coverage: 88.83031604786744%
+07/21/2023 02:37:59 - INFO - __main__ - Mutation score: 24.843970543111375%
+07/21/2023 02:37:59 - INFO - __main__ - finish program.
+07/27/2023 14:52:20 - INFO - __main__ - evaluated_model_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000/prediction-5_beam.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000,
+            output_suffix: _beam300_coverage,
+            on_save: True,
+            result_mode: ours,
+            pred_mode: multi
+            
+07/27/2023 14:52:20 - INFO - __main__ - load gen data finish.
+07/27/2023 14:52:37 - INFO - __main__ - # test data: 3259
+07/27/2023 14:52:37 - INFO - __main__ - -----Functional Rate-----
+07/27/2023 15:02:11 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+07/27/2023 15:02:11 - INFO - __main__ - exec_success: 35.56305615219392%
+07/27/2023 15:02:11 - INFO - __main__ - AssertionError: 38.78490334458423%
+07/27/2023 15:02:11 - INFO - __main__ - ValueError: 5.154955507824486%
+07/27/2023 15:02:11 - INFO - __main__ - RuntimeError: 0.39889536667689474%
+07/27/2023 15:02:11 - INFO - __main__ - IndexError: 3.3752684872660326%
+07/27/2023 15:02:11 - INFO - __main__ - SyntaxError: 13.838600797790734%
+07/27/2023 15:02:11 - INFO - __main__ - ZeroDivisionError: 0.03068425897514575%
+07/27/2023 15:02:11 - INFO - __main__ - TimeoutException: 0.245474071801166%
+07/27/2023 15:02:11 - INFO - __main__ - EOFError: 2.393372200061368%
+07/27/2023 15:02:11 - INFO - __main__ - StopIteration: 0.0613685179502915%
+07/27/2023 15:02:11 - INFO - __main__ - TypeError: 0.0613685179502915%
+07/27/2023 15:02:11 - INFO - __main__ - AttributeError: 0.03068425897514575%
+07/27/2023 15:02:11 - INFO - __main__ - KeyError: 0.03068425897514575%
+07/27/2023 15:02:11 - INFO - __main__ - ParseError: 0.03068425897514575%
+07/27/2023 15:02:11 - INFO - __main__ - coverage: 34.47253758821724%
+07/27/2023 15:02:11 - INFO - __main__ - Mutation score: 0.0%
+07/27/2023 15:02:11 - INFO - __main__ - finish program.
+07/27/2023 23:08:19 - INFO - __main__ - evaluated_model_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000/prediction-5_beam.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000,
+            output_suffix: _beam300,
+            on_save: True,
+            result_mode: ours,
+            pred_mode: multi
+            
+07/27/2023 23:08:19 - INFO - __main__ - load gen data finish.
+07/27/2023 23:08:32 - INFO - __main__ - # test data: 3259
+07/27/2023 23:08:32 - INFO - __main__ - -----Functional Rate-----
+07/28/2023 01:34:27 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+07/28/2023 01:34:27 - INFO - __main__ - exec_success: 35.56305615219392%
+07/28/2023 01:34:27 - INFO - __main__ - AssertionError: 38.78490334458423%
+07/28/2023 01:34:27 - INFO - __main__ - ValueError: 5.154955507824486%
+07/28/2023 01:34:27 - INFO - __main__ - RuntimeError: 0.39889536667689474%
+07/28/2023 01:34:27 - INFO - __main__ - IndexError: 3.3752684872660326%
+07/28/2023 01:34:27 - INFO - __main__ - SyntaxError: 13.838600797790734%
+07/28/2023 01:34:27 - INFO - __main__ - ZeroDivisionError: 0.03068425897514575%
+07/28/2023 01:34:27 - INFO - __main__ - TimeoutException: 0.245474071801166%
+07/28/2023 01:34:27 - INFO - __main__ - EOFError: 2.393372200061368%
+07/28/2023 01:34:27 - INFO - __main__ - StopIteration: 0.0613685179502915%
+07/28/2023 01:34:27 - INFO - __main__ - TypeError: 0.0613685179502915%
+07/28/2023 01:34:27 - INFO - __main__ - AttributeError: 0.03068425897514575%
+07/28/2023 01:34:27 - INFO - __main__ - KeyError: 0.03068425897514575%
+07/28/2023 01:34:27 - INFO - __main__ - ParseError: 0.03068425897514575%
+07/28/2023 01:34:27 - INFO - __main__ - coverage: 34.4418533292421%
+07/28/2023 01:34:27 - INFO - __main__ - Mutation score: 26.94145443387543%
+07/28/2023 01:34:27 - INFO - __main__ - finish program.
+06/08/2024 17:17:54 - INFO - __main__ - evaluated_model_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000/prediction-5_beam.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000,
+            output_suffix: _beam300_rank1,
+            on_save: True,
+            result_mode: ours,
+            pred_mode: multi,
+            pred_rank: 1
+            
+06/08/2024 17:17:54 - INFO - __main__ - load gen data finish.
+06/08/2024 17:18:09 - INFO - __main__ - # test data: 3259
+06/08/2024 17:18:09 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+06/08/2024 17:19:05 - INFO - __main__ - evaluated_model_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000/prediction-5_beam.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000,
+            output_suffix: _beam300_rank2,
+            on_save: True,
+            result_mode: ours,
+            pred_mode: multi,
+            pred_rank: 2
+            
+06/08/2024 17:19:05 - INFO - __main__ - load gen data finish.
+06/08/2024 17:19:20 - INFO - __main__ - # test data: 3259
+06/08/2024 17:19:20 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+06/08/2024 17:19:22 - INFO - __main__ - evaluated_model_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000/prediction-5_beam.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000,
+            output_suffix: _beam300_rank3,
+            on_save: True,
+            result_mode: ours,
+            pred_mode: multi,
+            pred_rank: 3
+            
+06/08/2024 17:19:22 - INFO - __main__ - load gen data finish.
+06/08/2024 17:19:29 - INFO - __main__ - evaluated_model_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000/prediction-5_beam.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000,
+            output_suffix: _beam300_rank4,
+            on_save: True,
+            result_mode: ours,
+            pred_mode: multi,
+            pred_rank: 4
+            
+06/08/2024 17:19:29 - INFO - __main__ - load gen data finish.
+06/08/2024 17:19:37 - INFO - __main__ - # test data: 3259
+06/08/2024 17:19:37 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+06/08/2024 17:19:44 - INFO - __main__ - # test data: 3259
+06/08/2024 17:19:44 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+06/08/2024 17:23:59 - INFO - __main__ - Exact Match: 0.9205277692543725%
+06/08/2024 17:23:59 - INFO - __main__ - Edit Similarity: 36.09788278613072%
+06/08/2024 17:23:59 - INFO - __main__ - MRR: 1.260611639562238%
+06/08/2024 17:23:59 - INFO - __main__ - -----AST Parsable Rate-----
+06/08/2024 17:23:59 - INFO - __main__ - success: 65.08131328628414%
+06/08/2024 17:23:59 - INFO - __main__ - SyntaxError: 34.918686713715864%
+06/08/2024 17:24:00 - INFO - __main__ - *Filtered assertions syntax results :multi*
+06/08/2024 17:25:15 - INFO - __main__ - Exact Match: 0.9205277692543725%
+06/08/2024 17:25:15 - INFO - __main__ - Edit Similarity: 36.09788278613072%
+06/08/2024 17:25:15 - INFO - __main__ - MRR: 1.260611639562238%
+06/08/2024 17:25:15 - INFO - __main__ - -----AST Parsable Rate-----
+06/08/2024 17:25:15 - INFO - __main__ - success: 65.08131328628414%
+06/08/2024 17:25:15 - INFO - __main__ - SyntaxError: 34.918686713715864%
+06/08/2024 17:25:15 - INFO - __main__ - *Filtered assertions syntax results :multi*
+06/08/2024 17:25:33 - INFO - __main__ - Exact Match: 0.9205277692543725%
+06/08/2024 17:25:33 - INFO - __main__ - Edit Similarity: 36.09788278613072%
+06/08/2024 17:25:33 - INFO - __main__ - MRR: 1.260611639562238%
+06/08/2024 17:25:33 - INFO - __main__ - -----AST Parsable Rate-----
+06/08/2024 17:25:33 - INFO - __main__ - success: 65.08131328628414%
+06/08/2024 17:25:33 - INFO - __main__ - SyntaxError: 34.918686713715864%
+06/08/2024 17:25:34 - INFO - __main__ - *Filtered assertions syntax results :multi*
+06/08/2024 17:25:37 - INFO - __main__ - Exact Match: 0.9205277692543725%
+06/08/2024 17:25:37 - INFO - __main__ - Edit Similarity: 36.09788278613072%
+06/08/2024 17:25:37 - INFO - __main__ - MRR: 1.260611639562238%
+06/08/2024 17:25:37 - INFO - __main__ - -----AST Parsable Rate-----
+06/08/2024 17:25:37 - INFO - __main__ - success: 65.08131328628414%
+06/08/2024 17:25:37 - INFO - __main__ - SyntaxError: 34.918686713715864%
+06/08/2024 17:25:38 - INFO - __main__ - *Filtered assertions syntax results :multi*
+06/08/2024 17:27:47 - INFO - __main__ - Exact Match: 0.9205277692543725%
+06/08/2024 17:27:47 - INFO - __main__ - Edit Similarity: 32.05062902730899%
+06/08/2024 17:27:47 - INFO - __main__ - MRR: 1.260611639562238%
+06/08/2024 17:27:47 - INFO - __main__ - -----AST Parsable Rate-----
+06/08/2024 17:27:47 - INFO - __main__ - success: 98.92605093586991%
+06/08/2024 17:27:47 - INFO - __main__ - SyntaxError: 1.0739490641301013%
+06/08/2024 17:27:47 - INFO - __main__ - -----Functional Rate-----
+06/08/2024 17:28:57 - INFO - __main__ - Exact Match: 0.9205277692543725%
+06/08/2024 17:28:57 - INFO - __main__ - Edit Similarity: 32.05062902730899%
+06/08/2024 17:28:57 - INFO - __main__ - MRR: 1.260611639562238%
+06/08/2024 17:28:57 - INFO - __main__ - -----AST Parsable Rate-----
+06/08/2024 17:28:57 - INFO - __main__ - success: 98.92605093586991%
+06/08/2024 17:28:57 - INFO - __main__ - SyntaxError: 1.0739490641301013%
+06/08/2024 17:28:57 - INFO - __main__ - -----Functional Rate-----
+06/08/2024 17:29:13 - INFO - __main__ - Exact Match: 0.9205277692543725%
+06/08/2024 17:29:13 - INFO - __main__ - Edit Similarity: 32.05062902730899%
+06/08/2024 17:29:13 - INFO - __main__ - MRR: 1.260611639562238%
+06/08/2024 17:29:13 - INFO - __main__ - -----AST Parsable Rate-----
+06/08/2024 17:29:13 - INFO - __main__ - success: 98.92605093586991%
+06/08/2024 17:29:13 - INFO - __main__ - SyntaxError: 1.0739490641301013%
+06/08/2024 17:29:13 - INFO - __main__ - -----Functional Rate-----
+06/08/2024 17:29:17 - INFO - __main__ - Exact Match: 0.9205277692543725%
+06/08/2024 17:29:17 - INFO - __main__ - Edit Similarity: 32.05062902730899%
+06/08/2024 17:29:17 - INFO - __main__ - MRR: 1.260611639562238%
+06/08/2024 17:29:17 - INFO - __main__ - -----AST Parsable Rate-----
+06/08/2024 17:29:17 - INFO - __main__ - success: 98.92605093586991%
+06/08/2024 17:29:17 - INFO - __main__ - SyntaxError: 1.0739490641301013%
+06/08/2024 17:29:17 - INFO - __main__ - -----Functional Rate-----
+06/08/2024 17:49:23 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+06/08/2024 17:49:23 - INFO - __main__ - exec_success: 5.062902730899048%
+06/08/2024 17:49:23 - INFO - __main__ - AssertionError: 53.881558760355944%
+06/08/2024 17:49:23 - INFO - __main__ - IndexError: 6.167536054004296%
+06/08/2024 17:49:23 - INFO - __main__ - ValueError: 8.468855477140227%
+06/08/2024 17:49:23 - INFO - __main__ - RuntimeError: 0.490948143602332%
+06/08/2024 17:49:23 - INFO - __main__ - EOFError: 4.664007364222154%
+06/08/2024 17:49:23 - INFO - __main__ - SyntaxError: 20.343663700521635%
+06/08/2024 17:49:23 - INFO - __main__ - ZeroDivisionError: 0.09205277692543726%
+06/08/2024 17:49:23 - INFO - __main__ - TimeoutException: 0.3068425897514575%
+06/08/2024 17:49:23 - INFO - __main__ - StopIteration: 0.0613685179502915%
+06/08/2024 17:49:23 - INFO - __main__ - NameError: 0.03068425897514575%
+06/08/2024 17:49:23 - INFO - __main__ - TypeError: 0.18410555385087451%
+06/08/2024 17:49:23 - INFO - __main__ - KeyError: 0.0613685179502915%
+06/08/2024 17:49:23 - INFO - __main__ - AttributeError: 0.03068425897514575%
+06/08/2024 17:49:23 - INFO - __main__ - IndentationError: 0.0613685179502915%
+06/08/2024 17:49:23 - INFO - __main__ - UnboundLocalError: 0.0613685179502915%
+06/08/2024 17:49:23 - INFO - __main__ - ParseError: 0.03068425897514575%
+06/08/2024 17:49:23 - INFO - __main__ - coverage: 4.882479288125192%
+06/08/2024 17:49:23 - INFO - __main__ - Mutation score: 3.967198527155567%
+06/08/2024 17:49:23 - INFO - __main__ - finish program.
+06/08/2024 17:50:10 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+06/08/2024 17:50:10 - INFO - __main__ - exec_success: 5.523166615526235%
+06/08/2024 17:50:10 - INFO - __main__ - AssertionError: 52.838293955200974%
+06/08/2024 17:50:10 - INFO - __main__ - IndexError: 6.1982203129794415%
+06/08/2024 17:50:10 - INFO - __main__ - ValueError: 8.407486959189935%
+06/08/2024 17:50:10 - INFO - __main__ - RuntimeError: 0.5216324025774778%
+06/08/2024 17:50:10 - INFO - __main__ - EOFError: 4.449217551396134%
+06/08/2024 17:50:10 - INFO - __main__ - SyntaxError: 21.110770174900274%
+06/08/2024 17:50:10 - INFO - __main__ - ZeroDivisionError: 0.09205277692543726%
+06/08/2024 17:50:10 - INFO - __main__ - TimeoutException: 0.3068425897514575%
+06/08/2024 17:50:10 - INFO - __main__ - StopIteration: 0.0613685179502915%
+06/08/2024 17:50:10 - INFO - __main__ - NameError: 0.03068425897514575%
+06/08/2024 17:50:10 - INFO - __main__ - TypeError: 0.15342129487572875%
+06/08/2024 17:50:10 - INFO - __main__ - KeyError: 0.09205277692543726%
+06/08/2024 17:50:10 - INFO - __main__ - AttributeError: 0.03068425897514575%
+06/08/2024 17:50:10 - INFO - __main__ - IndentationError: 0.09205277692543726%
+06/08/2024 17:50:10 - INFO - __main__ - UnboundLocalError: 0.0613685179502915%
+06/08/2024 17:50:10 - INFO - __main__ - ParseError: 0.03068425897514575%
+06/08/2024 17:50:10 - INFO - __main__ - coverage: 5.363608468855477%
+06/08/2024 17:50:10 - INFO - __main__ - Mutation score: 4.273795642835226%
+06/08/2024 17:50:10 - INFO - __main__ - finish program.
+06/08/2024 17:55:37 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+06/08/2024 17:55:37 - INFO - __main__ - exec_success: 6.382325866830316%
+06/08/2024 17:55:37 - INFO - __main__ - AssertionError: 52.40871432954894%
+06/08/2024 17:55:37 - INFO - __main__ - IndexError: 5.615219392451673%
+06/08/2024 17:55:37 - INFO - __main__ - ValueError: 8.131328628413623%
+06/08/2024 17:55:37 - INFO - __main__ - RuntimeError: 0.4295796256520405%
+06/08/2024 17:55:37 - INFO - __main__ - EOFError: 4.3571647744706965%
+06/08/2024 17:55:37 - INFO - __main__ - SyntaxError: 21.72445535440319%
+06/08/2024 17:55:37 - INFO - __main__ - ZeroDivisionError: 0.09205277692543726%
+06/08/2024 17:55:37 - INFO - __main__ - TimeoutException: 0.3068425897514575%
+06/08/2024 17:55:37 - INFO - __main__ - UnboundLocalError: 0.09205277692543726%
+06/08/2024 17:55:37 - INFO - __main__ - StopIteration: 0.0613685179502915%
+06/08/2024 17:55:37 - INFO - __main__ - NameError: 0.03068425897514575%
+06/08/2024 17:55:37 - INFO - __main__ - TypeError: 0.15342129487572875%
+06/08/2024 17:55:37 - INFO - __main__ - KeyError: 0.09205277692543726%
+06/08/2024 17:55:37 - INFO - __main__ - AttributeError: 0.03068425897514575%
+06/08/2024 17:55:37 - INFO - __main__ - IndentationError: 0.0613685179502915%
+06/08/2024 17:55:37 - INFO - __main__ - ParseError: 0.03068425897514575%
+06/08/2024 17:55:37 - INFO - __main__ - coverage: 6.105860693464253%
+06/08/2024 17:55:37 - INFO - __main__ - Mutation score: 4.735808530223994%
+06/08/2024 17:55:37 - INFO - __main__ - finish program.
+06/08/2024 18:04:07 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+06/08/2024 18:04:07 - INFO - __main__ - exec_success: 8.499539736115374%
+06/08/2024 18:04:07 - INFO - __main__ - AssertionError: 51.733660632095734%
+06/08/2024 18:04:07 - INFO - __main__ - IndexError: 5.676587910401964%
+06/08/2024 18:04:07 - INFO - __main__ - ValueError: 7.977907333537895%
+06/08/2024 18:04:07 - INFO - __main__ - RuntimeError: 0.39889536667689474%
+06/08/2024 18:04:07 - INFO - __main__ - EOFError: 4.234427738570114%
+06/08/2024 18:04:07 - INFO - __main__ - SyntaxError: 20.681190549248235%
+06/08/2024 18:04:07 - INFO - __main__ - ZeroDivisionError: 0.09205277692543726%
+06/08/2024 18:04:07 - INFO - __main__ - TimeoutException: 0.27615833077631174%
+06/08/2024 18:04:07 - INFO - __main__ - StopIteration: 0.0613685179502915%
+06/08/2024 18:04:07 - INFO - __main__ - NameError: 0.03068425897514575%
+06/08/2024 18:04:07 - INFO - __main__ - TypeError: 0.15342129487572875%
+06/08/2024 18:04:07 - INFO - __main__ - KeyError: 0.0613685179502915%
+06/08/2024 18:04:07 - INFO - __main__ - AttributeError: 0.03068425897514575%
+06/08/2024 18:04:07 - INFO - __main__ - UnboundLocalError: 0.0613685179502915%
+06/08/2024 18:04:07 - INFO - __main__ - ParseError: 0.03068425897514575%
+06/08/2024 18:04:07 - INFO - __main__ - coverage: 8.234120895980363%
+06/08/2024 18:04:07 - INFO - __main__ - Mutation score: 6.474532065050625%
+06/08/2024 18:04:07 - INFO - __main__ - finish program.
+06/09/2024 00:26:00 - INFO - __main__ - evaluated_model_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000/prediction-5_beam.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000,
+            output_suffix: _beam300_rank0,
+            on_save: True,
+            result_mode: ours,
+            pred_mode: multi,
+            pred_rank: 0
+            
+06/09/2024 00:26:00 - INFO - __main__ - load gen data finish.
+06/09/2024 00:26:14 - INFO - __main__ - # test data: 3259
+06/09/2024 00:26:14 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+06/09/2024 00:27:19 - INFO - __main__ - evaluated_model_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000/prediction-5_beam.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000,
+            output_suffix: _beam300_rank0,
+            on_save: True,
+            result_mode: ours,
+            pred_mode: single,
+            pred_rank: 0
+            
+06/09/2024 00:27:19 - INFO - __main__ - load gen data finish.
+06/09/2024 00:27:33 - INFO - __main__ - # test data: 3259
+06/09/2024 00:27:33 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/09/2024 00:27:38 - INFO - __main__ - Exact Match: 0.0%
+06/09/2024 00:27:38 - INFO - __main__ - Edit Similarity: 13.748389076403805%
+06/09/2024 00:27:38 - INFO - __main__ - MRR: 0.0%
+06/09/2024 00:27:38 - INFO - __main__ - -----AST Parsable Rate-----
+06/09/2024 00:27:38 - INFO - __main__ - success: 98.46578705124271%
+06/09/2024 00:27:38 - INFO - __main__ - SyntaxError: 1.5342129487572875%
+06/09/2024 00:27:38 - INFO - __main__ - *Filtered assertions syntax results :single*
+06/09/2024 00:27:43 - INFO - __main__ - Exact Match: 0.0%
+06/09/2024 00:27:43 - INFO - __main__ - Edit Similarity: 13.502915004602638%
+06/09/2024 00:27:43 - INFO - __main__ - MRR: 0.0%
+06/09/2024 00:27:43 - INFO - __main__ - -----AST Parsable Rate-----
+06/09/2024 00:27:43 - INFO - __main__ - success: 98.34305001534213%
+06/09/2024 00:27:43 - INFO - __main__ - SyntaxError: 1.6569499846578704%
+06/09/2024 00:27:43 - INFO - __main__ - -----Functional Rate-----
+06/09/2024 06:06:51 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/09/2024 06:06:51 - INFO - __main__ - exec_success: 87.91040196379257%
+06/09/2024 06:06:51 - INFO - __main__ - RuntimeError: 0.859159251304081%
+06/09/2024 06:06:51 - INFO - __main__ - ValueError: 1.104633323105247%
+06/09/2024 06:06:51 - INFO - __main__ - SyntaxError: 0.7977907333537895%
+06/09/2024 06:06:51 - INFO - __main__ - AssertionError: 7.456274930960418%
+06/09/2024 06:06:51 - INFO - __main__ - IndexError: 1.22737035900583%
+06/09/2024 06:06:51 - INFO - __main__ - EOFError: 0.5830009205277692%
+06/09/2024 06:06:51 - INFO - __main__ - KeyError: 0.03068425897514575%
+06/09/2024 06:06:51 - INFO - __main__ - ParseError: 0.03068425897514575%
+06/09/2024 06:06:51 - INFO - __main__ - coverage: 82.89659404725376%
+06/09/2024 06:06:51 - INFO - __main__ - Mutation score: 56.016845658177346%
+06/09/2024 11:43:18 - INFO - __main__ - *Filtered assertions syntax results :single*
+06/09/2024 11:43:18 - INFO - __main__ - exec_success: 87.91040196379257%
+06/09/2024 11:43:18 - INFO - __main__ - RuntimeError: 1.6569499846578704%
+06/09/2024 11:43:18 - INFO - __main__ - ValueError: 1.104633323105247%
+06/09/2024 11:43:18 - INFO - __main__ - AssertionError: 7.456274930960418%
+06/09/2024 11:43:18 - INFO - __main__ - IndexError: 1.22737035900583%
+06/09/2024 11:43:18 - INFO - __main__ - EOFError: 0.5830009205277692%
+06/09/2024 11:43:18 - INFO - __main__ - KeyError: 0.03068425897514575%
+06/09/2024 11:43:18 - INFO - __main__ - ParseError: 0.03068425897514575%
+06/09/2024 11:43:18 - INFO - __main__ - coverage: 82.89659404725376%
+06/09/2024 11:43:18 - INFO - __main__ - Mutation score: 56.02829088677507%
+06/09/2024 11:43:18 - INFO - __main__ - finish program.
+06/09/2024 12:55:30 - INFO - __main__ - evaluated_model_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000/prediction-5_beam.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000,
+            output_suffix: _beam300_rank0_single5,
+            on_save: True,
+            result_mode: ours,
+            pred_mode: single,
+            pred_rank: 0,
+            n_test: 5
+            
+06/09/2024 12:55:30 - INFO - __main__ - load gen data finish.
+06/09/2024 12:55:44 - INFO - __main__ - # test data: 3259
+06/09/2024 12:55:44 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/09/2024 12:58:38 - INFO - __main__ - Exact Match: 0.8898435102792267%
+06/09/2024 12:58:38 - INFO - __main__ - Edit Similarity: 28.604786744400123%
+06/09/2024 12:58:38 - INFO - __main__ - MRR: 1.229927380587092%
+06/09/2024 12:58:38 - INFO - __main__ - -----AST Parsable Rate-----
+06/09/2024 12:58:38 - INFO - __main__ - success: 91.53114452285978%
+06/09/2024 12:58:38 - INFO - __main__ - SyntaxError: 8.468855477140227%
+06/09/2024 12:58:39 - INFO - __main__ - *Filtered assertions syntax results :single*
+06/09/2024 13:00:57 - INFO - __main__ - Exact Match: 0.8898435102792267%
+06/09/2024 13:00:57 - INFO - __main__ - Edit Similarity: 27.788585455661245%
+06/09/2024 13:00:57 - INFO - __main__ - MRR: 1.229927380587092%
+06/09/2024 13:00:57 - INFO - __main__ - -----AST Parsable Rate-----
+06/09/2024 13:00:57 - INFO - __main__ - success: 98.92605093586991%
+06/09/2024 13:00:57 - INFO - __main__ - SyntaxError: 1.0739490641301013%
+06/09/2024 13:00:57 - INFO - __main__ - -----Functional Rate-----
+06/09/2024 15:48:10 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/09/2024 15:48:10 - INFO - __main__ - exec_success: 38.75421908560908%
+06/09/2024 15:48:10 - INFO - __main__ - AssertionError: 40.533906106167535%
+06/09/2024 15:48:10 - INFO - __main__ - ValueError: 5.461798097575944%
+06/09/2024 15:48:10 - INFO - __main__ - RuntimeError: 0.39889536667689474%
+06/09/2024 15:48:10 - INFO - __main__ - IndexError: 3.774163853942927%
+06/09/2024 15:48:10 - INFO - __main__ - TimeoutException: 0.27615833077631174%
+06/09/2024 15:48:10 - INFO - __main__ - SyntaxError: 7.824486038662166%
+06/09/2024 15:48:10 - INFO - __main__ - ZeroDivisionError: 0.0613685179502915%
+06/09/2024 15:48:10 - INFO - __main__ - EOFError: 2.6695305308376804%
+06/09/2024 15:48:10 - INFO - __main__ - StopIteration: 0.0613685179502915%
+06/09/2024 15:48:10 - INFO - __main__ - TypeError: 0.0613685179502915%
+06/09/2024 15:48:10 - INFO - __main__ - AttributeError: 0.03068425897514575%
+06/09/2024 15:48:10 - INFO - __main__ - KeyError: 0.0613685179502915%
+06/09/2024 15:48:10 - INFO - __main__ - ParseError: 0.03068425897514575%
+06/09/2024 15:48:10 - INFO - __main__ - coverage: 37.50076710647438%
+06/09/2024 15:48:10 - INFO - __main__ - Mutation score: 29.41764344891072%
+06/09/2024 15:48:10 - INFO - __main__ - finish program.

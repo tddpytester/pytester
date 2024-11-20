@@ -1,0 +1,394 @@
+06/16/2024 17:00:43 - INFO - __main__ - evaluated_model_dir: copilot_outputs/copilot_completion_list.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: copilot_outputs,
+            output_suffix: _rank0_single5,
+            on_save: True,
+            result_mode: copilot,
+            pred_mode: single,
+            pred_rank: 0,
+            n_test: 5
+            
+06/16/2024 17:00:43 - INFO - __main__ - load gen data finish.
+06/16/2024 17:00:58 - INFO - __main__ - # test data: 3259
+06/16/2024 17:00:58 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/16/2024 17:03:09 - INFO - __main__ - Exact Match: 0.0%
+06/16/2024 17:03:09 - INFO - __main__ - Edit Similarity: 24.2003682111077%
+06/16/2024 17:03:09 - INFO - __main__ - MRR: 0.0%
+06/16/2024 17:03:09 - INFO - __main__ - -----AST Parsable Rate-----
+06/16/2024 17:03:09 - INFO - __main__ - success: 97.82141761276465%
+06/16/2024 17:03:09 - INFO - __main__ - SyntaxError: 2.1785823872353482%
+06/16/2024 17:03:09 - INFO - __main__ - *Filtered assertions syntax results :single*
+06/16/2024 17:03:55 - INFO - __main__ - Exact Match: 0.0613685179502915%
+06/16/2024 17:03:55 - INFO - __main__ - Edit Similarity: 24.05492482356551%
+06/16/2024 17:03:55 - INFO - __main__ - MRR: 0.0613685179502915%
+06/16/2024 17:03:55 - INFO - __main__ - -----AST Parsable Rate-----
+06/16/2024 17:03:55 - INFO - __main__ - success: 99.75452592819883%
+06/16/2024 17:03:55 - INFO - __main__ - SyntaxError: 0.245474071801166%
+06/16/2024 17:03:55 - INFO - __main__ - -----Functional Rate-----
+06/16/2024 22:39:17 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/16/2024 22:39:17 - INFO - __main__ - exec_success: 81.86560294568886%
+06/16/2024 22:39:17 - INFO - __main__ - AssertionError: 15.495550782448603%
+06/16/2024 22:39:17 - INFO - __main__ - SyntaxError: 2.086529610309911%
+06/16/2024 22:39:17 - INFO - __main__ - IndexError: 0.18410555385087451%
+06/16/2024 22:39:17 - INFO - __main__ - RuntimeError: 0.09205277692543726%
+06/16/2024 22:39:17 - INFO - __main__ - KeyError: 0.03068425897514575%
+06/16/2024 22:39:17 - INFO - __main__ - EOFError: 0.21478981282602025%
+06/16/2024 22:39:17 - INFO - __main__ - ValueError: 0.03068425897514575%
+06/16/2024 22:39:17 - INFO - __main__ - coverage: 79.15648972077324%
+06/16/2024 22:39:17 - INFO - __main__ - Mutation score: 62.43068425897509%
+06/16/2024 22:39:17 - INFO - __main__ - finish program.
+06/26/2024 20:36:26 - INFO - __main__ - evaluated_model_dir: copilot_outputs/completion_1.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: copilot_outputs,
+            output_suffix: _rank0_single5,
+            on_save: True,
+            result_mode: copilot,
+            pred_mode: single,
+            n_pred_rank: 0,
+            n_test: 5
+            
+06/26/2024 20:36:26 - INFO - __main__ - load gen data finish.
+06/26/2024 20:36:43 - INFO - __main__ - evaluated_model_dir: copilot_outputs/completion_2.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: copilot_outputs,
+            output_suffix: _rank0_single5,
+            on_save: True,
+            result_mode: copilot,
+            pred_mode: single,
+            n_pred_rank: 0,
+            n_test: 5
+            
+06/26/2024 20:36:43 - INFO - __main__ - load gen data finish.
+06/26/2024 20:36:44 - INFO - __main__ - # test data: 3259
+06/26/2024 20:36:44 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/26/2024 20:36:50 - INFO - __main__ - evaluated_model_dir: copilot_outputs/completion_3.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: copilot_outputs,
+            output_suffix: _rank0_single5,
+            on_save: True,
+            result_mode: copilot,
+            pred_mode: single,
+            n_pred_rank: 0,
+            n_test: 5
+            
+06/26/2024 20:36:50 - INFO - __main__ - load gen data finish.
+06/26/2024 20:37:02 - INFO - __main__ - evaluated_model_dir: copilot_outputs/completion_4.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: copilot_outputs,
+            output_suffix: _rank0_single5,
+            on_save: True,
+            result_mode: copilot,
+            pred_mode: single,
+            n_pred_rank: 0,
+            n_test: 5
+            
+06/26/2024 20:37:02 - INFO - __main__ - load gen data finish.
+06/26/2024 20:37:03 - INFO - __main__ - # test data: 3259
+06/26/2024 20:37:03 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/26/2024 20:37:12 - INFO - __main__ - # test data: 3259
+06/26/2024 20:37:12 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/26/2024 20:37:27 - INFO - __main__ - # test data: 3259
+06/26/2024 20:37:27 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/26/2024 21:07:29 - INFO - __main__ - Exact Match: 0.0%
+06/26/2024 21:07:29 - INFO - __main__ - Edit Similarity: 31.112304387849033%
+06/26/2024 21:07:29 - INFO - __main__ - MRR: 0.0%
+06/26/2024 21:07:29 - INFO - __main__ - -----AST Parsable Rate-----
+06/26/2024 21:07:29 - INFO - __main__ - success: 89.93556305615219%
+06/26/2024 21:07:29 - INFO - __main__ - SyntaxError: 10.003068425897514%
+06/26/2024 21:07:29 - INFO - __main__ - IndentationError: 0.0613685179502915%
+06/26/2024 21:08:24 - INFO - __main__ - Exact Match: 0.0%
+06/26/2024 21:08:24 - INFO - __main__ - Edit Similarity: 31.239030377416384%
+06/26/2024 21:08:24 - INFO - __main__ - MRR: 0.0%
+06/26/2024 21:08:24 - INFO - __main__ - -----AST Parsable Rate-----
+06/26/2024 21:08:24 - INFO - __main__ - success: 91.10156489720774%
+06/26/2024 21:08:24 - INFO - __main__ - SyntaxError: 8.867750843817122%
+06/26/2024 21:08:24 - INFO - __main__ - IndentationError: 0.03068425897514575%
+06/26/2024 21:08:50 - INFO - __main__ - evaluated_model_dir: copilot_outputs/completion_1.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: copilot_outputs,
+            output_suffix: _rank0_single5,
+            on_save: True,
+            result_mode: copilot,
+            pred_mode: single,
+            n_pred_rank: 0,
+            n_test: 5
+            
+06/26/2024 21:08:50 - INFO - __main__ - load gen data finish.
+06/26/2024 21:09:06 - INFO - __main__ - evaluated_model_dir: copilot_outputs/completion_2.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: copilot_outputs,
+            output_suffix: _rank0_single5,
+            on_save: True,
+            result_mode: copilot,
+            pred_mode: single,
+            n_pred_rank: 0,
+            n_test: 5
+            
+06/26/2024 21:09:06 - INFO - __main__ - load gen data finish.
+06/26/2024 21:09:10 - INFO - __main__ - # test data: 3259
+06/26/2024 21:09:10 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/26/2024 21:09:26 - INFO - __main__ - # test data: 3259
+06/26/2024 21:09:26 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/26/2024 21:09:30 - INFO - __main__ - evaluated_model_dir: copilot_outputs/completion_3.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: copilot_outputs,
+            output_suffix: _rank0_single5,
+            on_save: True,
+            result_mode: copilot,
+            pred_mode: single,
+            n_pred_rank: 0,
+            n_test: 5
+            
+06/26/2024 21:09:30 - INFO - __main__ - load gen data finish.
+06/26/2024 21:09:50 - INFO - __main__ - # test data: 3259
+06/26/2024 21:09:50 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/26/2024 21:11:39 - INFO - __main__ - evaluated_model_dir: copilot_outputs/completion_4.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: copilot_outputs,
+            output_suffix: _rank0_single5,
+            on_save: True,
+            result_mode: copilot,
+            pred_mode: single,
+            n_pred_rank: 0,
+            n_test: 5
+            
+06/26/2024 21:11:39 - INFO - __main__ - load gen data finish.
+06/26/2024 21:12:00 - INFO - __main__ - # test data: 3259
+06/26/2024 21:12:00 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/26/2024 21:39:12 - INFO - __main__ - Exact Match: 0.0%
+06/26/2024 21:39:12 - INFO - __main__ - Edit Similarity: 31.112304387849033%
+06/26/2024 21:39:12 - INFO - __main__ - MRR: 0.0%
+06/26/2024 21:39:12 - INFO - __main__ - -----AST Parsable Rate-----
+06/26/2024 21:39:12 - INFO - __main__ - success: 89.93556305615219%
+06/26/2024 21:39:12 - INFO - __main__ - SyntaxError: 10.003068425897514%
+06/26/2024 21:39:12 - INFO - __main__ - IndentationError: 0.0613685179502915%
+06/26/2024 21:39:12 - INFO - __main__ - *Filtered assertions syntax results :single*
+06/26/2024 21:39:45 - INFO - __main__ - Exact Match: 0.0%
+06/26/2024 21:39:45 - INFO - __main__ - Edit Similarity: 31.239030377416384%
+06/26/2024 21:39:45 - INFO - __main__ - MRR: 0.0%
+06/26/2024 21:39:45 - INFO - __main__ - -----AST Parsable Rate-----
+06/26/2024 21:39:45 - INFO - __main__ - success: 91.10156489720774%
+06/26/2024 21:39:45 - INFO - __main__ - SyntaxError: 8.867750843817122%
+06/26/2024 21:39:45 - INFO - __main__ - IndentationError: 0.03068425897514575%
+06/26/2024 21:39:45 - INFO - __main__ - *Filtered assertions syntax results :single*
+06/26/2024 21:42:12 - INFO - __main__ - Exact Match: 0.0%
+06/26/2024 21:42:12 - INFO - __main__ - Edit Similarity: 31.125498619208347%
+06/26/2024 21:42:12 - INFO - __main__ - MRR: 0.0%
+06/26/2024 21:42:12 - INFO - __main__ - -----AST Parsable Rate-----
+06/26/2024 21:42:12 - INFO - __main__ - success: 90.91745934335685%
+06/26/2024 21:42:12 - INFO - __main__ - SyntaxError: 8.990487879717705%
+06/26/2024 21:42:12 - INFO - __main__ - IndentationError: 0.09205277692543726%
+06/26/2024 21:42:12 - INFO - __main__ - *Filtered assertions syntax results :single*
+06/26/2024 21:48:00 - INFO - __main__ - Exact Match: 0.0%
+06/26/2024 21:48:00 - INFO - __main__ - Edit Similarity: 31.18318502608162%
+06/26/2024 21:48:00 - INFO - __main__ - MRR: 0.0%
+06/26/2024 21:48:00 - INFO - __main__ - -----AST Parsable Rate-----
+06/26/2024 21:48:00 - INFO - __main__ - success: 90.91745934335685%
+06/26/2024 21:48:00 - INFO - __main__ - SyntaxError: 8.929119361767414%
+06/26/2024 21:48:00 - INFO - __main__ - IndentationError: 0.15342129487572875%
+06/26/2024 21:48:00 - INFO - __main__ - *Filtered assertions syntax results :single*
+06/26/2024 21:51:26 - INFO - __main__ - Exact Match: 0.0%
+06/26/2024 21:51:26 - INFO - __main__ - Edit Similarity: 30.863761890150354%
+06/26/2024 21:51:26 - INFO - __main__ - MRR: 0.0%
+06/26/2024 21:51:26 - INFO - __main__ - -----AST Parsable Rate-----
+06/26/2024 21:51:26 - INFO - __main__ - success: 99.53973611537282%
+06/26/2024 21:51:26 - INFO - __main__ - SyntaxError: 0.46026388462718626%
+06/26/2024 21:51:26 - INFO - __main__ - -----Functional Rate-----
+06/26/2024 21:54:03 - INFO - __main__ - Exact Match: 0.0%
+06/26/2024 21:54:03 - INFO - __main__ - Edit Similarity: 30.85087450138079%
+06/26/2024 21:54:03 - INFO - __main__ - MRR: 0.0%
+06/26/2024 21:54:03 - INFO - __main__ - -----AST Parsable Rate-----
+06/26/2024 21:54:03 - INFO - __main__ - success: 99.53973611537282%
+06/26/2024 21:54:03 - INFO - __main__ - SyntaxError: 0.46026388462718626%
+06/26/2024 21:54:03 - INFO - __main__ - -----Functional Rate-----
+06/26/2024 21:57:26 - INFO - __main__ - Exact Match: 0.0%
+06/26/2024 21:57:26 - INFO - __main__ - Edit Similarity: 30.685486345504756%
+06/26/2024 21:57:26 - INFO - __main__ - MRR: 0.0%
+06/26/2024 21:57:26 - INFO - __main__ - -----AST Parsable Rate-----
+06/26/2024 21:57:26 - INFO - __main__ - success: 99.53973611537282%
+06/26/2024 21:57:26 - INFO - __main__ - SyntaxError: 0.46026388462718626%
+06/26/2024 21:57:26 - INFO - __main__ - -----Functional Rate-----
+06/26/2024 22:00:35 - INFO - __main__ - Exact Match: 0.0%
+06/26/2024 22:00:35 - INFO - __main__ - Edit Similarity: 30.718011660018412%
+06/26/2024 22:00:35 - INFO - __main__ - MRR: 0.0%
+06/26/2024 22:00:35 - INFO - __main__ - -----AST Parsable Rate-----
+06/26/2024 22:00:35 - INFO - __main__ - success: 99.47836759742252%
+06/26/2024 22:00:35 - INFO - __main__ - SyntaxError: 0.5216324025774778%
+06/26/2024 22:00:35 - INFO - __main__ - -----Functional Rate-----
+06/27/2024 23:04:51 - INFO - __main__ - evaluated_model_dir: copilot_outputs/completion_1.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: copilot_outputs,
+            output_suffix: _rank0_single5,
+            on_save: True,
+            result_mode: copilot,
+            pred_mode: single,
+            n_pred_rank: 0,
+            n_test: 5
+            
+06/27/2024 23:04:51 - INFO - __main__ - load gen data finish.
+06/27/2024 23:05:05 - INFO - __main__ - # test data: 3259
+06/27/2024 23:05:05 - INFO - __main__ - -----Functional Rate-----
+06/27/2024 23:05:06 - INFO - __main__ - evaluated_model_dir: copilot_outputs/completion_2.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: copilot_outputs,
+            output_suffix: _rank0_single5,
+            on_save: True,
+            result_mode: copilot,
+            pred_mode: single,
+            n_pred_rank: 0,
+            n_test: 5
+            
+06/27/2024 23:05:06 - INFO - __main__ - load gen data finish.
+06/27/2024 23:05:16 - INFO - __main__ - evaluated_model_dir: copilot_outputs/completion_2.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: copilot_outputs,
+            output_suffix: _rank0_single5,
+            on_save: True,
+            result_mode: copilot,
+            pred_mode: single,
+            n_pred_rank: 0,
+            n_test: 5
+            
+06/27/2024 23:05:16 - INFO - __main__ - load gen data finish.
+06/27/2024 23:05:20 - INFO - __main__ - # test data: 3259
+06/27/2024 23:05:21 - INFO - __main__ - -----Functional Rate-----
+06/27/2024 23:05:39 - INFO - __main__ - evaluated_model_dir: copilot_outputs/completion_3.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: copilot_outputs,
+            output_suffix: _rank0_single5,
+            on_save: True,
+            result_mode: copilot,
+            pred_mode: single,
+            n_pred_rank: 0,
+            n_test: 5
+            
+06/27/2024 23:05:39 - INFO - __main__ - load gen data finish.
+06/27/2024 23:05:48 - INFO - __main__ - evaluated_model_dir: copilot_outputs/completion_4.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: copilot_outputs,
+            output_suffix: _rank0_single5,
+            on_save: True,
+            result_mode: copilot,
+            pred_mode: single,
+            n_pred_rank: 0,
+            n_test: 5
+            
+06/27/2024 23:05:48 - INFO - __main__ - load gen data finish.
+06/27/2024 23:05:53 - INFO - __main__ - # test data: 3259
+06/27/2024 23:05:53 - INFO - __main__ - -----Functional Rate-----
+06/27/2024 23:06:02 - INFO - __main__ - # test data: 3259
+06/27/2024 23:06:02 - INFO - __main__ - -----Functional Rate-----
+06/28/2024 02:50:47 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/28/2024 02:50:47 - INFO - __main__ - exec_success: 61.42988646824179%
+06/28/2024 02:50:47 - INFO - __main__ - AssertionError: 24.792881251917766%
+06/28/2024 02:50:47 - INFO - __main__ - TimeoutException: 2.546793494937097%
+06/28/2024 02:50:47 - INFO - __main__ - NameError: 0.6750536974532065%
+06/28/2024 02:50:47 - INFO - __main__ - SyntaxError: 8.53022399509052%
+06/28/2024 02:50:47 - INFO - __main__ - IndentationError: 1.0432648051549556%
+06/28/2024 02:50:47 - INFO - __main__ - IndexError: 0.21478981282602025%
+06/28/2024 02:50:47 - INFO - __main__ - RuntimeError: 0.15342129487572875%
+06/28/2024 02:50:47 - INFO - __main__ - ValueError: 0.15342129487572875%
+06/28/2024 02:50:47 - INFO - __main__ - MemoryError: 0.03068425897514575%
+06/28/2024 02:50:47 - INFO - __main__ - KeyError: 0.03068425897514575%
+06/28/2024 02:50:47 - INFO - __main__ - UnboundLocalError: 0.0613685179502915%
+06/28/2024 02:50:47 - INFO - __main__ - EOFError: 0.27615833077631174%
+06/28/2024 02:50:47 - INFO - __main__ - ModuleNotFoundError: 0.03068425897514575%
+06/28/2024 02:50:47 - INFO - __main__ - ZeroDivisionError: 0.03068425897514575%
+06/28/2024 02:50:47 - INFO - __main__ - coverage: 59.46087756980669%
+06/28/2024 02:50:47 - INFO - __main__ - Mutation score: 41.157625038355334%
+06/28/2024 02:50:47 - INFO - __main__ - finish program.
+06/28/2024 02:51:31 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/28/2024 02:51:31 - INFO - __main__ - exec_success: 60.9696225836146%
+06/28/2024 02:51:31 - INFO - __main__ - SyntaxError: 7.609696225836146%
+06/28/2024 02:51:31 - INFO - __main__ - AssertionError: 26.327094200675056%
+06/28/2024 02:51:31 - INFO - __main__ - NameError: 0.27615833077631174%
+06/28/2024 02:51:31 - INFO - __main__ - TimeoutException: 3.068425897514575%
+06/28/2024 02:51:31 - INFO - __main__ - IndentationError: 0.8284749923289352%
+06/28/2024 02:51:31 - INFO - __main__ - ValueError: 0.21478981282602025%
+06/28/2024 02:51:31 - INFO - __main__ - RuntimeError: 0.122737035900583%
+06/28/2024 02:51:31 - INFO - __main__ - IndexError: 0.18410555385087451%
+06/28/2024 02:51:31 - INFO - __main__ - KeyError: 0.03068425897514575%
+06/28/2024 02:51:31 - INFO - __main__ - AttributeError: 0.03068425897514575%
+06/28/2024 02:51:31 - INFO - __main__ - StopIteration: 0.03068425897514575%
+06/28/2024 02:51:31 - INFO - __main__ - EOFError: 0.245474071801166%
+06/28/2024 02:51:31 - INFO - __main__ - UnboundLocalError: 0.03068425897514575%
+06/28/2024 02:51:31 - INFO - __main__ - ZeroDivisionError: 0.03068425897514575%
+06/28/2024 02:51:31 - INFO - __main__ - coverage: 58.911936176741335%
+06/28/2024 02:51:31 - INFO - __main__ - Mutation score: 40.816139920220884%
+06/28/2024 02:51:31 - INFO - __main__ - finish program.
+06/28/2024 02:53:40 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/28/2024 02:53:40 - INFO - __main__ - exec_success: 60.47867444001227%
+06/28/2024 02:53:40 - INFO - __main__ - IndentationError: 0.859159251304081%
+06/28/2024 02:53:40 - INFO - __main__ - AssertionError: 26.235041423749617%
+06/28/2024 02:53:40 - INFO - __main__ - TimeoutException: 3.0070573795642837%
+06/28/2024 02:53:40 - INFO - __main__ - SyntaxError: 7.916538815587604%
+06/28/2024 02:53:40 - INFO - __main__ - NameError: 0.490948143602332%
+06/28/2024 02:53:40 - INFO - __main__ - IndexError: 0.21478981282602025%
+06/28/2024 02:53:40 - INFO - __main__ - EOFError: 0.245474071801166%
+06/28/2024 02:53:40 - INFO - __main__ - TypeError: 0.03068425897514575%
+06/28/2024 02:53:40 - INFO - __main__ - RuntimeError: 0.15342129487572875%
+06/28/2024 02:53:40 - INFO - __main__ - KeyError: 0.03068425897514575%
+06/28/2024 02:53:40 - INFO - __main__ - ValueError: 0.27615833077631174%
+06/28/2024 02:53:40 - INFO - __main__ - ModuleNotFoundError: 0.03068425897514575%
+06/28/2024 02:53:40 - INFO - __main__ - ZeroDivisionError: 0.03068425897514575%
+06/28/2024 02:53:40 - INFO - __main__ - coverage: 58.44430806996011%
+06/28/2024 02:53:40 - INFO - __main__ - Mutation score: 40.39822031297944%
+06/28/2024 02:53:40 - INFO - __main__ - finish program.
+06/28/2024 02:55:10 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/28/2024 02:55:10 - INFO - __main__ - exec_success: 61.7060447990181%
+06/28/2024 02:55:10 - INFO - __main__ - AssertionError: 25.40656643142068%
+06/28/2024 02:55:10 - INFO - __main__ - NameError: 0.4295796256520405%
+06/28/2024 02:55:10 - INFO - __main__ - SyntaxError: 7.885854556612458%
+06/28/2024 02:55:10 - INFO - __main__ - IndentationError: 0.6750536974532065%
+06/28/2024 02:55:10 - INFO - __main__ - TimeoutException: 3.0070573795642837%
+06/28/2024 02:55:10 - INFO - __main__ - IndexError: 0.21478981282602025%
+06/28/2024 02:55:10 - INFO - __main__ - RuntimeError: 0.122737035900583%
+06/28/2024 02:55:10 - INFO - __main__ - KeyError: 0.0613685179502915%
+06/28/2024 02:55:10 - INFO - __main__ - ValueError: 0.15342129487572875%
+06/28/2024 02:55:10 - INFO - __main__ - UnboundLocalError: 0.0613685179502915%
+06/28/2024 02:55:10 - INFO - __main__ - EOFError: 0.245474071801166%
+06/28/2024 02:55:10 - INFO - __main__ - ZeroDivisionError: 0.03068425897514575%
+06/28/2024 02:55:10 - INFO - __main__ - coverage: 59.64927891991408%
+06/28/2024 02:55:10 - INFO - __main__ - Mutation score: 41.96649278919911%
+06/28/2024 02:55:10 - INFO - __main__ - finish program.
+06/30/2024 01:07:48 - INFO - __main__ - evaluated_model_dir: copilot_outputs/completion_4.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: copilot_outputs,
+            output_suffix: _rank0_single5,
+            on_save: True,
+            result_mode: copilot,
+            pred_mode: single,
+            n_pred_rank: 0,
+            n_test: 5
+            
+06/30/2024 01:07:48 - INFO - __main__ - load gen data finish.

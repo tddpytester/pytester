@@ -1,0 +1,191 @@
+09/28/2023 15:57:45 - INFO - __main__ - evaluated_model_dir: save/PyTester/prediction-5_beam300.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: save/PyTester,
+            output_suffix: _beam300,
+            on_save: True,
+            result_mode: ours,
+            pred_mode: multi
+            
+09/28/2023 15:57:45 - INFO - __main__ - load gen data finish.
+09/28/2023 15:57:58 - INFO - __main__ - # test data: 3259
+09/28/2023 15:57:58 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+09/28/2023 15:58:04 - INFO - __main__ - Exact Match: 0.27615833077631174%
+09/28/2023 15:58:04 - INFO - __main__ - Edit Similarity: 18.112918073028535%
+09/28/2023 15:58:04 - INFO - __main__ - MRR: 0.5021990385598855%
+09/28/2023 15:58:04 - INFO - __main__ - -----AST Parsable Rate-----
+09/28/2023 15:58:04 - INFO - __main__ - success: 99.41699907947223%
+09/28/2023 15:58:04 - INFO - __main__ - SyntaxError: 0.5830009205277692%
+09/28/2023 15:58:04 - INFO - __main__ - -----Functional Rate-----
+09/28/2023 15:58:35 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+09/28/2023 15:58:35 - INFO - __main__ - exec_success: 84.41239644062595%
+09/28/2023 15:58:35 - INFO - __main__ - AssertionError: 10.800859159251305%
+09/28/2023 15:58:35 - INFO - __main__ - IndexError: 1.7490027615833077%
+09/28/2023 15:58:35 - INFO - __main__ - SyntaxError: 0.5830009205277692%
+09/28/2023 15:58:35 - INFO - __main__ - ValueError: 1.350107394906413%
+09/28/2023 15:58:35 - INFO - __main__ - EOFError: 0.981896287204664%
+09/28/2023 15:58:35 - INFO - __main__ - TimeoutException: 0.03068425897514575%
+09/28/2023 15:58:35 - INFO - __main__ - KeyError: 0.0613685179502915%
+09/28/2023 15:58:35 - INFO - __main__ - ParseError: 0.03068425897514575%
+09/28/2023 15:58:35 - INFO - __main__ - finish program.
+06/09/2024 12:58:27 - INFO - __main__ - evaluated_model_dir: save/PyTester/prediction-5_beam300.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: save/PyTester,
+            output_suffix: _beam300_rank0_single5,
+            on_save: True,
+            result_mode: ours,
+            pred_mode: single,
+            pred_rank: 0,
+            n_test: 5
+            
+06/09/2024 12:58:27 - INFO - __main__ - load gen data finish.
+06/09/2024 12:58:42 - INFO - __main__ - # test data: 3259
+06/09/2024 12:58:42 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/09/2024 12:58:48 - INFO - __main__ - Exact Match: 0.27615833077631174%
+06/09/2024 12:58:48 - INFO - __main__ - Edit Similarity: 18.112918073028535%
+06/09/2024 12:58:48 - INFO - __main__ - MRR: 0.5021990385598855%
+06/09/2024 12:58:48 - INFO - __main__ - -----AST Parsable Rate-----
+06/09/2024 12:58:48 - INFO - __main__ - success: 99.41699907947223%
+06/09/2024 12:58:48 - INFO - __main__ - SyntaxError: 0.5830009205277692%
+06/09/2024 12:58:48 - INFO - __main__ - *Filtered assertions syntax results :single*
+06/09/2024 12:58:54 - INFO - __main__ - Exact Match: 0.27615833077631174%
+06/09/2024 12:58:54 - INFO - __main__ - Edit Similarity: 17.994476833384475%
+06/09/2024 12:58:54 - INFO - __main__ - MRR: 0.5021990385598855%
+06/09/2024 12:58:54 - INFO - __main__ - -----AST Parsable Rate-----
+06/09/2024 12:58:54 - INFO - __main__ - success: 99.63178889229826%
+06/09/2024 12:58:54 - INFO - __main__ - SyntaxError: 0.36821110770174903%
+06/09/2024 12:58:54 - INFO - __main__ - -----Functional Rate-----
+06/09/2024 18:41:42 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/09/2024 18:41:42 - INFO - __main__ - exec_success: 84.41239644062595%
+06/09/2024 18:41:42 - INFO - __main__ - AssertionError: 10.800859159251305%
+06/09/2024 18:41:42 - INFO - __main__ - IndexError: 1.7490027615833077%
+06/09/2024 18:41:42 - INFO - __main__ - SyntaxError: 0.5830009205277692%
+06/09/2024 18:41:42 - INFO - __main__ - ValueError: 1.350107394906413%
+06/09/2024 18:41:42 - INFO - __main__ - EOFError: 0.981896287204664%
+06/09/2024 18:41:42 - INFO - __main__ - TimeoutException: 0.03068425897514575%
+06/09/2024 18:41:42 - INFO - __main__ - KeyError: 0.0613685179502915%
+06/09/2024 18:41:42 - INFO - __main__ - ParseError: 0.03068425897514575%
+06/09/2024 18:41:42 - INFO - __main__ - coverage: 80.91408407486959%
+06/09/2024 18:41:42 - INFO - __main__ - Mutation score: 60.41389996931582%
+06/09/2024 18:41:42 - INFO - __main__ - finish program.
+06/10/2024 00:12:40 - INFO - __main__ - evaluated_model_dir: save/PyTester/prediction-5_beam300.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: save/PyTester,
+            output_suffix: _beam300_rank0_multi0,
+            on_save: True,
+            result_mode: ours,
+            pred_mode: multi,
+            pred_rank: 0,
+            n_test: 0
+            
+06/10/2024 00:12:40 - INFO - __main__ - load gen data finish.
+06/10/2024 00:12:55 - INFO - __main__ - # test data: 3259
+06/10/2024 00:12:55 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+06/10/2024 00:13:01 - INFO - __main__ - Exact Match: 0.27615833077631174%
+06/10/2024 00:13:01 - INFO - __main__ - Edit Similarity: 18.112918073028535%
+06/10/2024 00:13:01 - INFO - __main__ - MRR: 0.5021990385598855%
+06/10/2024 00:13:01 - INFO - __main__ - -----AST Parsable Rate-----
+06/10/2024 00:13:01 - INFO - __main__ - success: 99.41699907947223%
+06/10/2024 00:13:01 - INFO - __main__ - SyntaxError: 0.5830009205277692%
+06/10/2024 00:13:01 - INFO - __main__ - *Filtered assertions syntax results :multi*
+06/10/2024 00:13:07 - INFO - __main__ - Exact Match: 0.27615833077631174%
+06/10/2024 00:13:07 - INFO - __main__ - Edit Similarity: 17.994476833384475%
+06/10/2024 00:13:07 - INFO - __main__ - MRR: 0.5021990385598855%
+06/10/2024 00:13:07 - INFO - __main__ - -----AST Parsable Rate-----
+06/10/2024 00:13:07 - INFO - __main__ - success: 99.63178889229826%
+06/10/2024 00:13:07 - INFO - __main__ - SyntaxError: 0.36821110770174903%
+06/10/2024 00:13:07 - INFO - __main__ - -----Functional Rate-----
+06/10/2024 05:52:05 - INFO - __main__ - *None-filtered assertions syntax results :multi*
+06/10/2024 05:52:05 - INFO - __main__ - exec_success: 84.41239644062595%
+06/10/2024 05:52:05 - INFO - __main__ - AssertionError: 10.800859159251305%
+06/10/2024 05:52:05 - INFO - __main__ - IndexError: 1.7490027615833077%
+06/10/2024 05:52:05 - INFO - __main__ - SyntaxError: 0.5830009205277692%
+06/10/2024 05:52:05 - INFO - __main__ - ValueError: 1.350107394906413%
+06/10/2024 05:52:05 - INFO - __main__ - EOFError: 0.981896287204664%
+06/10/2024 05:52:05 - INFO - __main__ - TimeoutException: 0.03068425897514575%
+06/10/2024 05:52:05 - INFO - __main__ - KeyError: 0.0613685179502915%
+06/10/2024 05:52:05 - INFO - __main__ - ParseError: 0.03068425897514575%
+06/10/2024 05:52:05 - INFO - __main__ - coverage: 80.94476833384473%
+06/10/2024 05:52:05 - INFO - __main__ - Mutation score: 60.47760049094821%
+06/10/2024 11:27:37 - INFO - __main__ - *Filtered assertions syntax results :multi*
+06/10/2024 11:27:37 - INFO - __main__ - exec_success: 84.5044492175514%
+06/10/2024 11:27:37 - INFO - __main__ - AssertionError: 10.862227677201595%
+06/10/2024 11:27:37 - INFO - __main__ - IndexError: 1.7490027615833077%
+06/10/2024 11:27:37 - INFO - __main__ - RuntimeError: 0.36821110770174903%
+06/10/2024 11:27:37 - INFO - __main__ - ValueError: 1.350107394906413%
+06/10/2024 11:27:37 - INFO - __main__ - EOFError: 1.0125805461798099%
+06/10/2024 11:27:37 - INFO - __main__ - TimeoutException: 0.03068425897514575%
+06/10/2024 11:27:37 - INFO - __main__ - AttributeError: 0.03068425897514575%
+06/10/2024 11:27:37 - INFO - __main__ - KeyError: 0.0613685179502915%
+06/10/2024 11:27:37 - INFO - __main__ - ParseError: 0.03068425897514575%
+06/10/2024 11:27:37 - INFO - __main__ - coverage: 81.03252531451365%
+06/10/2024 11:27:37 - INFO - __main__ - Mutation score: 60.535194845044565%
+06/10/2024 17:07:26 - INFO - __main__ - *Filtered assertions error results: multi*
+06/10/2024 17:07:26 - INFO - __main__ - Compilable Rate
+06/10/2024 17:07:26 - INFO - __main__ - success: 100.0%
+06/10/2024 17:07:26 - INFO - __main__ - Functional Rate
+06/10/2024 17:07:26 - INFO - __main__ - exec_success: 91.10156489720774%
+06/10/2024 17:07:26 - INFO - __main__ - RuntimeError: 8.898435102792268%
+06/10/2024 17:07:26 - INFO - __main__ - Coverage: 87.0822338140534%
+06/10/2024 17:07:26 - INFO - __main__ - Mutation score: 60.557195458729744%
+06/10/2024 17:07:26 - INFO - __main__ - finish program.
+06/09/2024 13:37:04 - INFO - __main__ - evaluated_model_dir: save/PyTester/prediction-5_beam300.pkl,
+            test_data_dir: dataset/APPS_new/apps_test_executable.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: save/PyTester,
+            output_suffix: _beam300_rank0_single3,
+            on_save: True,
+            result_mode: ours,
+            pred_mode: single,
+            pred_rank: 0,
+            n_test: 3
+            
+06/09/2024 13:37:04 - INFO - __main__ - load gen data finish.
+06/09/2024 13:37:19 - INFO - __main__ - # test data: 3259
+06/09/2024 13:37:19 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/09/2024 13:37:25 - INFO - __main__ - Exact Match: 0.27615833077631174%
+06/09/2024 13:37:25 - INFO - __main__ - Edit Similarity: 18.043571647744706%
+06/09/2024 13:37:25 - INFO - __main__ - MRR: 0.5021990385598855%
+06/09/2024 13:37:25 - INFO - __main__ - -----AST Parsable Rate-----
+06/09/2024 13:37:25 - INFO - __main__ - success: 99.41699907947223%
+06/09/2024 13:37:25 - INFO - __main__ - SyntaxError: 0.5830009205277692%
+06/09/2024 13:37:25 - INFO - __main__ - *Filtered assertions syntax results :single*
+06/09/2024 13:37:32 - INFO - __main__ - Exact Match: 0.27615833077631174%
+06/09/2024 13:37:32 - INFO - __main__ - Edit Similarity: 17.925130408100646%
+06/09/2024 13:37:32 - INFO - __main__ - MRR: 0.5021990385598855%
+06/09/2024 13:37:32 - INFO - __main__ - -----AST Parsable Rate-----
+06/09/2024 13:37:32 - INFO - __main__ - success: 99.63178889229826%
+06/09/2024 13:37:32 - INFO - __main__ - SyntaxError: 0.36821110770174903%
+06/09/2024 13:37:32 - INFO - __main__ - -----Functional Rate-----
+06/09/2024 19:21:25 - INFO - __main__ - *None-filtered assertions syntax results :single*
+06/09/2024 19:21:25 - INFO - __main__ - exec_success: 84.4430806996011%
+06/09/2024 19:21:25 - INFO - __main__ - AssertionError: 10.800859159251305%
+06/09/2024 19:21:25 - INFO - __main__ - IndexError: 1.718318502608162%
+06/09/2024 19:21:25 - INFO - __main__ - SyntaxError: 0.5830009205277692%
+06/09/2024 19:21:25 - INFO - __main__ - ValueError: 1.350107394906413%
+06/09/2024 19:21:25 - INFO - __main__ - EOFError: 0.981896287204664%
+06/09/2024 19:21:25 - INFO - __main__ - TimeoutException: 0.03068425897514575%
+06/09/2024 19:21:25 - INFO - __main__ - KeyError: 0.0613685179502915%
+06/09/2024 19:21:25 - INFO - __main__ - ParseError: 0.03068425897514575%
+06/09/2024 19:21:25 - INFO - __main__ - coverage: 80.92022092666463%
+06/09/2024 19:21:25 - INFO - __main__ - Mutation score: 60.36011046333238%
+06/10/2024 01:01:09 - INFO - __main__ - *Filtered assertions syntax results :single*
+06/10/2024 01:01:09 - INFO - __main__ - exec_success: 84.53513347652655%
+06/10/2024 01:01:09 - INFO - __main__ - AssertionError: 10.862227677201595%
+06/10/2024 01:01:09 - INFO - __main__ - IndexError: 1.718318502608162%
+06/10/2024 01:01:09 - INFO - __main__ - RuntimeError: 0.36821110770174903%
+06/10/2024 01:01:09 - INFO - __main__ - ValueError: 1.350107394906413%
+06/10/2024 01:01:09 - INFO - __main__ - EOFError: 1.0125805461798099%
+06/10/2024 01:01:09 - INFO - __main__ - TimeoutException: 0.03068425897514575%
+06/10/2024 01:01:09 - INFO - __main__ - AttributeError: 0.03068425897514575%
+06/10/2024 01:01:09 - INFO - __main__ - KeyError: 0.0613685179502915%
+06/10/2024 01:01:09 - INFO - __main__ - ParseError: 0.03068425897514575%
+06/10/2024 01:01:09 - INFO - __main__ - coverage: 81.03866216630868%
+06/10/2024 01:01:09 - INFO - __main__ - Mutation score: 60.4971156796564%
+06/10/2024 01:01:09 - INFO - __main__ - finish program.

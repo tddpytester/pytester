@@ -1,0 +1,42 @@
+11/15/2024 22:39:11 - INFO - __main__ - evaluated_model_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000/humaneval/prediction-5_beam300_full.pkl,
+            test_data_dir: dataset/HumanEval/humaneval_test.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: save/APPS/codet5-testcase-prompt_text-v2/checkpoint-10000/humaneval,
+            output_suffix: _rank0_single3,
+            on_save: False,
+            result_mode: ours,
+            pred_mode: single,
+            n_pred_rank: 0,
+            n_test: 3
+            
+11/15/2024 22:39:11 - INFO - __main__ - load gen data finish.
+11/15/2024 22:39:11 - INFO - __main__ - # test data: 164
+11/15/2024 22:39:11 - INFO - __main__ - *None-filtered assertions syntax results :single*
+11/15/2024 22:39:11 - INFO - __main__ - Exact Match: 0.6097560975609756%
+11/15/2024 22:39:11 - INFO - __main__ - Edit Similarity: 37.77439024390244%
+11/15/2024 22:39:11 - INFO - __main__ - MRR: 0.6097560975609756%
+11/15/2024 22:39:11 - INFO - __main__ - -----AST Parsable Rate-----
+11/15/2024 22:39:11 - INFO - __main__ - success: 100.0%
+11/15/2024 22:39:11 - INFO - __main__ - *Filtered assertions syntax results :single*
+11/15/2024 22:39:11 - INFO - __main__ - Exact Match: 0.6097560975609756%
+11/15/2024 22:39:11 - INFO - __main__ - Edit Similarity: 37.59146341463415%
+11/15/2024 22:39:11 - INFO - __main__ - MRR: 0.6097560975609756%
+11/15/2024 22:39:11 - INFO - __main__ - -----AST Parsable Rate-----
+11/15/2024 22:39:11 - INFO - __main__ - success: 100.0%
+11/15/2024 22:39:11 - INFO - __main__ - -----Functional Rate-----
+11/15/2024 22:43:13 - INFO - __main__ - *None-filtered assertions syntax results :single*
+11/15/2024 22:43:13 - INFO - __main__ - exec_success: 73.17073170731707%
+11/15/2024 22:43:13 - INFO - __main__ - AssertionError: 25.609756097560975%
+11/15/2024 22:43:13 - INFO - __main__ - KeyError: 0.6097560975609756%
+11/15/2024 22:43:13 - INFO - __main__ - IndexError: 0.6097560975609756%
+11/15/2024 22:43:13 - INFO - __main__ - coverage: 71.67073170731707%
+11/15/2024 22:43:13 - INFO - __main__ - Mutation score: 50.58475609756096%
+11/15/2024 22:47:11 - INFO - __main__ - *Filtered assertions syntax results :single*
+11/15/2024 22:47:11 - INFO - __main__ - exec_success: 73.17073170731707%
+11/15/2024 22:47:11 - INFO - __main__ - AssertionError: 25.609756097560975%
+11/15/2024 22:47:11 - INFO - __main__ - KeyError: 0.6097560975609756%
+11/15/2024 22:47:11 - INFO - __main__ - IndexError: 0.6097560975609756%
+11/15/2024 22:47:11 - INFO - __main__ - coverage: 71.67073170731707%
+11/15/2024 22:47:11 - INFO - __main__ - Mutation score: 50.58475609756096%
+11/15/2024 22:47:11 - INFO - __main__ - finish program.

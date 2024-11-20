@@ -1,0 +1,215 @@
+11/19/2024 13:43:35 - INFO - __main__ - evaluated_model_dir: copilot_api/copilot_outputs/humaneval/completion_0.pkl,
+            test_data_dir: dataset/HumanEval/humaneval_test.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: copilot_api/copilot_outputs/humaneval,
+            output_suffix: _rank0_single3,
+            on_save: False,
+            result_mode: copilot,
+            pred_mode: single,
+            n_pred_rank: 0,
+            n_test: 3
+            
+11/19/2024 13:43:35 - INFO - __main__ - load gen data finish.
+11/19/2024 13:43:35 - INFO - __main__ - # test data: 164
+11/19/2024 13:43:35 - INFO - __main__ - *None-filtered assertions syntax results :single*
+11/19/2024 13:43:35 - INFO - __main__ - Exact Match: 0.6097560975609756%
+11/19/2024 13:43:35 - INFO - __main__ - Edit Similarity: 49.19512195121951%
+11/19/2024 13:43:35 - INFO - __main__ - MRR: 0.6097560975609756%
+11/19/2024 13:43:35 - INFO - __main__ - -----AST Parsable Rate-----
+11/19/2024 13:43:35 - INFO - __main__ - success: 98.78048780487805%
+11/19/2024 13:43:35 - INFO - __main__ - SyntaxError: 1.2195121951219512%
+11/19/2024 13:43:35 - INFO - __main__ - *Filtered assertions syntax results :single*
+11/19/2024 13:43:35 - INFO - __main__ - Exact Match: 0.6097560975609756%
+11/19/2024 13:43:35 - INFO - __main__ - Edit Similarity: 49.207317073170735%
+11/19/2024 13:43:35 - INFO - __main__ - MRR: 0.6097560975609756%
+11/19/2024 13:43:35 - INFO - __main__ - -----AST Parsable Rate-----
+11/19/2024 13:43:35 - INFO - __main__ - success: 99.39024390243902%
+11/19/2024 13:43:35 - INFO - __main__ - SyntaxError: 0.6097560975609756%
+11/19/2024 13:43:35 - INFO - __main__ - -----Functional Rate-----
+11/19/2024 13:48:55 - INFO - __main__ - *None-filtered assertions syntax results :single*
+11/19/2024 13:48:55 - INFO - __main__ - exec_success: 89.63414634146342%
+11/19/2024 13:48:55 - INFO - __main__ - AssertionError: 9.146341463414634%
+11/19/2024 13:48:55 - INFO - __main__ - SyntaxError: 0.6097560975609756%
+11/19/2024 13:48:55 - INFO - __main__ - RuntimeError: 0.6097560975609756%
+11/19/2024 13:48:55 - INFO - __main__ - coverage: 88.61585365853658%
+11/19/2024 13:48:55 - INFO - __main__ - Mutation score: 70.69695121951219%
+11/19/2024 13:54:21 - INFO - __main__ - *Filtered assertions syntax results :single*
+11/19/2024 13:54:21 - INFO - __main__ - exec_success: 90.2439024390244%
+11/19/2024 13:54:21 - INFO - __main__ - AssertionError: 9.146341463414634%
+11/19/2024 13:54:21 - INFO - __main__ - RuntimeError: 0.6097560975609756%
+11/19/2024 13:54:21 - INFO - __main__ - coverage: 89.22560975609755%
+11/19/2024 13:54:21 - INFO - __main__ - Mutation score: 70.69695121951219%
+11/19/2024 13:54:21 - INFO - __main__ - finish program.
+11/19/2024 14:14:02 - INFO - __main__ - evaluated_model_dir: copilot_api/copilot_outputs/humaneval/completion_1.pkl,
+            test_data_dir: dataset/HumanEval/humaneval_test.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: copilot_api/copilot_outputs/humaneval,
+            output_suffix: _rank0_single3,
+            on_save: False,
+            result_mode: copilot,
+            pred_mode: single,
+            n_pred_rank: 0,
+            n_test: 3
+            
+11/19/2024 14:14:02 - INFO - __main__ - load gen data finish.
+11/19/2024 14:14:02 - INFO - __main__ - # test data: 164
+11/19/2024 14:14:02 - INFO - __main__ - *None-filtered assertions syntax results :single*
+11/19/2024 14:14:02 - INFO - __main__ - Exact Match: 0.6097560975609756%
+11/19/2024 14:14:02 - INFO - __main__ - Edit Similarity: 49.170731707317074%
+11/19/2024 14:14:02 - INFO - __main__ - MRR: 0.6097560975609756%
+11/19/2024 14:14:02 - INFO - __main__ - -----AST Parsable Rate-----
+11/19/2024 14:14:02 - INFO - __main__ - success: 98.78048780487805%
+11/19/2024 14:14:02 - INFO - __main__ - SyntaxError: 1.2195121951219512%
+11/19/2024 14:14:02 - INFO - __main__ - *Filtered assertions syntax results :single*
+11/19/2024 14:14:02 - INFO - __main__ - Exact Match: 0.6097560975609756%
+11/19/2024 14:14:02 - INFO - __main__ - Edit Similarity: 49.18292682926829%
+11/19/2024 14:14:02 - INFO - __main__ - MRR: 0.6097560975609756%
+11/19/2024 14:14:02 - INFO - __main__ - -----AST Parsable Rate-----
+11/19/2024 14:14:02 - INFO - __main__ - success: 99.39024390243902%
+11/19/2024 14:14:02 - INFO - __main__ - SyntaxError: 0.6097560975609756%
+11/19/2024 14:14:02 - INFO - __main__ - -----Functional Rate-----
+11/19/2024 14:19:56 - INFO - __main__ - *None-filtered assertions syntax results :single*
+11/19/2024 14:19:56 - INFO - __main__ - exec_success: 89.63414634146342%
+11/19/2024 14:19:56 - INFO - __main__ - AssertionError: 9.146341463414634%
+11/19/2024 14:19:56 - INFO - __main__ - SyntaxError: 0.6097560975609756%
+11/19/2024 14:19:56 - INFO - __main__ - RuntimeError: 0.6097560975609756%
+11/19/2024 14:19:56 - INFO - __main__ - coverage: 88.61585365853658%
+11/19/2024 14:19:56 - INFO - __main__ - Mutation score: 70.2451219512195%
+11/19/2024 14:25:51 - INFO - __main__ - *Filtered assertions syntax results :single*
+11/19/2024 14:25:51 - INFO - __main__ - exec_success: 90.2439024390244%
+11/19/2024 14:25:51 - INFO - __main__ - AssertionError: 9.146341463414634%
+11/19/2024 14:25:51 - INFO - __main__ - RuntimeError: 0.6097560975609756%
+11/19/2024 14:25:51 - INFO - __main__ - coverage: 89.22560975609755%
+11/19/2024 14:25:51 - INFO - __main__ - Mutation score: 70.2451219512195%
+11/19/2024 14:25:51 - INFO - __main__ - finish program.
+11/19/2024 14:30:32 - INFO - __main__ - evaluated_model_dir: copilot_api/copilot_outputs/humaneval/completion_2.pkl,
+            test_data_dir: dataset/HumanEval/humaneval_test.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: copilot_api/copilot_outputs/humaneval,
+            output_suffix: _rank0_single3,
+            on_save: False,
+            result_mode: copilot,
+            pred_mode: single,
+            n_pred_rank: 0,
+            n_test: 3
+            
+11/19/2024 14:30:32 - INFO - __main__ - load gen data finish.
+11/19/2024 14:30:32 - INFO - __main__ - # test data: 164
+11/19/2024 14:30:32 - INFO - __main__ - *None-filtered assertions syntax results :single*
+11/19/2024 14:30:32 - INFO - __main__ - Exact Match: 0.6097560975609756%
+11/19/2024 14:30:32 - INFO - __main__ - Edit Similarity: 49.18292682926829%
+11/19/2024 14:30:32 - INFO - __main__ - MRR: 0.6097560975609756%
+11/19/2024 14:30:32 - INFO - __main__ - -----AST Parsable Rate-----
+11/19/2024 14:30:32 - INFO - __main__ - success: 98.78048780487805%
+11/19/2024 14:30:32 - INFO - __main__ - SyntaxError: 1.2195121951219512%
+11/19/2024 14:30:32 - INFO - __main__ - *Filtered assertions syntax results :single*
+11/19/2024 14:30:32 - INFO - __main__ - Exact Match: 0.6097560975609756%
+11/19/2024 14:30:32 - INFO - __main__ - Edit Similarity: 49.19512195121951%
+11/19/2024 14:30:32 - INFO - __main__ - MRR: 0.6097560975609756%
+11/19/2024 14:30:32 - INFO - __main__ - -----AST Parsable Rate-----
+11/19/2024 14:30:32 - INFO - __main__ - success: 99.39024390243902%
+11/19/2024 14:30:32 - INFO - __main__ - SyntaxError: 0.6097560975609756%
+11/19/2024 14:30:32 - INFO - __main__ - -----Functional Rate-----
+11/19/2024 14:36:32 - INFO - __main__ - *None-filtered assertions syntax results :single*
+11/19/2024 14:36:32 - INFO - __main__ - exec_success: 90.2439024390244%
+11/19/2024 14:36:32 - INFO - __main__ - AssertionError: 8.536585365853659%
+11/19/2024 14:36:32 - INFO - __main__ - SyntaxError: 0.6097560975609756%
+11/19/2024 14:36:32 - INFO - __main__ - RuntimeError: 0.6097560975609756%
+11/19/2024 14:36:32 - INFO - __main__ - coverage: 89.22560975609755%
+11/19/2024 14:36:32 - INFO - __main__ - Mutation score: 70.69695121951219%
+11/19/2024 14:41:20 - INFO - __main__ - evaluated_model_dir: copilot_api/copilot_outputs/humaneval/completion_3.pkl,
+            test_data_dir: dataset/HumanEval/humaneval_test.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: copilot_api/copilot_outputs/humaneval,
+            output_suffix: _rank0_single3,
+            on_save: False,
+            result_mode: copilot,
+            pred_mode: single,
+            n_pred_rank: 0,
+            n_test: 3
+            
+11/19/2024 14:41:20 - INFO - __main__ - load gen data finish.
+11/19/2024 14:41:20 - INFO - __main__ - # test data: 164
+11/19/2024 14:41:20 - INFO - __main__ - *None-filtered assertions syntax results :single*
+11/19/2024 14:41:20 - INFO - __main__ - Exact Match: 0.6097560975609756%
+11/19/2024 14:41:20 - INFO - __main__ - Edit Similarity: 49.1280487804878%
+11/19/2024 14:41:20 - INFO - __main__ - MRR: 0.6097560975609756%
+11/19/2024 14:41:20 - INFO - __main__ - -----AST Parsable Rate-----
+11/19/2024 14:41:20 - INFO - __main__ - success: 98.78048780487805%
+11/19/2024 14:41:20 - INFO - __main__ - SyntaxError: 1.2195121951219512%
+11/19/2024 14:41:20 - INFO - __main__ - *Filtered assertions syntax results :single*
+11/19/2024 14:41:20 - INFO - __main__ - Exact Match: 0.6097560975609756%
+11/19/2024 14:41:20 - INFO - __main__ - Edit Similarity: 49.140243902439025%
+11/19/2024 14:41:20 - INFO - __main__ - MRR: 0.6097560975609756%
+11/19/2024 14:41:20 - INFO - __main__ - -----AST Parsable Rate-----
+11/19/2024 14:41:20 - INFO - __main__ - success: 99.39024390243902%
+11/19/2024 14:41:20 - INFO - __main__ - SyntaxError: 0.6097560975609756%
+11/19/2024 14:41:20 - INFO - __main__ - -----Functional Rate-----
+11/19/2024 14:42:31 - INFO - __main__ - *Filtered assertions syntax results :single*
+11/19/2024 14:42:31 - INFO - __main__ - exec_success: 90.85365853658537%
+11/19/2024 14:42:31 - INFO - __main__ - AssertionError: 8.536585365853659%
+11/19/2024 14:42:31 - INFO - __main__ - RuntimeError: 0.6097560975609756%
+11/19/2024 14:42:31 - INFO - __main__ - coverage: 89.83536585365853%
+11/19/2024 14:42:31 - INFO - __main__ - Mutation score: 70.69695121951219%
+11/19/2024 14:42:31 - INFO - __main__ - finish program.
+11/19/2024 14:46:43 - INFO - __main__ - *None-filtered assertions syntax results :single*
+11/19/2024 14:46:43 - INFO - __main__ - exec_success: 89.63414634146342%
+11/19/2024 14:46:43 - INFO - __main__ - AssertionError: 9.146341463414634%
+11/19/2024 14:46:43 - INFO - __main__ - SyntaxError: 0.6097560975609756%
+11/19/2024 14:46:43 - INFO - __main__ - RuntimeError: 0.6097560975609756%
+11/19/2024 14:46:43 - INFO - __main__ - coverage: 88.61585365853658%
+11/19/2024 14:46:43 - INFO - __main__ - Mutation score: 70.69695121951219%
+11/19/2024 14:52:06 - INFO - __main__ - *Filtered assertions syntax results :single*
+11/19/2024 14:52:06 - INFO - __main__ - exec_success: 90.2439024390244%
+11/19/2024 14:52:06 - INFO - __main__ - AssertionError: 9.146341463414634%
+11/19/2024 14:52:06 - INFO - __main__ - RuntimeError: 0.6097560975609756%
+11/19/2024 14:52:06 - INFO - __main__ - coverage: 89.22560975609755%
+11/19/2024 14:52:06 - INFO - __main__ - Mutation score: 70.69695121951219%
+11/19/2024 14:52:06 - INFO - __main__ - finish program.
+11/19/2024 15:00:17 - INFO - __main__ - evaluated_model_dir: copilot_api/copilot_outputs/humaneval/completion_4.pkl,
+            test_data_dir: dataset/HumanEval/humaneval_test.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: copilot_api/copilot_outputs/humaneval,
+            output_suffix: _rank0_single3,
+            on_save: False,
+            result_mode: copilot,
+            pred_mode: single,
+            n_pred_rank: 0,
+            n_test: 3
+            
+11/19/2024 15:00:17 - INFO - __main__ - load gen data finish.
+11/19/2024 15:00:17 - INFO - __main__ - # test data: 164
+11/19/2024 15:00:17 - INFO - __main__ - *None-filtered assertions syntax results :single*
+11/19/2024 15:00:17 - INFO - __main__ - Exact Match: 0.6097560975609756%
+11/19/2024 15:00:17 - INFO - __main__ - Edit Similarity: 49.18292682926829%
+11/19/2024 15:00:17 - INFO - __main__ - MRR: 0.6097560975609756%
+11/19/2024 15:00:17 - INFO - __main__ - -----AST Parsable Rate-----
+11/19/2024 15:00:17 - INFO - __main__ - success: 98.78048780487805%
+11/19/2024 15:00:17 - INFO - __main__ - SyntaxError: 1.2195121951219512%
+11/19/2024 15:00:17 - INFO - __main__ - *Filtered assertions syntax results :single*
+11/19/2024 15:00:17 - INFO - __main__ - Exact Match: 0.6097560975609756%
+11/19/2024 15:00:17 - INFO - __main__ - Edit Similarity: 49.19512195121951%
+11/19/2024 15:00:17 - INFO - __main__ - MRR: 0.6097560975609756%
+11/19/2024 15:00:17 - INFO - __main__ - -----AST Parsable Rate-----
+11/19/2024 15:00:17 - INFO - __main__ - success: 99.39024390243902%
+11/19/2024 15:00:17 - INFO - __main__ - SyntaxError: 0.6097560975609756%
+11/19/2024 15:00:17 - INFO - __main__ - -----Functional Rate-----
+11/19/2024 15:05:36 - INFO - __main__ - *None-filtered assertions syntax results :single*
+11/19/2024 15:05:36 - INFO - __main__ - exec_success: 89.02439024390245%
+11/19/2024 15:05:36 - INFO - __main__ - AssertionError: 9.75609756097561%
+11/19/2024 15:05:36 - INFO - __main__ - SyntaxError: 0.6097560975609756%
+11/19/2024 15:05:36 - INFO - __main__ - RuntimeError: 0.6097560975609756%
+11/19/2024 15:05:36 - INFO - __main__ - coverage: 88.0060975609756%
+11/19/2024 15:05:36 - INFO - __main__ - Mutation score: 70.2451219512195%
+11/19/2024 15:10:56 - INFO - __main__ - *Filtered assertions syntax results :single*
+11/19/2024 15:10:56 - INFO - __main__ - exec_success: 89.63414634146342%
+11/19/2024 15:10:56 - INFO - __main__ - AssertionError: 9.75609756097561%
+11/19/2024 15:10:56 - INFO - __main__ - RuntimeError: 0.6097560975609756%
+11/19/2024 15:10:56 - INFO - __main__ - coverage: 88.61585365853658%
+11/19/2024 15:10:56 - INFO - __main__ - Mutation score: 70.2451219512195%
+11/19/2024 15:10:56 - INFO - __main__ - finish program.

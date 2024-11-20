@@ -1,0 +1,74 @@
+11/15/2024 22:16:26 - INFO - __main__ - evaluated_model_dir: baseline/save/starcoder_mbpp_testcase_beam_full.json,
+            test_data_dir: dataset/HumanEval/humaneval_test.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: baseline/save/starcoder_mbpp_testcase_beam_full,
+            output_suffix: _rank0_single3,
+            on_save: False,
+            result_mode: baselines,
+            pred_mode: single,
+            n_pred_rank: 0,
+            n_test: 3
+            
+11/15/2024 22:16:26 - INFO - __main__ - load gen data finish.
+11/15/2024 22:16:26 - INFO - __main__ - # test data: 164
+11/15/2024 22:16:26 - INFO - __main__ - *None-filtered assertions syntax results :single*
+11/15/2024 22:16:26 - INFO - __main__ - Exact Match: 0.0%
+11/15/2024 22:16:26 - INFO - __main__ - Edit Similarity: 28.195121951219512%
+11/15/2024 22:16:26 - INFO - __main__ - MRR: 0.0%
+11/15/2024 22:16:26 - INFO - __main__ - -----AST Parsable Rate-----
+11/15/2024 22:16:26 - INFO - __main__ - success: 89.63414634146342%
+11/15/2024 22:16:26 - INFO - __main__ - SyntaxError: 10.365853658536585%
+11/15/2024 22:17:24 - INFO - __main__ - evaluated_model_dir: baseline/save/starcoder_mbpp_testcase_beam_full.json,
+            test_data_dir: dataset/MBPP/mbpp_test.csv,
+            input_column: prompt_testcase,
+            output_column: output_testcase,
+            output_dir: baseline/save/starcoder_mbpp_testcase_beam_full,
+            output_suffix: _rank0_single3,
+            on_save: False,
+            result_mode: baselines,
+            pred_mode: single,
+            n_pred_rank: 0,
+            n_test: 3
+            
+11/15/2024 22:17:24 - INFO - __main__ - load gen data finish.
+11/15/2024 22:17:24 - INFO - __main__ - # test data: 257
+11/15/2024 22:17:24 - INFO - __main__ - *None-filtered assertions syntax results :single*
+11/15/2024 22:17:24 - INFO - __main__ - Exact Match: 0.0%
+11/15/2024 22:17:24 - INFO - __main__ - Edit Similarity: 63.29961089494164%
+11/15/2024 22:17:24 - INFO - __main__ - MRR: 0.0%
+11/15/2024 22:17:24 - INFO - __main__ - -----AST Parsable Rate-----
+11/15/2024 22:17:24 - INFO - __main__ - success: 87.93774319066148%
+11/15/2024 22:17:24 - INFO - __main__ - SyntaxError: 12.062256809338521%
+11/15/2024 22:17:24 - INFO - __main__ - *Filtered assertions syntax results :single*
+11/15/2024 22:17:24 - INFO - __main__ - Exact Match: 0.0%
+11/15/2024 22:17:24 - INFO - __main__ - Edit Similarity: 60.59533073929961%
+11/15/2024 22:17:24 - INFO - __main__ - MRR: 0.0%
+11/15/2024 22:17:24 - INFO - __main__ - -----AST Parsable Rate-----
+11/15/2024 22:17:24 - INFO - __main__ - success: 91.43968871595331%
+11/15/2024 22:17:24 - INFO - __main__ - SyntaxError: 8.560311284046692%
+11/15/2024 22:17:24 - INFO - __main__ - -----Functional Rate-----
+11/15/2024 22:18:29 - INFO - __main__ - *None-filtered assertions syntax results :single*
+11/15/2024 22:18:29 - INFO - __main__ - exec_success: 17.509727626459142%
+11/15/2024 22:18:29 - INFO - __main__ - SyntaxError: 44.3579766536965%
+11/15/2024 22:18:29 - INFO - __main__ - AssertionError: 32.295719844357976%
+11/15/2024 22:18:29 - INFO - __main__ - ValueError: 1.1673151750972763%
+11/15/2024 22:18:29 - INFO - __main__ - NameError: 1.1673151750972763%
+11/15/2024 22:18:29 - INFO - __main__ - AttributeError: 0.38910505836575876%
+11/15/2024 22:18:29 - INFO - __main__ - TypeError: 2.3346303501945527%
+11/15/2024 22:18:29 - INFO - __main__ - ZeroDivisionError: 0.7782101167315175%
+11/15/2024 22:18:29 - INFO - __main__ - coverage: 17.420233463035018%
+11/15/2024 22:18:29 - INFO - __main__ - Mutation score: 9.410116731517508%
+11/15/2024 22:19:33 - INFO - __main__ - *Filtered assertions syntax results :single*
+11/15/2024 22:19:33 - INFO - __main__ - exec_success: 17.509727626459142%
+11/15/2024 22:19:33 - INFO - __main__ - SyntaxError: 36.964980544747085%
+11/15/2024 22:19:33 - INFO - __main__ - AssertionError: 34.24124513618677%
+11/15/2024 22:19:33 - INFO - __main__ - ValueError: 1.1673151750972763%
+11/15/2024 22:19:33 - INFO - __main__ - RuntimeError: 5.447470817120623%
+11/15/2024 22:19:33 - INFO - __main__ - NameError: 1.1673151750972763%
+11/15/2024 22:19:33 - INFO - __main__ - AttributeError: 0.38910505836575876%
+11/15/2024 22:19:33 - INFO - __main__ - TypeError: 2.3346303501945527%
+11/15/2024 22:19:33 - INFO - __main__ - ZeroDivisionError: 0.7782101167315175%
+11/15/2024 22:19:33 - INFO - __main__ - coverage: 17.420233463035018%
+11/15/2024 22:19:33 - INFO - __main__ - Mutation score: 9.410116731517508%
+11/15/2024 22:19:33 - INFO - __main__ - finish program.
