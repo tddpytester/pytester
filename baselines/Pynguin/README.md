@@ -24,18 +24,18 @@ bash pynguin_humaneval.sh
 
 3. copy data in "*_data" folder to "*_test" folder.
 
-# Coverage
+## Coverage
 
 ```
 coverage run -m pytest humaneval_test_perfect/
 coverage json -o coverage_humaneval_perfect.json
 ```
 
-note: 
-Althought some fail testcase, the rest still pass for coverage, need to deduct manually (for perfect multi/single).
-So the value is for filtered exec.
+*Note:* 
+Althought some test cases fail, the rest still pass for coverage, need to deduct manually (for perfect multi/single evaluation).
+The as-is value is for filtered execution test cases evaluation.
 
-# Mutation Score
+## Mutation Score
 
 ```
 cd humaneval_test_perfect

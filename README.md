@@ -30,9 +30,13 @@ python inference.py
 python evaluation.py
 ```
 
-### Dataset and Model
+## Dataset and Model
 
-The processed APPS dataset (train and test sets) and trained PyTester model can be accessed [here](https://drive.google.com/drive/folders/1ZPoCXkSitQmreo9CMj0fzsxYWT9k6zYz?usp=share_link).
+- The processed APPS dataset (train and test sets) and the PyTester model can be accessed [here](https://drive.google.com/drive/folders/1ZPoCXkSitQmreo9CMj0fzsxYWT9k6zYz?usp=share_link). 
+
+- The MBPP and HumanEval datasets are in the folder `datasets`. 
+
+- The baseline result logs and predictions are in the folder `baselines`.
 
 ### Reference
 
